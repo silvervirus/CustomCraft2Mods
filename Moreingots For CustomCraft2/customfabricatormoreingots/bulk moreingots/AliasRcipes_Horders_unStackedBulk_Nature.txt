@@ -1,0 +1,150 @@
+AliasRecipes: 
+
+(
+    ItemID: unstackedacidmushroombulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked acidmushroom";
+    Tooltip: "Unstacked acidmushroom.";
+    AmountCrafted: 0;
+    LinkedItemIDs: acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot;
+    Ingredients: 
+    (
+        ItemID: acidmushroomstackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: acidmushroomstackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UNABulk;
+),
+(
+    ItemID: unstackedwhitemushroombulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked whitemushroom";
+    Tooltip: "Unstacked whitemushroom.";
+    AmountCrafted: 0;
+    LinkedItemIDs: whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots;
+    Ingredients: 
+    (
+        ItemID: whitemushroomstackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: whitemushroomstackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UNABulk;
+),
+(
+    ItemID: unstackedcoralchunkbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked coralchunk";
+    Tooltip: "Unstacked coralchunk.";
+    AmountCrafted: 0;
+    LinkedItemIDs: coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot;
+    Ingredients: 
+   (
+        ItemID: coralstackedbulk;
+        Required: 24;
+    ), 
+   (
+        ItemID: coralstackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UNABulk;
+),
+(
+    ItemID: unstackedjeweleddiskpiecebulk ;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked jeweleddiskpiece";
+    Tooltip: "Unstacked jeweleddiskpiece.";
+    AmountCrafted: 0;
+    LinkedItemIDs: tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot;
+ 
+    Ingredients: 
+    (
+        ItemID: tablechoralstackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: tablechoralstackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UNABulk;
+),
+(
+    ItemID: unstackedjellyplantbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked jellyplant";
+    Tooltip: "Unstacked jellyplant.";
+    AmountCrafted: 0;
+    LinkedItemIDs: jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot;
+    Ingredients: 
+    
+    (
+        ItemID: jellyplantstacked;
+        Required: 24;
+    ),
+    (
+        ItemID: jellyplantstacked;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UNABulk;
+),
+(
+    ItemID: unstackedcreepvineseedbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked creepvineseed";
+    Tooltip: "Unstacked creepvineseed.";
+    AmountCrafted: 0;
+    LinkedItemIDs: seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk;
+ 
+    Ingredients: 
+    (
+        ItemID: seedstackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: seedstackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UNABulk;
+),
+(
+    ItemID: unstackedcreepvinebulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked creepvinepiece";
+    Tooltip: "Unstacked creepvinepiece.";
+    AmountCrafted: 0;
+    LinkedItemIDs: creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk;
+    Ingredients: 
+   (
+        ItemID: creepvinestackedbulk;
+        Required: 24;
+    ), 
+   (
+        ItemID: creepvinestackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UNABulk;
+),
+(
+    ItemID: unstackedstalkertoothbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked stalkertooth";
+    Tooltip: "Unstacked stalkertooth.";
+    AmountCrafted: 0;
+    LinkedItemIDs: stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot;
+ 
+    Ingredients: 
+   (
+        ItemID: stakerstackedbulk;
+        Required: 24;
+    ), 
+   (
+        ItemID: stakerstackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UNABulk;
+),

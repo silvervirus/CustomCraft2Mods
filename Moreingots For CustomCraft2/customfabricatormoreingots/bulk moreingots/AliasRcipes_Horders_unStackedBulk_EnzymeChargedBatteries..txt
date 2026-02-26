@@ -1,0 +1,42 @@
+AliasRecipes: 
+
+
+
+(
+    ItemID: unstackedECPCbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack Enzyme Charged powercell";
+    Tooltip: "unpack Enzyme Charged powercell";
+    AmountCrafted: 0;
+    LinkedItemIDs: ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC;
+    Ingredients: 
+    (
+        ItemID: stackedECPCbulk;
+        Required: 1;
+    ),
+    (
+        ItemID: stackedECPCbulk;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedECBsbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack Enzyme Charged Battery";
+    Tooltip: "unpack Enzyme Charged Battery";
+    AmountCrafted: 0;
+    LinkedItemIDs: ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs;
+    Ingredients: 
+    (
+        ItemID: stackedECBsbulk;
+        Required: 1;
+    ),
+    (
+        ItemID: stackedECBsbulk;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+);
