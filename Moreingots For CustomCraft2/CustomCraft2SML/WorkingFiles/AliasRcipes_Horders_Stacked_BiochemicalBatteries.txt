@@ -1,0 +1,43 @@
+AliasRecipes: 
+(
+    ItemID: stackedBCPBs;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked bioplasmacore";
+    Tooltip: "Stacked bioplasmacore";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: BCPBs;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedBCPb;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked BiochemBattery";
+    Tooltip: "Stacked BiochemBattery";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: BCPb;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedBCPP;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked BiochemPowerCell";
+    Tooltip: "Stacked BiochemPowerCell";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: BCPP;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+);

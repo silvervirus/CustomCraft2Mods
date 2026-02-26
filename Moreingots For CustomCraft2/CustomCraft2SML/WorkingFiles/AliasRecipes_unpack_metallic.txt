@@ -1,0 +1,16 @@
+AliasRecipes:
+
+(
+    ItemID: Plasteelunpacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "unpacked Plasteel ";
+    Tooltip: "unpacked Plasteel";
+    AmountCrafted: 0;
+    LinkedItemIDs: plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot;
+    Ingredients: 
+    (
+        ItemID: Plasteelpacked;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/metallicu;
+);

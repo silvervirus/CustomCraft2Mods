@@ -1,0 +1,216 @@
+AliasRecipes: 
+(
+    ItemID: reactorrodpackagebulk;
+    FunctionalID:reactorrod;
+    DisplayName: "packaged Reactor Rods";
+    Tooltip: "packed Reactor Rods";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: reactorrod;
+        Required: 24;
+    ),
+    ( 
+        ItemID: reactorrod;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: wiretowerbulk;
+    FunctionalID:copperwire;
+    DisplayName: "packaged copperwire";
+    Tooltip: "packed copperwire";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: copperwire;
+        Required: 24;
+    ),
+   ( 
+        ItemID: copperwire;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: wiringkitsbulk;
+    FunctionalID:advancedwiringkit;
+    DisplayName: "Packed Wiring Kit";
+    Tooltip: "Packed Wiring Kit";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: wiringkit;
+        Required: 24;
+    ),
+   ( 
+        ItemID: wiringkit;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: advancedkitsbulk;
+    FunctionalID:advancedwiringkit;
+    DisplayName: "Packed Advanced Wiring Kit";
+    Tooltip: "Packed Advanced Wiring Kit";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: advancedwiringkit;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: advancedwiringkit;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: cpusheetsbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Computer Chips";
+    Tooltip: "Packed Computer Chips";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: computerchip;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: computerchip;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Ioningotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Ion Cubes";
+    Tooltip: "Packed Ion Cubes";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: precursorionCrystal;
+        Required: 24;
+    ),
+   ( 
+        ItemID: precursorionCrystal;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: IonBatterypackedbulk;
+    DisplayName: "Packed IonBattery";
+    Tooltip: "Packed IonBattery";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: PrecursorIonBattery;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: PrecursorIonBattery;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonPowerCellpackedbulk;
+    DisplayName: "Packed IonPowerCell";
+    Tooltip: "Packed IonPowerCell";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: PrecursorIonPowerCell;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: PrecursorIonPowerCell;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Uraniniteingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Uraninite";
+    Tooltip: "Packed Uraninite";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: uraniniteCrystal;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: uraniniteCrystal;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Magnetiteingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Magnetite";
+    Tooltip: "Packed Magnetite. ";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: magnetite;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: magnetite;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: batterypackbulk;
+    DisplayName: "Packed Battery";
+    Tooltip: "Packed Battery. ";
+    AmountCrafted: 5;
+    Ingredients: 
+     ( 
+        ItemID: battery;
+        Required: 24;
+    ),
+    ( 
+        ItemID: battery;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: powercellpackbulk;
+    DisplayName: "Packed PowerCell";
+    Tooltip: "Packed PowerCell. ";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: powercell;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: powercell;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+);

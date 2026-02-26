@@ -1,0 +1,33 @@
+AliasRecipes:
+(
+    ItemID: DeepPowerCellunpackbulk;
+    FunctionalID: PowerCell;
+    DisplayName: "unpacked deeppowercell ";
+    Tooltip: "unpacked deeppowercell";
+    AmountCrafted: 0;
+    LinkedItemIDs: DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell;
+    Ingredients: 
+    
+    (
+        ItemID: DeepPowerCellpackbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Deepbatteryunpackbulk;
+    FunctionalID: Battery;
+    DisplayName: "unpacked deepbattery ";
+    Tooltip: "unpacked deepbattery";
+    AmountCrafted: 0;
+    LinkedItemIDs: DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery;
+    Ingredients: 
+   
+    (
+        ItemID: Deepbatterypackbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+);

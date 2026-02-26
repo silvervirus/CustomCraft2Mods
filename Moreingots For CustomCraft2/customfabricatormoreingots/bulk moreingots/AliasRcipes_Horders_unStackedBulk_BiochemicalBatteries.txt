@@ -1,0 +1,59 @@
+AliasRecipes:
+(
+    ItemID: BCPPunstackedbulk;
+    FunctionalID: PowerCell;
+    DisplayName: "unstacked BCPP ";
+    Tooltip: "unstacked BCPP";
+    AmountCrafted: 0;
+    LinkedItemIDs: BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP,BCPP;
+    Ingredients: 
+   (
+        ItemID: stackedBCPPbulk;
+        Required: 24;
+    ), 
+   (
+        ItemID: stackedBCPPbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: BCPBsunstackedbulk;
+    FunctionalID: PowerCell;
+    DisplayName: "unstacked BCPBs ";
+    Tooltip: "unstacked BCPBs";
+    AmountCrafted: 0;
+    LinkedItemIDs: BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs,BCPBs;
+    Ingredients: 
+    (
+        ItemID: stackedBCPBsbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedBCPBsbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: BCPbunstackedbulk;
+    FunctionalID: Battery;
+    DisplayName: "unstacked BCPb ";
+    Tooltip: "unstacked BCPb";
+    AmountCrafted: 0;
+    LinkedItemIDs: BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb,BCPb;
+
+    Ingredients: 
+    (
+        ItemID: stackedBCPbbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedBCPbbulk;
+        Required: 24;
+    );
+    Path:Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+);

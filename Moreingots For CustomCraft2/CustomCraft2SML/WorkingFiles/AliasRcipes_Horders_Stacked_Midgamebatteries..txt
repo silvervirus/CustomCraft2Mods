@@ -1,0 +1,30 @@
+AliasRecipes: 
+
+(
+    ItemID: stackeddeeppc;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Deep PowerCell";
+    Tooltip: "Stacked Deep PowerCell";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: DeepPowerCellpack;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedDeepbats;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Deep Battery";
+    Tooltip: "Stacked Deep Battery";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Deepbatterypack;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+);

@@ -1,0 +1,34 @@
+AliasRecipes: 
+
+
+
+(
+    ItemID: unstackedECPC;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack Enzyme Charged powercell";
+    Tooltip: "unpack Enzyme Charged powercell";
+    AmountCrafted: 0;
+    LinkedItemIDs: ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC,ECPC;
+    Ingredients: 
+    (
+        ItemID: stackedECPC;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/unstacked/energetics;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedECBs;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack Enzyme Charged Battery";
+    Tooltip: "unpack Enzyme Charged Battery";
+    AmountCrafted: 0;
+    LinkedItemIDs: ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs,ECBs;
+    Ingredients: 
+    (
+        ItemID: stackedECBs;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/unstacked/energetics;
+    ForceUnlockAtStart: YES;
+);

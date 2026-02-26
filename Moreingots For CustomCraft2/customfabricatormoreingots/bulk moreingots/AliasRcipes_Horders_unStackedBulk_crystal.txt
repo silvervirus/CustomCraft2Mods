@@ -1,0 +1,152 @@
+AliasRecipes: 
+
+
+
+(
+    ItemID: unstackedEnamelbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Enamel Glass";
+    Tooltip: "Unstacked Enamel Glass.";
+    AmountCrafted: 0;
+    LinkedItemIDs: Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot;
+    Ingredients: 
+    (
+        ItemID: stackedEnamelbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedEnamelbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCBulk;
+),
+(
+    ItemID: unstackedGlassbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Glass";
+    Tooltip: "Unstacked Glass.";
+    AmountCrafted: 0;
+    LinkedItemIDs: Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot;
+    Ingredients: 
+    (
+        ItemID: Glassstackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: Glassstackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCBulk;
+),
+(
+    ItemID: unstackedaerosheetsbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked aerosheets";
+    Tooltip: "Unstacked aerosheets.";
+    AmountCrafted: 0;
+    LinkedItemIDs: aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets;
+ 
+    Ingredients: 
+    (
+        ItemID: stackedaerosheetsbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedaerosheetsbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCBulk;
+),
+(
+    ItemID: unstackedDiamondbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Diamonds";
+    Tooltip: "Unstacked Diamonds.";
+    AmountCrafted: 0;
+    LinkedItemIDs: Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot;
+ 
+ 
+    Ingredients: 
+    (
+        ItemID: Diamondstackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: Diamondstackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCBulk;
+),
+(
+    ItemID: unstackedQuartzbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Quartz ";
+    Tooltip: "Unstacked Quartz";
+    AmountCrafted: 0;
+    LinkedItemIDs: Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot;
+    Ingredients: 
+    (
+        ItemID: stackedQuartzbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedQuartzbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCBulk;
+),
+(
+    ItemID: unstackedKyanitebulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Kyanite ";
+    Tooltip: "Unstacked Kyanite";
+    AmountCrafted: 0;
+    LinkedItemIDs: Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot;
+    Ingredients: 
+    (
+        ItemID: Kyanitestackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: Kyanitestackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCBulk;
+),
+(
+    ItemID: unstackedSaltbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Salt";
+    Tooltip: "Unstacked Salt";
+    AmountCrafted: 0;
+    LinkedItemIDs: Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick;
+    Ingredients: 
+    (
+        ItemID: Saltstacked;
+        Required: 24;
+    ),
+    (
+        ItemID: Saltstacked;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCBulk;
+),
+(
+    ItemID: unstackedRubybulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Ruby ";
+    Tooltip: "Unstacked Ruby";
+    AmountCrafted: 0;
+    LinkedItemIDs: Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot,Rubyingot;
+ 
+    Ingredients: 
+    (
+        ItemID: stackedRubybulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedRubybulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCBulk;
+);

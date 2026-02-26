@@ -1,0 +1,78 @@
+AliasRecipes:
+(
+    ItemID: aerosheetsunpacked;
+    FunctionalID:aerogel;
+    DisplayName: "unpacked aerogel ";
+    Tooltip: "unpacked aerogel";
+    AmountCrafted: 0;
+    LinkedItemIDs: aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel;
+    Ingredients: 
+    (
+        ItemID: aerosheets;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/crystalu;
+),
+(
+    ItemID: aramidingotunpacked;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "unpacked Aramid Fibers ";
+    Tooltip: "unpacked Aramid Fibers";
+    AmountCrafted: 0;
+    LinkedItemIDs: aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers;
+    Ingredients: 
+    (
+        ItemID: aramidingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/crystalu;
+),
+(
+    ItemID: siliconeingotunpacked;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "unpacked silicone ";
+    Tooltip: "unpacked silicone";
+    AmountCrafted: 0;
+    LinkedItemIDs: silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone;
+    Ingredients: 
+    (
+        ItemID: siliconeingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/crystalu;
+),
+(
+    ItemID: fiberingotunpacked;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "unpacked Fibermesh ";
+    Tooltip: "unpacked Fibermesh";
+    AmountCrafted: 0;
+    LinkedItemIDs: fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh;
+    Ingredients: 
+    (
+        ItemID: fiberingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/crystalu;
+),
+(
+    ItemID: Glassunpacked;
+    FunctionalID:Glass;
+    DisplayName: "unpacked Glass ";
+    Tooltip: "unpacked Glass";
+    AmountCrafted: 0;
+    LinkedItemIDs: Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass;
+    Ingredients: 
+    (
+        ItemID: Glassingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/crystalu;
+);
+
+
+
+
+
+
+

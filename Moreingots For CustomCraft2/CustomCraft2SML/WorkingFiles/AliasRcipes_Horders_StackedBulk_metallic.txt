@@ -1,0 +1,147 @@
+AliasRecipes: 
+
+
+(
+    ItemID: PlasteelStackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Plasteel";
+    Tooltip: "Stacked Plasteel. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Plasteelstacked;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Plasteelstacked;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/smBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedLeadbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Lead";
+    Tooltip: "Stacked Lead. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Leadingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Leadingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/smBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedGoldbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Gold";
+    Tooltip: "Stacked Gold. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Goldingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Goldingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/smBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedLithiumbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Lithium";
+    Tooltip: "Stacked Lithium. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Lithiumingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Lithiumingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/smBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedSilverbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Silver";
+    Tooltip: "Stacked Silver. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Silveringot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Silveringot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/smBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedNickelbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Nickel";
+    Tooltip: "Stacked Nickel. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Nickelingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Nickelingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/smBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedCopperbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Copper";
+    Tooltip: "Stacked Copper. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Copperingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Copperingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/smBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedTitaniumbulk ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Titanium ";
+    Tooltip: "Stacked Titanium . ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: titaniumingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: titaniumingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/smBulk;
+    ForceUnlockAtStart: YES;
+);

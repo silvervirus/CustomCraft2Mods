@@ -1,0 +1,115 @@
+AliasRecipes: 
+
+
+(
+    ItemID: PlasteelStacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Plasteel";
+    Tooltip: "Stacked Plasteel. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Plasteelstacked;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedLead;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Lead";
+    Tooltip: "Stacked Lead. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Leadingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedGold;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Gold";
+    Tooltip: "Stacked Gold. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Goldingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedLithium;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Lithium";
+    Tooltip: "Stacked Lithium. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Lithiumingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedSilver;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Silver";
+    Tooltip: "Stacked Silver. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Silveringot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedNickel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Nickel";
+    Tooltip: "Stacked Nickel. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Nickelingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedCopper;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Copper";
+    Tooltip: "Stacked Copper. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Copperingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedTitanium ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Titanium ";
+    Tooltip: "Stacked Titanium . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: titaniumingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+);

@@ -1,0 +1,33 @@
+AliasRecipes: 
+
+
+
+
+(
+    ItemID: stackedSulphur2;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked sulphur";
+    Tooltip: "Stacked sulphur. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: CompressedSulphur2;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/sSulphur;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedSulphur1;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Cave Sulfur";
+    Tooltip: "Stacked Cave Sulfur. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: CompressedSulphur1;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/sSulphur;
+    ForceUnlockAtStart: YES;
+);

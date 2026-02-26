@@ -1,0 +1,92 @@
+AliasRecipes: 
+
+(
+    ItemID: lubricantbarrelbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Lubricant Barrel";
+    Tooltip: "Lubricant Barrel";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: lubricantjug;
+        Required: 24;
+    ),
+    ( 
+        ItemID: lubricantjug;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/schBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: pbarrelbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Polyaniline Barrel";
+    Tooltip: "Polyaniline Barrel";
+    AmountCrafted: 48;
+    Ingredients: 
+     ( 
+        ItemID: polyanilinejug;
+        Required: 24;
+    ),
+    ( 
+        ItemID: polyanilinejug;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/schBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: bleachbarrelbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Bleach Barrel";
+    Tooltip: "Bleach Barrel";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: bleachjug;
+        Required: 24;
+    ),
+    ( 
+        ItemID: bleachjug;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/schBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: benzenebarrelbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Benzene Barrel";
+    Tooltip: "Benzene Barrel";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: benzenejug;
+        Required: 24;
+    ),
+    ( 
+        ItemID: benzenejug;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/schBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidbarrelbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Acid Barrel";
+    Tooltip: "Acid Barrel";
+    AmountCrafted: 48;
+    Ingredients: 
+     ( 
+        ItemID: acidjug;
+        Required: 24;
+    ),
+    ( 
+        ItemID: acidjug;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/schBulk;
+    ForceUnlockAtStart: YES;
+),

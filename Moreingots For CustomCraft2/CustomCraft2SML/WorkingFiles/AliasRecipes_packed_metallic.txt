@@ -1,0 +1,103 @@
+AliasRecipes: 
+(
+    ItemID: Copperingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Copper";
+    Tooltip: "Packed Copper. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Copper;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: Nickelingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Nickel";
+    Tooltip: "Packed Nickel. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Nickel;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Silveringot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Silver";
+    Tooltip: "Packed Silver. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Silver;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Lithiumingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Lithium";
+    Tooltip: "Packed Lithium. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Lithium;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Goldingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Gold";
+    Tooltip: "Packed Gold. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Gold;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Leadingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Lead";
+    Tooltip: "Packed Lead. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Lead;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Plasteelpacked;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Plasteel";
+    Tooltip: "Packed Plasteel. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: plasteelingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+);
+
+
+

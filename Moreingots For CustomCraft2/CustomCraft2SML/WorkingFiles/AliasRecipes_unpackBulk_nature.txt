@@ -1,0 +1,155 @@
+AliasRecipes: 
+(
+    ItemID: stalkertoothunpackedbulk;
+    FunctionalID: stalkertooth;
+    DisplayName: "unpacked stalkertooth";
+    Tooltip: "unpacked stalkertooth";
+    AmountCrafted: 0;
+    LinkedItemIDs: stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth;
+    Ingredients: 
+    (
+        ItemID: stakeringotbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stakeringotbulk;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/unBulk;
+),
+(
+    ItemID: acidmushroomunpackedbulk;
+    FunctionalID: acidmushroom;
+    DisplayName: "unpacked acidmushroom";
+    Tooltip: "unpacked acidmushroom";
+    AmountCrafted: 0;
+    LinkedItemIDs: acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom;
+    Ingredients: 
+    (
+        ItemID: acidmushroomingotbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: acidmushroomingotbulk;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/unBulk;
+),
+(
+    ItemID: coralchunkunpackedbulk;
+    FunctionalID: coralchunk;
+    DisplayName: "unpacked coralchunk";
+    Tooltip: "unpacked coralchunk";
+    AmountCrafted: 0;
+    LinkedItemIDs: coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk;
+    Ingredients: 
+    (
+        ItemID: coralingotbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: coralingotbulk;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/unBulk;
+),
+(
+    ItemID: jeweleddiskpieceunpackedbulk;
+    FunctionalID: jeweleddiskpiece;
+    DisplayName: "unpacked jeweleddiskpiece";
+    Tooltip: "unpacked jeweleddiskpiece";
+    AmountCrafted: 0;
+    LinkedItemIDs: jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece;
+    Ingredients: 
+    (
+        ItemID: tablechoralingotbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: tablechoralingotbulk;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/unBulk;
+),
+(
+    ItemID: creepvinepieceunpackedbulk;
+    FunctionalID: creepvinepiece;
+    DisplayName: "unpacked creepvinepiece";
+    Tooltip: "unpacked creepvinepiece";
+    AmountCrafted: 0;
+    LinkedItemIDs: creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece;
+    Ingredients: 
+    (
+        ItemID: creepvinediskbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: creepvinediskbulk;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/unBulk;
+),
+(
+    ItemID: creepvineseedclusterunpackedbulk;
+    FunctionalID: creepvineseedcluster;
+    DisplayName: "unpacked creepvineseedcluster";
+    Tooltip: "unpacked creepvineseedcluster";
+    AmountCrafted: 0;
+    LinkedItemIDs: creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster;
+    Ingredients: 
+   (
+        ItemID: seeddiskbulk;
+        Required: 24;
+    ), 
+   (
+        ItemID: seeddiskbulk;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/unBulk;
+),
+(
+    ItemID: whitemushroomunpackedbulk;
+    FunctionalID: whitemushroom;
+    DisplayName: "unpacked whitemushroom";
+    Tooltip: "unpacked whitemushroom";
+    AmountCrafted: 0;
+    LinkedItemIDs: 
+whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom;
+    Ingredients: 
+    (
+        ItemID: whitemushroomingotsbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: whitemushroomingotsbulk;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/unBulk;
+),
+(
+    ItemID: jellyplantunpackedbulk;
+    FunctionalID: jellyplant;
+    DisplayName: "unpacked jellyplant";
+    Tooltip: "unpacked jellyplant";
+    AmountCrafted: 0;
+    LinkedItemIDs: jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant;
+    Ingredients: 
+     (
+        ItemID: jellyplantingotbulk;
+        Required: 24;
+    ),
+    
+   (
+        ItemID: jellyplantingotbulk;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/unBulk;
+);

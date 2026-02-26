@@ -1,0 +1,114 @@
+AliasRecipes: 
+
+(
+    ItemID: stakerstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked stalkertooth";
+    Tooltip: "Stacked stalkertooth";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: stakeringot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: creepvinestacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked creepvinepiece";
+    Tooltip: "Stacked creepvinepiece";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: creepvinedisk;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: seedstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked creepvineseedcluster";
+    Tooltip: "Stacked creepvineseedcluster";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: seeddisk;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: jellyplantstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked jellyplant";
+    Tooltip: "Stacked jellyplant";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: jellyplantingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: tablechoralstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked jeweleddiskpiece";
+    Tooltip: "Stacked jeweleddiskpiece";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: tablechoralingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: coralstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked coralchunk";
+    Tooltip: "Stacked coralchunk";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: coralingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: whitemushroomstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked whitemushroom";
+    Tooltip: "Stacked whitemushroom";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: whitemushroomingots;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidmushroomstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked acidmushroom";
+    Tooltip: "Stacked acidmushroom";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: acidmushroomingot;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+);

@@ -1,0 +1,158 @@
+AliasRecipes:
+(
+    ItemID: aerosheetsunpackedbulk;
+    FunctionalID:aerogel;
+    DisplayName: "unpacked aerogel ";
+    Tooltip: "unpacked aerogel";
+    AmountCrafted: 0;
+    LinkedItemIDs: aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel;
+
+    Ingredients: 
+   
+   (
+        ItemID: aerosheetsbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ucBulk;
+),
+(
+    ItemID: aramidingotunpackedbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "unpacked Aramid Fibers ";
+    Tooltip: "unpacked Aramid Fibers";
+    AmountCrafted: 0;
+    LinkedItemIDs: aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers;
+    Ingredients: 
+   
+   (
+        ItemID: aramidingotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ucBulk;
+),
+(
+    ItemID: siliconeingotunpackedbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "unpacked silicone ";
+    Tooltip: "unpacked silicone";
+    AmountCrafted: 0;
+    LinkedItemIDs: silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone;
+    Ingredients: 
+    
+   (
+        ItemID: siliconeingotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ucBulk;
+),
+(
+    ItemID: fiberingotunpackedbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "unpacked Fibermesh ";
+    Tooltip: "unpacked Fibermesh";
+    AmountCrafted: 0;
+    LinkedItemIDs: fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh;
+    Ingredients: 
+    
+   (
+        ItemID: fiberingotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ucBulk;
+),
+(
+    ItemID: Glassunpackedbulk;
+    FunctionalID:Glass;
+    DisplayName: "unpacked Glass ";
+    Tooltip: "unpacked Glass";
+    AmountCrafted: 0;
+    LinkedItemIDs: Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass;
+    Ingredients: 
+    
+   (
+        ItemID: Glassingotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ucBulk;
+),
+(
+    ItemID: Rubyunpackedbulk;
+    FunctionalID:aluminumoxide;
+    DisplayName: "unpacked Ruby ";
+    Tooltip: "unpacked Ruby";
+    AmountCrafted: 0;
+    LinkedItemIDs: aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide,aluminumoxide;
+    Ingredients: 
+    
+   (
+        ItemID: Rubyingotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ucBulk;
+),
+(
+    ItemID: Saltunpackedbulk;
+    FunctionalID: salt;
+    DisplayName: "unpacked Salt";
+    Tooltip: "unpacked Salt";
+    AmountCrafted: 0;
+    LinkedItemIDs: salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt,salt;
+
+    Ingredients: 
+    
+   (
+        ItemID: Saltlickbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ucBulk;
+),
+
+(
+    ItemID: Kyaniteunpackedbulk;
+    FunctionalID: kyanite;
+    DisplayName: "unpacked Kyanite ";
+    Tooltip: "unpacked Kyanite";
+    AmountCrafted: 0;
+    LinkedItemIDs: Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite;
+    Ingredients: 
+    
+   (
+        ItemID: Kyaniteingotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ucBulk;
+),
+(
+    ItemID: Quartzunpackedbulk;
+    FunctionalID: Quartz;
+    DisplayName: "unpacked Quartz ";
+    Tooltip: "unpacked Quartz";
+    AmountCrafted: 0;
+    LinkedItemIDs: Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz;
+
+    Ingredients: 
+    (
+        ItemID: Quartzingotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ucBulk;
+),
+
+
+
+(
+    ItemID: Diamondunpackedbulk;
+    FunctionalID: Diamond;
+    DisplayName: "unpacked Diamonds";
+    Tooltip: "unpacked Diamonds.";
+    # There is literaly no way for the crafting system to detect if a tool still has a battery inside it or not. #
+    # If you want to keep that battery, you have to remember to remove it from the Laser Cutter before recycling it. #
+    AmountCrafted: 0;
+    LinkedItemIDs: Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond;
+    Ingredients: 
+    (
+        ItemID: Diamondingotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ucBulk;
+);

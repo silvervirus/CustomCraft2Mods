@@ -1,0 +1,148 @@
+AliasRecipes: 
+
+
+
+(
+    ItemID: stackedaerosheetsbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked AeroGel";
+    Tooltip: "Stacked AeroGel";
+    AmountCrafted: 5;
+    Ingredients: 
+     ( 
+        ItemID: aerosheets;
+        Required: 24;
+    ),
+    ( 
+        ItemID: aerosheets;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/scBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Diamondstackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Diamond";
+    Tooltip: "Stacked Diamond. ";
+    AmountCrafted: 5;
+    Ingredients: 
+     ( 
+        ItemID: Diamondingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Diamondingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/scBulk;
+     ForceUnlockAtStart: YES;
+),
+(
+    ItemID: KyaniteStackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Kyanite";
+    Tooltip: "Stacked Kyanite. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Kyaniteingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Kyaniteingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/scBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedRubybulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Ruby";
+    Tooltip: "Stacked Ruby. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Rubyingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Rubyingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/scBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Glassstackedbulk ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Glass ";
+    Tooltip: "Stacked Glass . ";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: Glassingot;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: Glassingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/scBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedEnamelbulk ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Emamel ";
+    Tooltip: "Stacked Enamel . ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Enameledingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Enameledingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/scBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedQuartzbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Quartz";
+    Tooltip: "Stacked Quartz. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Quartzingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Quartzingot;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/scBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Saltstackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Salt";
+    Tooltip: "Stacked Salt. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Saltlick;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Saltlick;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/sBulk/scBulk;
+    ForceUnlockAtStart: YES;
+);

@@ -1,0 +1,91 @@
+AliasRecipes: 
+(
+    ItemID: benzenejugbulk;
+    FunctionalID:bleach;
+    DisplayName: "Jug Bluk of Benzene";
+    Tooltip: "Jug Bluk of Benzene. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: benzene;
+        Required: 24;
+    ),
+    ( 
+        ItemID: benzene;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidjugbulk;
+    FunctionalID:bleach;
+    DisplayName: "Jug Bluk of Acid";
+    Tooltip: "Jug Bluk of Acid. ";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: hydrochloricacid;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: hydrochloricacid;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: bleachjugbulk;
+    FunctionalID:bleach;
+    DisplayName: "Jug Bluk of Bleach";
+    Tooltip: "Jug Bluk of Bleach. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: bleach;
+        Required: 24;
+    ),
+    ( 
+        ItemID: bleach;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: lubricantjugbulk;
+    FunctionalID:bleach;
+    DisplayName: "Jug Bluk of Lubricant";
+    Tooltip: "Jug Bluk of Lubricant. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: lubricant;
+        Required: 24;
+    ),
+    ( 
+        ItemID: lubricant;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: polyanilinejugbulk;
+    FunctionalID:bleach;
+    DisplayName: "Jug Bluk of Polyaniline";
+    Tooltip: "Jug Bluk of Polyaniline. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: polyaniline;
+        Required: 24;
+    ),
+    ( 
+        ItemID: polyaniline;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CBulk;
+    ForceUnlockAtStart: YES;
+);

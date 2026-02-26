@@ -1,0 +1,37 @@
+AliasRecipes: 
+(
+    ItemID: stackedECBsbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Enzyme Charged Battery";
+    Tooltip: "Stacked Enzyme Charged Battery";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: ECBs;
+        Required: 24;
+    ),
+    ( 
+        ItemID: ECBs;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedECPCbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Enzyme Charged PowerCell";
+    Tooltip: "Stacked Enzyme Charged PowerCell";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: ECPC;
+        Required: 24;
+    ),
+    ( 
+        ItemID: ECPC;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+);
