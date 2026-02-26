@@ -1,0 +1,11 @@
+﻿AddedRecipes:
+(
+    ItemID: DisinfectedWater;
+    AmountCrafted: 10;
+    Ingredients: 
+    (
+        ItemID: GallonWater;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/wateru;
+);

@@ -1,0 +1,23 @@
+﻿AddedRecipes:
+(
+    ItemID: Crashpowder;
+    AmountCrafted: 10;
+    Ingredients: 
+    (
+        ItemID: CompressedSulphur1;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/Sulphuru;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Sulphur;
+    AmountCrafted: 10;
+    Ingredients: 
+    (
+        ItemID: CompressedSulphur2;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/Sulphuru;
+    ForceUnlockAtStart: YES;
+);

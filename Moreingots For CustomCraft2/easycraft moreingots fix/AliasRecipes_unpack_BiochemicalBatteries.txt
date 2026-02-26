@@ -1,0 +1,46 @@
+AliasRecipes:
+(
+    ItemID: BCPPunpack;
+    FunctionalID: PowerCell;
+    DisplayName: "unpacked BiochemPowerCell ";
+    Tooltip: "unpacked BiochemPowerCell";
+    AmountCrafted: 0;
+    LinkedItemIDs: BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell;
+    Ingredients: 
+    (
+        ItemID: BCPP;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: BCPBsunpack;
+    FunctionalID: PowerCell;
+    DisplayName: "unpacked bioplasmacore ";
+    Tooltip: "unpacked bioplasmacore";
+    AmountCrafted: 0;
+    LinkedItemIDs: bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore;
+    Ingredients: 
+    (
+        ItemID: BCPBs;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: BCPbunpack;
+    FunctionalID: Battery;
+    DisplayName: "unpacked BiochemBattery ";
+    Tooltip: "BiochemBattery";
+    AmountCrafted: 0;
+    LinkedItemIDs: BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery;
+    Ingredients: 
+    (
+        ItemID: BCPb;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+);

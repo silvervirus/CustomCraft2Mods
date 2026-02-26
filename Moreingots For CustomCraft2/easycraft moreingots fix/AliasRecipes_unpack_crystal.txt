@@ -1,0 +1,15 @@
+AliasRecipes:
+(
+    ItemID: Glassunpacked;
+    FunctionalID:Glass;
+    DisplayName: "unpacked Glass ";
+    Tooltip: "unpacked Glass";
+    AmountCrafted: 0;
+    LinkedItemIDs: Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass;
+    Ingredients: 
+    (
+        ItemID: Glassingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/crystalu;
+);

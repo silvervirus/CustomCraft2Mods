@@ -1,0 +1,200 @@
+AliasRecipes: 
+
+(
+    ItemID: aerosheetsbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Aerogel Sheets";
+    Tooltip: "Aerogel Sheets. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: aerogel;
+        Required: 24;
+    ),
+    ( 
+        ItemID: aerogel;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: aramidingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "wrapped Aramid Fibers";
+    Tooltip: "Wrapped Aramid Fibers. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: aramidfibers;
+        Required: 24;
+    ),
+    ( 
+        ItemID: aramidfibers;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: siliconeingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "wrapped Silicone";
+    Tooltip: "Wrapped Silicone. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: silicone;
+        Required: 24;
+    ),
+    ( 
+        ItemID: silicone;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: fiberingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Wrapped Fibermesh";
+    Tooltip: "Wrapped Fibermesh. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: fibermesh;
+        Required: 24;
+    ), 
+    ( 
+        ItemID: fibermesh;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Glassingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Glass";
+    Tooltip: "Packed Glass. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: glass;
+        Required: 24;
+    ),
+    ( 
+        ItemID: glass;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Enameledingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Enameled Glass";
+    Tooltip: "Packed Enameled Glass. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: enameledglass;
+        Required: 24;
+    ),
+    ( 
+        ItemID: enameledglass;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Quartzingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Quartz";
+    Tooltip: "Packed Quartz. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Quartz;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Quartz;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Rubyingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Ruby";
+    Tooltip: "Packed Ruby. ";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: aluminumoxide;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: aluminumoxide;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Saltlickbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Salt";
+    Tooltip: "Packed Salt. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: salt;
+        Required: 24;
+    ),
+    ( 
+        ItemID: salt;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Kyaniteingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Kyanite";
+    Tooltip: "Packed Kyanite. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Kyanite;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Kyanite;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Diamondingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Diamond";
+    Tooltip: "Packed Diamond. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Diamond;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Diamond;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/CyBulk;
+     ForceUnlockAtStart: YES;
+);

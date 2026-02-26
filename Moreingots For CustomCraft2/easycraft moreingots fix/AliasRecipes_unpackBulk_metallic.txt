@@ -1,0 +1,158 @@
+AliasRecipes:
+(
+    ItemID: Leadunpackedbulk;
+    FunctionalID: Lead;
+    DisplayName: "unpacked Lead";
+    Tooltip: "unpacked Lead";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead;
+    Ingredients: 
+    (
+        ItemID: Leadingotbulk;
+        Required: 1;
+    ),
+    (
+        ItemID: Leadingotbulk;
+        Required: 1;
+    );
+    
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/umBulk;
+),
+(
+    ItemID: UnpackedTitaniumbulk;
+    FunctionalID: Titanium;
+    DisplayName: "Unpacked Titanium";
+    Tooltip: "Unpacked Titanium";
+    AmountCrafted: 0;
+    LinkedItemIDs: Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium;
+
+    Ingredients: 
+    (
+        ItemID: titaniumingot;
+        Required: 1;
+    ),
+    (
+        ItemID: titaniumingot;
+        Required: 1;
+    );
+   
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/umBulk;
+),
+(
+    ItemID: UnpackedSilverbulk;
+    FunctionalID: Silver;
+    DisplayName: "Unpacked Silver";
+    Tooltip: "Unpacked Silver";
+    AmountCrafted: 0;
+    LinkedItemIDs: Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver;
+
+    Ingredients: 
+    (
+        ItemID: Silveringotbulk;
+        Required: 1;
+    ),
+    (
+        ItemID: Silveringotbulk;
+        Required: 1;
+    );
+   
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/umBulk;
+),
+(
+    ItemID: UnpackedNickelbulk;
+    FunctionalID: Nickel;
+    DisplayName: "Unpacked Nickel";
+    Tooltip: "Unpacked Nickel";
+    AmountCrafted: 0;
+    LinkedItemIDs: Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel;
+
+    Ingredients: 
+    (
+        ItemID: Nickelingotbulk;
+        Required: 1;
+    ),
+    (
+        ItemID: Nickelingotbulk;
+        Required: 1;
+    );
+   
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/umBulk;
+),
+
+(
+    ItemID: Copperunpackedbulk;
+    FunctionalID: Copper;
+    DisplayName: "unpacked Copper";
+    Tooltip: "unpacked Copper";
+    AmountCrafted: 0;
+    LinkedItemIDs: Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper;
+
+    Ingredients: 
+    (
+        ItemID: Copperingotbulk;
+        Required: 1;
+    ),
+    (
+        ItemID: Copperingotbulk;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/umBulk;
+),
+
+(
+    ItemID: Lithiumunpackedbulk;
+    FunctionalID: Lithium;
+    DisplayName: "unpacked Lithium ";
+    Tooltip: "unpacked Lithium";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium,Lithium;
+
+    Ingredients: 
+    (
+        ItemID: Lithiumingotbulk;
+        Required: 1;
+    ),
+    (
+        ItemID: Lithiumingotbulk;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/umBulk;
+),
+(
+    ItemID: Goldunpackedbulk;
+    FunctionalID: Gold;
+    DisplayName: "unpacked Gold ";
+    Tooltip: "unpacked Gold";
+    AmountCrafted: 0;
+    LinkedItemIDs: Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold;
+
+    Ingredients: 
+    (
+        ItemID: Goldingotbulk;
+        Required: 1;
+    ),
+    (
+        ItemID: Goldingotbulk;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/umBulk;
+),
+
+(
+    ItemID: Plasteelunpackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "unpacked Plasteel ";
+    Tooltip: "unpacked Plasteel";
+    AmountCrafted: 0;
+    LinkedItemIDs: plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot;
+    Ingredients: 
+   (
+        ItemID: Plasteelpackedbulk;
+        Required: 1;
+    ), 
+   (
+        ItemID: Plasteelpackedbulk;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/umBulk;
+);

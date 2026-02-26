@@ -1,0 +1,204 @@
+AliasRecipes:
+(
+    ItemID: unpackcpusheetsbulk;
+    FunctionalID: advancedwiringkit;
+    DisplayName: "unpacked Computer Chips";
+    Tooltip: "unpacked Computer Chips";
+    AmountCrafted: 0;
+    LinkedItemIDs: computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip;
+
+    Ingredients: 
+    
+    (
+        ItemID: cpusheetsbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackadvancedkitsbulk;
+    FunctionalID: advancedwiringkit;
+    DisplayName: "unpacked advanced wire kits";
+    Tooltip: "unpacked advanced wire kits";
+    AmountCrafted: 0;
+    LinkedItemIDs: advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit;
+    Ingredients: 
+   
+    (
+        ItemID: advancedkitsbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackwiringkitsbulk;
+    FunctionalID: advancedwiringkit;
+    DisplayName: "unpacked Wiring Kit";
+    Tooltip: "unpacked Wiring Kit";
+    AmountCrafted: 0;
+    LinkedItemIDs: wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit;
+
+    Ingredients: 
+    
+    (
+        ItemID: wiringkitsbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackwiretowerbulk;
+    FunctionalID: copperwire;
+    DisplayName: "unpacked copperwire";
+    Tooltip: "unpacked copperwire";
+    AmountCrafted: 0;
+    LinkedItemIDs: copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire;
+    Ingredients: 
+    
+    (
+        ItemID: wiretowerbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackreactorrodpackagebulk;
+    FunctionalID: reactorrod;
+    DisplayName: "unpacked Reactor Rods ";
+    Tooltip: "unpacked Reactor Rods";
+    AmountCrafted: 0;
+    LinkedItemIDs: reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod;
+
+    Ingredients: 
+    
+    (
+        ItemID: reactorrodpackagebulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackioncubebulk;
+    FunctionalID: precursorioncrystal;
+    DisplayName: "unpacked ion cubes ";
+    Tooltip: "unpacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal;
+ 
+
+
+    Ingredients: 
+    
+    (
+        ItemID: ioningotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonBatteryunpackedbulk;
+    FunctionalID: PrecursorIonBattery;
+    DisplayName: "unpacked ion cubes ";
+    Tooltip: "unpacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery;
+
+    Ingredients: 
+    
+    (
+        ItemID: IonBatterypackedbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonPowerCellunpackedbulk;
+    FunctionalID: PrecursorIonPowerCell;
+    DisplayName: "unpacked ion cubes ";
+    Tooltip: "unpacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell;
+
+    Ingredients: 
+    
+    (
+        ItemID: IonPowerCellpackedbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackeduraninitebulk;
+    FunctionalID: uraninitecrystal;
+    DisplayName: "unpack uraninite";
+    Tooltip: "unpack uraninite";
+    AmountCrafted: 0;
+    LinkedItemIDs: uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal;
+
+    Ingredients: 
+    
+    (
+        ItemID: uraniniteingotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: powercellunpackedbulk;
+    FunctionalID: powercell;
+    DisplayName: "unpacked power cell ";
+    Tooltip: "unpacked power cell";
+    AmountCrafted: 0;
+    LinkedItemIDs: powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell;
+    Ingredients: 
+    
+    (
+        ItemID: powercellpackbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: batteryunpackedbulk;
+    FunctionalID: battery;
+    DisplayName: "unpacked battery ";
+    Tooltip: "unpacked battery";
+    AmountCrafted: 0;
+    LinkedItemIDs: battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery;
+
+    Ingredients: 
+    
+    (
+        ItemID: batterypackbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: Magnetiteunpackedbulk;
+    FunctionalID: Magnetite;
+    DisplayName: "unpacked Magnetite";
+    Tooltip: "unpacked Magnetite";
+    AmountCrafted: 0;
+    LinkedItemIDs: Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite,Magnetite;
+    Ingredients: 
+    
+    (
+        ItemID: Magnetiteingotbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+),

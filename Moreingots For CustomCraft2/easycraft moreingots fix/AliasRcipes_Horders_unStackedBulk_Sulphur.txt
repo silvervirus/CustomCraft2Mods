@@ -1,0 +1,40 @@
+AliasRecipes: 
+
+
+
+(
+    ItemID: unstackedSulphur1bulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked crashpowder";
+    Tooltip: "Unstacked crashpowder";
+    AmountCrafted: 0;
+    LinkedItemIDs: CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1;
+ 
+    Ingredients: 
+    
+    (
+        ItemID: stackedSulphur5bulk;
+        Required: 5;
+    );
+   
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/UNBulk/UNABulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedSulphur2bulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Sulphur";
+    Tooltip: "Unstacked Sulphur";
+    AmountCrafted: 0;
+    LinkedItemIDs: CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2;
+ 
+    Ingredients: 
+    
+    (
+        ItemID: stackedSulphur2bulk;
+        Required: 5;
+    );
+   
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/UNBulk/UNABulk;
+    ForceUnlockAtStart: YES;
+);

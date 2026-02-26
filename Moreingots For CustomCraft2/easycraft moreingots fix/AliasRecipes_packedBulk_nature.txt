@@ -1,0 +1,145 @@
+AliasRecipes: 
+(
+    ItemID: stakeringotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed stalkertooth";
+    Tooltip: "Packed stalkertooth. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: stalkertooth;
+        Required: 24;
+    ),
+    ( 
+        ItemID: stalkertooth;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/NBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidmushroomingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed acidmushroom";
+    Tooltip: "Packed acidmushroom. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: acidmushroom;
+        Required: 24;
+    ),
+    ( 
+        ItemID: acidmushroom;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/NBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: coralingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed coralchunk";
+    Tooltip: "Packed coralchunk. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: coralchunk;
+        Required: 24;
+    ),
+    ( 
+        ItemID: coralchunk;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/NBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: tablechoralingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed jeweleddiskpiece";
+    Tooltip: "Packed jeweleddiskpiece. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: jeweleddiskpiece;
+        Required: 24;
+    ),
+    ( 
+        ItemID: jeweleddiskpiece;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/NBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: creepvinediskbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed creepvinepiece";
+    Tooltip: "Packed creepvinepiece. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: creepvinepiece;
+        Required: 24;
+    ),
+    ( 
+        ItemID: creepvinepiece;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/NBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: seeddiskbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed creepvineseedcluster";
+    Tooltip: "Packed creepvineseedcluster. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: creepvineseedcluster;
+        Required: 24;
+    ),
+    ( 
+        ItemID: creepvineseedcluster;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/NBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: whitemushroomingotsbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed whitemushroom";
+    Tooltip: "Packed whitemushroom. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: whitemushroom;
+        Required: 24;
+    ),
+    ( 
+        ItemID: whitemushroom;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/NBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: jellyplantingotbulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed jellyplant";
+    Tooltip: "Packed jellyplant. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: jellyplant;
+        Required: 24;
+    ),
+    ( 
+        ItemID: jellyplant;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/NBulk;
+    ForceUnlockAtStart: YES;
+);

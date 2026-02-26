@@ -1,0 +1,156 @@
+AliasRecipes: 
+
+(
+    ItemID: aerosheets;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Aerogel Sheets";
+    Tooltip: "Aerogel Sheets. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: aerogel;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: aramidingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "wrapped Aramid Fibers";
+    Tooltip: "Wrapped Aramid Fibers. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: aramidfibers;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: siliconeingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "wrapped Silicone";
+    Tooltip: "Wrapped Silicone. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: silicone;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: fiberingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Wrapped Fibermesh";
+    Tooltip: "Wrapped Fibermesh. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: fibermesh;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Glassingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Glass";
+    Tooltip: "Packed Glass. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: glass;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Enameledingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Enameled Glass";
+    Tooltip: "Packed Enameled Glass. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: enameledglass;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Quartzingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Quartz";
+    Tooltip: "Packed Quartz. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Quartz;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Rubyingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Ruby";
+    Tooltip: "Packed Ruby. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: aluminumoxide;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Saltlick;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Salt";
+    Tooltip: "Packed Salt. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: salt;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Kyaniteingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Kyanite";
+    Tooltip: "Packed Kyanite. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Kyanite;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Diamondingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Diamond";
+    Tooltip: "Packed Diamond. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Diamond;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/CrystalA;
+     ForceUnlockAtStart: YES;
+);

@@ -1,0 +1,71 @@
+AliasRecipes: 
+(
+    ItemID: benzenejug;
+    FunctionalID:bleach;
+    DisplayName: "Jug of Benzene";
+    Tooltip: "Jug of Benzene. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: benzene;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/schemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidjug;
+    FunctionalID:bleach;
+    DisplayName: "Jug of Acid";
+    Tooltip: "Jug of Acid. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: hydrochloricacid;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/schemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: bleachjug;
+    FunctionalID:bleach;
+    DisplayName: "Jug of Bleach";
+    Tooltip: "Jug of Bleach. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: bleach;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/schemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: lubricantjug;
+    FunctionalID:bleach;
+    DisplayName: "Jug of Lubricant";
+    Tooltip: "Jug of Lubricant. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: lubricant;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/schemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: polyanilinejug;
+    FunctionalID:bleach;
+    DisplayName: "Jug of Polyaniline";
+    Tooltip: "Jug of Polyaniline. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: polyaniline;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/schemicals;
+    ForceUnlockAtStart: YES;
+);

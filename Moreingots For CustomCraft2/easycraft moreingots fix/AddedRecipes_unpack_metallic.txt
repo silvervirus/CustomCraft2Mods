@@ -1,0 +1,72 @@
+﻿AddedRecipes:
+(
+    ItemID: ScrapMetal;
+    AmountCrafted: 2;
+    LinkedItemIDs: Titanium,Titanium;
+    Ingredients: 
+    (
+        ItemID: titaniumingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Copper;
+    AmountCrafted: 10;
+    Ingredients: 
+    ( 
+        ItemID: Copperingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Lead;
+    AmountCrafted: 10;
+    Ingredients: 
+    (
+        ItemID: Leadingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Silver;
+    AmountCrafted: 10;
+    Ingredients: 
+    (
+        ItemID: Silveringot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Nickel;
+    AmountCrafted: 10;
+    Ingredients: 
+    (
+        ItemID: Nickelingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Lithium;
+    AmountCrafted: 10;
+    Ingredients: 
+    (
+        ItemID: Lithiumingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Gold;
+    AmountCrafted: 10;
+    Ingredients: 
+    (
+        ItemID: Goldingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/metallicu;
+);

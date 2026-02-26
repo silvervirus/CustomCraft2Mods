@@ -1,0 +1,36 @@
+AliasRecipes: 
+
+
+
+(
+    ItemID: unstackedSulphur1;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked crashpowder";
+    Tooltip: "Unstacked crashpowder";
+    AmountCrafted: 0;
+    LinkedItemIDs: CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1,CompressedSulphur1;
+    Ingredients: 
+    (
+        ItemID: stackedSulphur1;
+        Required: 1;
+    );
+   
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/unstacked/Sulphurs;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedSulphur2;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Sulphur";
+    Tooltip: "Unstacked Sulphur";
+    AmountCrafted: 0;
+    LinkedItemIDs: CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2,CompressedSulphur2;
+    Ingredients: 
+    (
+        ItemID: stackedSulphur2;
+        Required: 1;
+    );
+   
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/hoarder/unstacked/Sulphurs;
+    ForceUnlockAtStart: YES;
+);

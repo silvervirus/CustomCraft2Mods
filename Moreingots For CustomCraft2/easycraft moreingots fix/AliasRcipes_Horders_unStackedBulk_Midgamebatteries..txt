@@ -1,0 +1,34 @@
+AliasRecipes:
+(
+    ItemID: unstackeddeepPCbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack deep powercell";
+    Tooltip: "unpack deep powercell";
+    AmountCrafted: 0;
+    LinkedItemIDs: DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack,DeepPowerCellpack;
+ 
+    Ingredients: 
+   
+    (
+        ItemID: stackeddeeppcbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackeddeepBPbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack deep battery";
+    Tooltip: "unpack deep battery";
+    AmountCrafted: 0;
+    LinkedItemIDs: Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack,Deepbatterypack;
+    Ingredients: 
+     
+    (
+        ItemID: stackedDeepbatsbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),

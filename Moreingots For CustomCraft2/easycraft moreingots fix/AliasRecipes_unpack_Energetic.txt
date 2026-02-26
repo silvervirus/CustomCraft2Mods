@@ -1,0 +1,77 @@
+AliasRecipes:
+
+(
+    ItemID: unpackioncube;
+    FunctionalID: precursorioncrystal;
+    DisplayName: "unpacked ion cubes ";
+    Tooltip: "unpacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal;
+    Ingredients: 
+    (
+        ItemID: ioningot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonBatteryunpacked;
+    FunctionalID: PrecursorIonBattery;
+    DisplayName: "unpacked ion cubes ";
+    Tooltip: "unpacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery;
+    Ingredients: 
+    (
+        ItemID: IonBatterypacked;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonPowerCellunpacked;
+    FunctionalID: PrecursorIonPowerCell;
+    DisplayName: "unpacked ion cubes ";
+    Tooltip: "unpacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell;
+    Ingredients: 
+    (
+        ItemID: IonPowerCellpacked;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: powercellunpacked;
+    FunctionalID: powercell;
+    DisplayName: "unpacked power cell ";
+    Tooltip: "unpacked power cell";
+    AmountCrafted: 0;
+    LinkedItemIDs: powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell;
+    Ingredients: 
+    (
+        ItemID: powercellpack;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: batteryunpacked;
+    FunctionalID: battery;
+    DisplayName: "unpacked battery ";
+    Tooltip: "unpacked battery";
+    AmountCrafted: 0;
+    LinkedItemIDs: battery,battery,battery,battery,battery,battery,battery,battery,battery,battery;
+    Ingredients: 
+    (
+        ItemID: batterypack;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+);

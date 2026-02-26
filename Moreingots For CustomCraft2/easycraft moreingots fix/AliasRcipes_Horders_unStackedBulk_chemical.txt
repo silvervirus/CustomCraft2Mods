@@ -1,0 +1,81 @@
+AliasRecipes: 
+
+(
+    ItemID: unstackedacidbarrelbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked acid barrel";
+    Tooltip: "Unstacked acid barrel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug;
+    Ingredients: 
+    
+    (
+        ItemID: acidbarrelbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/UNBulk/UCHBulk;
+),
+(
+    ItemID: unstackedbenzenebarrelbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked benzene barrel";
+    Tooltip: "Unstacked benzene barrel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug;
+ 
+    Ingredients: 
+    
+    (
+        ItemID: benzenebarrelbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/UNBulk/UCHBulk;
+),
+(
+    ItemID: unstackedbleachbarrelbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked bleach barrel";
+    Tooltip: "Unstacked bleach barrel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug;
+ 
+    Ingredients: 
+    
+    (
+        ItemID: bleachbarrelbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/UNBulk/UCHBulk;
+),
+(
+    ItemID: unstackedpbarrelbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Polyaniline Barrel";
+    Tooltip: "Unstacked Polyaniline Barrel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug;
+ 
+    Ingredients: 
+    
+    (
+        ItemID: pbarrelbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/UNBulk/UCHBulk;
+),
+(
+    ItemID: unstackedlubricantbarrelbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked lubricant barrel";
+    Tooltip: "Unstacked lubricant barrel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug;
+ 
+    Ingredients: 
+   
+    (
+        ItemID: lubricantbarrelbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/HBulk/UNBulk/UCHBulk;
+);

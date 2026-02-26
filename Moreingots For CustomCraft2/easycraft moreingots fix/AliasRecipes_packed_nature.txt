@@ -1,0 +1,113 @@
+AliasRecipes: 
+(
+    ItemID: stakeringot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed stalkertooth";
+    Tooltip: "Packed stalkertooth. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: stalkertooth;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/nature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidmushroomingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed acidmushroom";
+    Tooltip: "Packed acidmushroom. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: acidmushroom;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/nature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: coralingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed coralchunk";
+    Tooltip: "Packed coralchunk. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: coralchunk;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/nature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: tablechoralingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed jeweleddiskpiece";
+    Tooltip: "Packed jeweleddiskpiece. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: jeweleddiskpiece;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/nature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: creepvinedisk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed creepvinepiece";
+    Tooltip: "Packed creepvinepiece. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: creepvinepiece;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/nature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: seeddisk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed creepvineseedcluster";
+    Tooltip: "Packed creepvineseedcluster. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: creepvineseedcluster;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/nature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: whitemushroomingots;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed whitemushroom";
+    Tooltip: "Packed whitemushroom. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: whitemushroom;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/nature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: jellyplantingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed jellyplant";
+    Tooltip: "Packed jellyplant. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: jellyplant;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/nature;
+    ForceUnlockAtStart: YES;
+);

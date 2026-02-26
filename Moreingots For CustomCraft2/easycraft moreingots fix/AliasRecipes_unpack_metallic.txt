@@ -1,0 +1,30 @@
+AliasRecipes:
+(
+    ItemID: UnpackedTitanium;
+    FunctionalID: Titanium;
+    DisplayName: "Unpacked Titanium";
+    Tooltip: "Unpacked Titanium";
+    AmountCrafted: 0;
+    LinkedItemIDs: Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium;
+    Ingredients: 
+    (
+        ItemID: titaniumingot;
+        Required: 1;
+    );
+   
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Plasteelunpacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "unpacked Plasteel ";
+    Tooltip: "unpacked Plasteel";
+    AmountCrafted: 0;
+    LinkedItemIDs: plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot;
+    Ingredients: 
+    (
+        ItemID: Plasteelpacked;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/metallicu;
+);

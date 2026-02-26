@@ -1,0 +1,21 @@
+﻿AddedRecipes:
+(
+    ItemID: uraninitecrystal;
+    AmountCrafted: 10;
+    Ingredients: 
+    (
+        ItemID: Uraniniteingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/energeticu;
+),
+(
+    ItemID: Magnetite;
+    AmountCrafted: 10;
+    Ingredients: 
+    (
+        ItemID: Magnetiteingot;
+        Required: 1;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/unpacked/energeticu;
+);
