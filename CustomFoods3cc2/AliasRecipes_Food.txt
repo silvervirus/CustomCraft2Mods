@@ -1,0 +1,673 @@
+CustomFoods: 
+(
+    ItemID: Peeperburger;
+    DecayRateMod: 0.5; 
+    DisplayName: "Peeperburger";
+    Tooltip: "PeeperBurger.  Made from peepers and other items from in the world to look like human food ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 2;
+    ),
+    (
+        ItemID: CoralChunk;
+        Required: 2;
+    ),
+    (
+        ItemID: CreepvinePiece;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/fastfood;
+    FoodValue:20;
+    WaterValue:11;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: seaweed;
+    DisplayName: "seaweed";
+    Tooltip: "Seaweed species such as kelps provide essential nursery habitat for fisheries and other marine species.";
+    AmountCrafted: 1;
+    Ingredients: 
+    
+   ( 
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    
+    Path: Fabricator/CustomFood3/japanese;
+    FoodValue:1;
+    WaterValue:0;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: rice;
+   DisplayName: "rice";
+    Tooltip: "Rice is the seed of the grass species Oryza sativa";
+    AmountCrafted: 3;
+    Ingredients: 
+    
+   ( 
+        ItemID: creepvinepiece;
+        Required: 1;
+    );
+    
+    Path: Fabricator/CustomFood3/japanese;
+    FoodValue:1;
+    WaterValue:0;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: tamale;
+    DisplayName: "tamale.";
+    Tooltip: "seaweed wrapped meat in a hang fruit leaf";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: seaweed;
+        Required: 2;
+    ),
+   ( 
+        ItemID: rice;
+        Required: 2;
+    ),
+   ( 
+        ItemID: hangingfruit;
+        Required: 2;
+    ),
+   ( 
+        ItemID: CreepvinePiece;
+        Required: 2;
+    ); 
+   
+    Path: Fabricator/CustomFood3/mexican;
+    FoodValue:80;
+    WaterValue:55;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: shishkabobs;
+    DisplayName: "shishkabobs.";
+    Tooltip: "a plate of 3 shishkabos";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: peeper;
+        Required: 2;
+    ),
+   ( 
+        ItemID: hangingfruit;
+        Required: 2;
+    ); 
+   
+    Path: Fabricator/CustomFood3/fullmeal;
+    FoodValue:50;
+    WaterValue:30;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: sushiplate;
+    DisplayName: "Sushi Plate.";
+    Tooltip: "a plate of different sushis";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: sushi;
+        Required: 2;
+    ),
+   ( 
+        ItemID: nigirisushi;
+        Required: 1;
+    ), 
+   ( 
+        ItemID: seaweed;
+        Required: 1;
+    ), 
+    ( 
+        ItemID: ricecake;
+        Required: 1;
+    );
+  
+    Path: Fabricator/CustomFood3/fullmeal;
+    FoodValue:50;
+    WaterValue:30;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: steakdinner;
+    DisplayName: "Steak Dinner.";
+    Tooltip: "a plate of fish steak and fries and salad";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: frenchfries;
+        Required: 2;
+    ),
+   ( 
+        ItemID: hangingfruit;
+        Required: 1;
+    ), 
+   ( 
+        ItemID: CreepvinePiece;
+        Required: 1;
+    ), 
+    ( 
+        ItemID: Boomerang;
+        Required: 1;
+    );
+  
+    Path: Fabricator/CustomFood3/fullmeal;
+    FoodValue:50;
+    WaterValue:50;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: tamaleplate;
+    DisplayName: "Tamale Plate.";
+    Tooltip: "a plate of 3 soft tamale with salad";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: tamale;
+        Required: 3;
+    ),
+   ( 
+        ItemID: hangingfruit;
+        Required: 1;
+    ), 
+   ( 
+        ItemID: CreepvinePiece;
+        Required: 2;
+    ); 
+    
+    Path: Fabricator/CustomFood3/fullmeal;
+    FoodValue:50;
+    WaterValue:40;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: breakfastplate;
+    DisplayName: "Breakfast Plate.";
+    Tooltip: "a plate of 2 eggs, bacon,toast,sausage";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: crashegg;
+        Required: 2;
+    ),
+   ( 
+        ItemID: sausage;
+        Required: 2;
+    ),
+   ( 
+        ItemID: peeper;
+        Required: 2;
+    ),
+   ( 
+        ItemID: seaweed;
+        Required: 2;
+    ); 
+   
+    Path: Fabricator/CustomFood3/fullmeal;
+    FoodValue:80;
+    WaterValue:55;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: tacoplate;
+    DisplayName: "Taco Plate.";
+    Tooltip: "a plate of 3 soft tacos with rice and salad";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: tacos;
+        Required: 3;
+    ),
+   ( 
+        ItemID: CreepvinePiece;
+        Required: 1;
+    ), 
+   ( 
+        ItemID: hangingfruit;
+        Required: 1;
+    ), 
+    ( 
+        ItemID: rice;
+        Required: 1;
+    );
+  
+    Path: Fabricator/CustomFood3/fullmeal;
+    FoodValue:50;
+    WaterValue:40;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: tacos;
+    DisplayName: "tacos.";
+    Tooltip: "A taco can be made with a variety of fillings, including beef, pork, chicken, seafood, vegetables, and cheese";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: seaweed;
+        Required: 2;
+    ),
+   ( 
+        ItemID: CreepvinePiece;
+        Required: 1;
+    ), 
+   ( 
+        ItemID: peeper;
+        Required: 1;
+    ), 
+    ( 
+        ItemID: hangingfruit;
+        Required: 1;
+    );
+  
+    Path: Fabricator/CustomFood3/mexican;
+    FoodValue:20;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: chipsandsalsa;
+    DisplayName: "chippsandsalsa.";
+    Tooltip: "A tortilla chip is a snack food made from corn tortillas, which are cut into wedges and then fried";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: seaweed;
+        Required: 2;
+    ),
+   ( 
+        ItemID: salt;
+        Required: 1;
+    ), 
+    ( 
+        ItemID: hangingfruit;
+        Required: 2;
+    );
+  
+    Path: Fabricator/CustomFood3/mexican;
+    FoodValue:20;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: frenchfries;
+    DisplayName: "frenchfries.";
+    Tooltip: "French fries are served hot, either soft or crispy, and are generally eaten as part of lunch or dinner or by themselves";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: salt;
+        Required: 1;
+    ),
+    ( 
+        ItemID: purplevegetable;
+        Required: 2;
+    );
+  
+    Path: Fabricator/CustomFood3/fastfood;
+    FoodValue:20;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: buffalowings;
+    DisplayName: "buffalowings.";
+    Tooltip: "cooked reginald with a homemade sause made from ketchup";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: reginald;
+        Required: 2;
+    ),
+   ( 
+        ItemID: salt;
+        Required: 1;
+    ), 
+    ( 
+        ItemID: ketchup;
+        Required: 1;
+    );
+  
+    Path: Fabricator/CustomFood3/fastfood;
+    FoodValue:20;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: sausage;
+   DisplayName: "sausage";
+    Tooltip: "A sausage is a cylindrical meat product usually made from ground meat, often pork, beef, or veal, along with salt, spices ";
+    AmountCrafted: 3;
+    Ingredients: 
+    ( 
+        ItemID: seaweed;
+        Required: 1;
+    ), 
+   ( 
+        ItemID: peeper;
+        Required: 1;
+    ),
+   
+    ( 
+        ItemID: salt;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/fastfood;
+    FoodValue:15;
+    WaterValue:0;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ketchup;
+   DisplayName: "ketchup";
+    Tooltip: " Ketchup is a sweet and tangy sauce now typically made from tomatoes, sugar, and vinegar.";
+    AmountCrafted: 1;
+    Ingredients: 
+    
+   ( 
+        ItemID: hangingfruit;
+        Required: 1;
+    ); 
+   
+    
+    Path: Fabricator/CustomFood3/fastfood;
+    FoodValue:1;
+    WaterValue:3;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: bbqwing;
+    DisplayName: "bbqwing.";
+    Tooltip: "cooked peeper with a homemade bbq sause made from ketchup";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: peeper;
+        Required: 2;
+    ),
+   ( 
+        ItemID: ketchup;
+        Required: 1;
+    ), 
+    ( 
+        ItemID: salt;
+        Required: 1;
+    );
+  
+    Path: Fabricator/CustomFood3/fastfood;
+    FoodValue:20;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: hotdog;
+    DisplayName: "hotdog.";
+    Tooltip: "sausage within a bun ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: seaweed;
+        Required: 1;
+    ),
+   ( 
+        ItemID: sausage;
+        Required: 1;
+    ), 
+    ( 
+        ItemID: ketchup;
+        Required: 2;
+    );
+  
+    Path: Fabricator/CustomFood3/fastfood;
+    FoodValue:20;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: salad;
+    DisplayName: "salad.";
+    Tooltip: "A salad is a dish consisting of a mixture of small pieces of food, usually vegetables or fruit ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: hangingfruit;
+        Required: 1;
+    ),
+    ( 
+        ItemID: creepvinepiece;
+        Required: 3;
+    );
+  
+    Path: Fabricator/CustomFood3/fastfood;
+    FoodValue:20;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ricecake;
+    DisplayName: "ricecake.";
+    Tooltip: "Rice cakes are a common snack";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: salt;
+        Required: 1;
+    ),
+    ( 
+        ItemID: rice;
+        Required: 1;
+    ),
+    ( 
+        ItemID: seaweed;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/japanese;
+    FoodValue:20;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: nigirisushi;
+    DisplayName: "nigirisushi.";
+    Tooltip: "nigiri Sushi is traditionally made with medium-grain white rice.It is very often prepared with seafood placed on top";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: peeper;
+        Required: 1;
+    ),
+    ( 
+        ItemID: rice;
+        Required: 1;
+    ),
+    ( 
+        ItemID: salt;
+        Required: 1;
+    );
+   
+    Path: Fabricator/CustomFood3/japanese;
+    FoodValue:20;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: sushi;
+    DisplayName: "sushi.";
+    Tooltip: "Sushi is traditionally made with medium-grain white rice.It is very often prepared with seafood";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Boomerang;
+        Required: 1;
+    ),
+    ( 
+        ItemID: rice;
+        Required: 1;
+    ),
+    ( 
+        ItemID: CreepvinePiece;
+        Required: 1;
+    );
+    
+    Path:Fabricator/CustomFood3/japanese;
+    FoodValue:20;
+    WaterValue:5;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: icecream;
+    DecayRateMod: 0.5; 
+    DisplayName: "Ice Cream";
+    Tooltip: "Yummy yummy OMG Brain Freeeeze ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: BulboTreePiece;
+        Required: 2;
+    ),
+    (
+        ItemID: HangingFruit;
+        Required: 2;
+    ),
+    (
+        ItemID: DisinfectedWater;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/FFood;
+    FoodValue:20;
+    WaterValue:11;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: pizza;
+    DecayRateMod: 0.5; 
+    DisplayName: "Peeperpizza";
+    Tooltip: "Peeperpizza.  Made from peepers and other items from in the world to look like human food ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 2;
+    ),
+    (
+        ItemID: CoralChunk;
+        Required: 2;
+    ),
+    (
+        ItemID: CreepvinePiece;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/FFood;
+    FoodValue:20;
+    WaterValue:11;
+    ForceUnlockAtStart: YES;
+), 
+(
+    ItemID: EggSaladsandwich;
+    DecayRateMod: 0.5;  
+    DisplayName: "Egg Salad Sandwitch";
+    Tooltip: "Sandwitch.  Made from Creature eggs and other items from in the world to look like human food ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 2;
+    ),
+    (
+        ItemID: CoralChunk;
+        Required: 2;
+    );
+    Path: Fabricator/CustomFood3/FFood;
+    FoodValue:23;
+    WaterValue:2;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: cookies;
+    DecayRateMod: 0.5;  
+    DisplayName: "Chocolate Cookies";
+    Tooltip: "six tasty looking cookies";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 2;
+    ),
+    (
+        ItemID: CoralChunk;
+        Required: 2;
+    );
+    Path: Fabricator/CustomFood3/FFood;
+    FoodValue:23;
+    WaterValue:2;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: PanCakes;
+    DecayRateMod: 0.5;  
+    DisplayName: "Hot Cakes";
+    Tooltip: "Pancakes.Made CoralChunk Flour and other items from in the world to look like human food ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: CreepvinePiece;
+        Required: 2;
+    ),
+    (
+        ItemID: CoralChunk;
+        Required: 2;
+    );
+    Path: Fabricator/CustomFood3/FFood;
+    FoodValue:23;
+    WaterValue:0;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Soup;
+    DecayRateMod: 0.5;  
+    DisplayName: "Hot Soup";
+    Tooltip: "Soup.Made Stalkers and other items from in the world to look like human food ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: stalkeregg;
+        Required: 2;
+    ),
+    (
+        ItemID: salt;
+        Required: 2;
+    ),
+    (
+        ItemID: DisinfectedWater;
+        Required: 2;
+    );
+    Path: Fabricator/CustomFood3/FFood;
+    FoodValue:19;
+    WaterValue:8;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: StalkerSandwich;
+    DecayRateMod: 0.5;  
+    DisplayName: "Stalker Sandwitch";
+    Tooltip: "Stalker Sandwich.  Made from stalker eggs and other items from in the world to look like human food ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: stalkeregg;
+        Required: 1;
+    ),
+    (
+        ItemID: CoralChunk;
+        Required: 2;
+    );
+    Path: Fabricator/CustomFood3/FFood;
+    FoodValue:25;
+    WaterValue:0;
+    ForceUnlockAtStart: YES;
+);

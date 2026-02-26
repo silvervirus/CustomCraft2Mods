@@ -1,0 +1,281 @@
+AddedRecipes: 
+(
+    ItemID: StalkerEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: StalkerTooth;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: ShockerEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: Battery;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: BonesharkEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: coralchunk;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: CrabsnakeEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: AcidMushroom;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: CrabsquidEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: PowerCell;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: CrashEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: CrashPowder;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: GasopodEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: GasPod;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: JellyrayEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: SnakeMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: LavaLizardEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: Bleach;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: MesmerEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: JellyPlantSeed;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: RabbitrayEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: Gold;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: ReefbackEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: Lead;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: JumperEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: Titanium;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+),
+(
+    ItemID: SpadefishEgg;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: HatchingEnzymes;
+        Required: 1;
+    ),
+    (
+        ItemID: Peeper;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    Path: Fabricator/EGGS/EGG;
+   
+);

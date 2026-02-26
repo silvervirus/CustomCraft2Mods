@@ -1,0 +1,161 @@
+CustomFoods:
+(
+    ItemID: juice1;
+    DecayRateMod: 0;
+    DisplayName: "Bulbo Tree Juice";
+    Tooltip: "Water mixed with a Bulbo Tree Sample. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: bulbotreepiece;
+        Required: 1;
+    ),
+    ( 
+        ItemID: DisinfectedWater;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Juices;
+    FoodValue:0;
+    WaterValue:21;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: juice2;
+    DecayRateMod: 0;
+    DisplayName: "Lantern Fruit Juice";
+    Tooltip: "Water mixed with a Lantern Fruit. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: HangingFruit;
+        Required: 1;
+    ),
+    ( 
+        ItemID: DisinfectedWater;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Juices;
+    FoodValue:0;
+    WaterValue:20;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: juice3;
+    DecayRateMod: 0;
+    DisplayName: "Marblemelon Juice";
+    Tooltip: "Water mixed with a Marblemelon. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Melon;
+        Required: 1;
+    ),
+    ( 
+        ItemID: DisinfectedWater;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Juices;
+    FoodValue:0;
+    WaterValue:22;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: juice4;
+    DecayRateMod: 0;
+    DisplayName: "Creepvine Juice";
+    Tooltip: "Water mixed with a Creepvine Sample. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: CreepvinePiece;
+        Required: 1;
+    ),
+    ( 
+        ItemID: DisinfectedWater;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Juices;
+    FoodValue:0;
+    WaterValue:15;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: juice5;
+    DecayRateMod: 0;
+    DisplayName: "Gel Sack Juice";
+    Tooltip: "Water mixed with a Gel Sack. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: peeper;
+        Required: 1;
+    ),
+    ( 
+        ItemID: DisinfectedWater;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Juices;
+    FoodValue:0;
+    WaterValue:18;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: juice6;
+    DecayRateMod: 0;
+    DisplayName: "Bulb Bush Juice";
+    Tooltip: "Water mixed with a Bulb Bush Sample. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: whitemushroomspore;
+        Required: 1;
+    ),
+    ( 
+        ItemID: DisinfectedWater;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Juices;
+    FoodValue:0;
+    WaterValue:20;
+   ForceUnlockAtStart: YES;
+),
+(
+    ItemID: juice7;
+    DecayRateMod: 0;
+    DisplayName: "Ming Plant Juice";
+    Tooltip: "Water mixed with a Ming Plant. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: redgreententacleseed;
+        Required: 1;
+    ),
+    ( 
+        ItemID: DisinfectedWater;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Juices;
+    FoodValue:0;
+    WaterValue:21;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: juice8;
+    DecayRateMod: 0;
+    DisplayName: "Tiger Plant Juice";
+    Tooltip: "Water mixed with a Tiger Plant. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: spikeplantseed;
+        Required: 1;
+    ),
+    ( 
+        ItemID: DisinfectedWater;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Juices;
+    FoodValue:0;
+    WaterValue:20;
+    ForceUnlockAtStart: YES;
+);

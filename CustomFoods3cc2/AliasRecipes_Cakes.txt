@@ -1,0 +1,161 @@
+CustomFoods:
+(
+    ItemID: cake1;
+   DecayRateMod: 0; 
+   DisplayName: "Peeper Cake";
+    Tooltip: "Coral Tube Sample mixed with a Peeper. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Peeper;
+        Required: 1;
+    ),
+    ( 
+        ItemID: CoralChunk;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Cakes;
+    FoodValue:23;
+    WaterValue:2;
+    ForceUnlockAtStart: ;
+),
+(
+    ItemID: cake2;
+    DecayRateMod: 0;
+    DisplayName: "Chinese Potato Cake";
+    Tooltip: "Coral Tube Sample mixed with a Chinese Potato. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: PurpleVegetable;
+        Required: 1;
+    ),
+    ( 
+        ItemID: CoralChunk;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Cakes;
+    FoodValue:22;
+    WaterValue:2;
+    ForceUnlockAtStart: ;
+),
+(
+    ItemID: cake3;
+    DecayRateMod: 0;
+    DisplayName: "Bladderfish Cake";
+    Tooltip: "Coral Tube Sample mixed with a Bladderfish. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Bladderfish;
+        Required: 1;
+    ),
+    ( 
+        ItemID: CoralChunk;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Cakes;
+    FoodValue:21;
+    WaterValue:10; 
+    ForceUnlockAtStart: ;
+),
+(
+    ItemID: cake4;
+    DecayRateMod: 0;
+    DisplayName: "Boomerang Cake";
+    Tooltip: "Coral Tube Sample mixed with a Boomerang. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Boomerang;
+        Required: 1;
+    ),
+    ( 
+        ItemID: CoralChunk;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Cakes;
+    FoodValue:20;
+    WaterValue:2;
+    ForceUnlockAtStart: ;
+),
+(
+    ItemID: cake5;
+    DecayRateMod: 0;
+    DisplayName: "Hoverfish Cake";
+    Tooltip: "Coral Tube Sample mixed with a Hoverfish. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Hoverfish;
+        Required: 1;
+    ),
+    ( 
+        ItemID: CoralChunk;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Cakes;
+    FoodValue:19;
+    WaterValue:2;
+    ForceUnlockAtStart: ;
+),
+(
+    ItemID: cake6;
+    DecayRateMod: 0;
+    DisplayName: "Spadefish Cake";
+    Tooltip: "Coral Tube Sample mixed with a Spadefish. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Spadefish;
+        Required: 1;
+    ),
+    ( 
+        ItemID: CoralChunk;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Cakes;
+    FoodValue:11;
+    WaterValue:0;
+    ForceUnlockAtStart: ;
+),
+(
+    ItemID: cake7;
+    DecayRateMod: 0;
+    DisplayName: "Garryfish Cake";
+    Tooltip: "Coral Tube Sample mixed with a Garryfish. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: GarryFish;
+        Required: 1;
+    ),
+    ( 
+        ItemID: CoralChunk;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Cakes;
+    FoodValue:15;
+    WaterValue:5;
+    ForceUnlockAtStart: ;
+),
+(
+    ItemID: cake8;
+    DecayRateMod: 0;
+    DisplayName: "Reginald Cake";
+    Tooltip: "Coral Tube Sample mixed with a Reginald. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Reginald;
+        Required: 1;
+    ),
+    ( 
+        ItemID: CoralChunk;
+        Required: 1;
+    );
+    Path: Fabricator/CustomFood3/Cakes;
+    FoodValue:22;
+    WaterValue:6;
+    ForceUnlockAtStart: ;
+);
