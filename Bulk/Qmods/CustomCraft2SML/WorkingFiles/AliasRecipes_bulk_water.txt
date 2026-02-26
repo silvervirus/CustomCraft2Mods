@@ -1,0 +1,48 @@
+
+AliasRecipes:
+
+(
+    ItemID: bbwaters;
+    FunctionalID: filteredwater;
+    DisplayName: "Bulk Filtered Water";
+    Tooltip: "Bulk Filtered Water";
+    LinkedItemIDs: filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater,filteredwater;
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: bladderfish;
+        Required: 24;
+    ),
+    (
+        ItemID: bladderfish;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bsustenance/bwater;
+),
+
+(
+    ItemID: bswater;
+    FunctionalID: DisinfectedWater;
+    DisplayName: "Disinfected water Bulk";
+    Tooltip: "Disinfected water Bulk";
+    LinkedItemIDs: DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater,DisinfectedWater;
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+        ItemID: bleach;
+        Required: 24;
+    ),
+    (
+        ItemID: bleach;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bsustenance/bwater;
+);
+
+
+
+
+
+
+
+

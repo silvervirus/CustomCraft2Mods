@@ -1,0 +1,491 @@
+CustomFabricators:
+(
+    ItemID:alterraemarket;
+    Ingredients:
+        (ItemID:Titanium;Required:2;),
+        (ItemID:ComputerChip;Required:1;),
+        (ItemID:Powercell;Required:1;),
+        (ItemID:Lead;Required:1;);
+    ForceUnlockAtStart:no;
+    UnlockedBy:  Cyclops;
+    PdaGroup:InteriorModules;
+    PdaCategory:InteriorModule;
+    DisplayName:" Alterra Equipment Market";
+    Tooltip:"We take what you don't want and give you what you want!";
+    Model:MoonPool;
+    ColorTint:0, 0, 0, 1 ;
+    AllowedInBase:YES;
+    AllowedInCyclops:YES;
+    CustomCraftingTabs:
+
+
+(
+    TabID: equipmarket;
+    DisplayName: "Alterra Equipment Market";
+    SpriteItemID: scanner;
+    ParentTabPath: alterraemarket; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: gold;
+    DisplayName: "Alterra gold coin";
+    SpriteItemID: gold;
+    ParentTabPath: alterraemarket/equipmarket; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: silver;
+    DisplayName: "Alterra silver coin";
+    SpriteItemID: silver;
+    ParentTabPath: alterraemarket/equipmarket;  
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: copper;
+    DisplayName: "Alterra copper coin";
+    SpriteItemID: copper;
+    ParentTabPath: alterraemarket/equipmarket; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: coin;
+    DisplayName: "Alterra coin";
+    SpriteItemID: nickel;
+    ParentTabPath: alterraemarket/equipmarket; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+  AliasRecipes:
+
+(
+    ItemID: e1;
+    DisplayName: "Alterra equipment Market PropulsionCannon ";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: PropulsionCannon ;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required: 2;
+    );
+    
+    Path: alterraemarket/equipmarket/gold; 
+         ForceUnlockAtStart:yes;
+         UnlockedBy:lithium;
+),
+(
+    ItemID: e2;
+    DisplayName: "Alterra Equipment Market Flashlight";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Flashlight;
+    Ingredients: 
+    (
+        ItemID: coin;
+        Required: 5;
+    );
+    
+    Path: alterraemarket/equipmarket/coin;
+    ForceUnlockAtStart:yes;
+    UnlockedBy:salt;
+),
+(
+    ItemID: e3;
+    DisplayName: "Alterra Equipment Market CopperWire";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: CopperWire;
+    Ingredients: 
+    (
+        ItemID: coppercoin;
+        Required: 4;
+    );
+    
+    Path: alterraemarket/equipmarket/copper; 
+    ForceUnlockAtStart:yes;
+    UnlockedBy: titanium;
+),
+(
+    ItemID: e4;
+    DisplayName: "Alterra Equipment Market Knife";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Knife;
+    Ingredients: 
+    (
+        ItemID: coppercoin;
+        Required: 4;
+    );
+    
+    Path: alterraemarket/equipmarket/copper;
+    ForceUnlockAtStart:yes;
+    UnlockedBy:acidmushroom;
+),
+(
+    ItemID: e5;
+    DisplayName: "Alterra Equipment Market Scanner";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Scanner;
+    Ingredients: 
+    (
+        ItemID: coppercoin;
+        Required: 4;
+    );
+    
+    Path: alterraemarket/equipmarket/copper;
+    ForceUnlockAtStart:yes;    
+    UnlockedBy:bloodoil;
+),
+(
+    ItemID: e6;
+    DisplayName: "Alterra Equipment Market Seaglide";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Seaglide;
+    Ingredients: 
+    (
+        ItemID: silvercoin;
+        Required: 3;
+    );
+    
+    Path: alterraemarket/equipmarket/silver; 
+    ForceUnlockAtStart:yes;    
+    UnlockedBy:Copper;
+),
+(
+    ItemID: e7;
+    DisplayName: "Alterra Equipment Market Pipe";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Pipe;
+    Ingredients: 
+    (
+        ItemID: coin;
+        Required: 5;
+    );
+    
+    Path: alterraemarket/equipmarket/coin;
+    ForceUnlockAtStart:yes;    
+    UnlockedBy:crashpowder;
+),
+(
+    ItemID: e8;
+    DisplayName: "Alterra Equipment Market FireExtinguisher";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: FireExtinguisher;
+    Ingredients: 
+    (
+        ItemID: coin;
+        Required: 5;
+    );
+    
+    Path: alterraemarket/equipmarket/coin;
+    ForceUnlockAtStart:yes;    
+    UnlockedBy:creepvinepiece;
+),
+(
+    ItemID: e9;
+    DisplayName: "Alterra Equipment Market Builder";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Builder;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required: 2;
+    );
+    
+    Path: alterraemarket/equipmarket/gold;
+    ForceUnlockAtStart:yes;     
+    UnlockedBy:creepvineseedcluster;
+),
+(
+    ItemID: e10;
+    DisplayName: "Alterra Equipment Market Battery";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Battery;
+    Ingredients: 
+    (
+        ItemID: silvercoin;
+        Required: 3;
+    );
+    
+    Path: alterraemarket/equipmarket/silver; 
+     ForceUnlockAtStart:yes;     
+     UnlockedBy:Gold;
+),
+(
+    ItemID: e11;
+    DisplayName: "Alterra Equipment Market StasisRifle";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: StasisRifle;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required: 2;
+    );
+    
+    Path: alterraemarket/equipmarket/gold;
+     ForceUnlockAtStart:yes;     
+     UnlockedBy:kyanite;
+),
+(
+    ItemID: e12;
+    DisplayName: "Alterra Equipment Market ComputerChip ";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: ComputerChip ;
+    Ingredients: 
+    (
+        ItemID: silvercoin;
+        Required: 3;
+    );
+    
+    Path: alterraemarket/equipmarket/silver; 
+     ForceUnlockAtStart:yes;     
+     UnlockedBy:Lead;
+),
+(
+    ItemID: e13;
+    DisplayName: "Alterra Equipment Market Aerogel";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Aerogel;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required: 2;
+    );
+    
+    Path: alterraemarket/equipmarket/gold; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e27;
+    DisplayName: "Alterra Equipment Market LEDLight";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: LEDLight;
+    Ingredients: 
+    (
+        ItemID: coin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/coin; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e26;
+    DisplayName: "Alterra Equipment Market Flare ";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Flare ;
+    Ingredients: 
+    (
+        ItemID: coin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/coin; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e25;
+    DisplayName: "Alterra Equipment Market AirBladder  ";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: AirBladder ;
+    Ingredients: 
+    (
+        ItemID: coin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/coin; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e24;
+    DisplayName: "Alterra Equipment Market Bleach  ";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Bleach ;
+    Ingredients: 
+    (
+        ItemID: coppercoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/copper; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e23;
+    DisplayName: "Alterra Equipment Market SmallStorage ";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: SmallStorage;
+    Ingredients: 
+    (
+        ItemID: coppercoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/copper; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e22;
+    DisplayName: "Alterra Equipment Market Beacon ";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Beacon;
+    Ingredients: 
+    (
+        ItemID: coppercoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/copper; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e21;
+    DisplayName: "Alterra Equipment Market PowerCell ";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: PowerCell;
+    Ingredients: 
+    (
+        ItemID: silvercoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/silver; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e20;
+    DisplayName: "Alterra Equipment Market LaserCutter ";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: LaserCutter;
+    Ingredients: 
+    (
+        ItemID: silvercoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/silver; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e19;
+    DisplayName: "Alterra Equipment Market Welder ";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Welder;
+    Ingredients: 
+    (
+        ItemID: silvercoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/silver; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e18;
+    DisplayName: "Alterra Equipment Market WiringKit";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: WiringKit;
+    Ingredients: 
+    (
+        ItemID: silvercoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/silver; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e17;
+    DisplayName: "Alterra Equipment Market AdvancedWiringKit";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: AdvancedWiringKit;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/gold; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e16;
+    DisplayName: "Alterra Equipment Market PrecursorIonPowerCell";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: PrecursorIonPowerCell;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/gold; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e15;
+    DisplayName: "Alterra Equipment Market PrecursorIonBattery";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: PrecursorIonBattery;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/gold; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: e14;
+    DisplayName: "Alterra Equipment Market Gravsphere";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Gravsphere;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required:2;
+    );
+    
+    Path: alterraemarket/equipmarket/gold; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+);
+);

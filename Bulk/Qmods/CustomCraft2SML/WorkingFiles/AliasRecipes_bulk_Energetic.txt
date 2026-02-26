@@ -1,0 +1,194 @@
+AliasRecipes:
+(
+    ItemID: bcpu;
+    FunctionalID: Computerchip;
+    DisplayName: "Computerchips Bulk";
+    Tooltip: "Bulk Computerchips";
+    AmountCrafted: 0;
+    LinkedItemIDs: computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip,computerchip;
+    Ingredients: 
+   
+  (
+        ItemID: jeweleddiskpiece;
+        Required: 24;
+   ),
+  (
+        ItemID: gold;
+        Required: 12;
+   ),   
+
+  (
+        ItemID: copperwire;
+        Required: 12;
+    ); 
+   
+    Path: Fabricator/Bulk/bresources/belectronics;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: badvancedkits;
+    FunctionalID: advancedwiringkit;
+    DisplayName: "bulk advanced wire kits";
+    Tooltip: "bulk advanced wire kits";
+    AmountCrafted: 0;
+    LinkedItemIDs: advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit,advancedwiringkit;
+       Ingredients: 
+   
+  (
+        ItemID: wiringkit;
+        Required: 24;
+   ),
+  (
+        ItemID: gold;
+        Required: 12;
+   ),   
+
+  (
+        ItemID: computerchip;
+        Required: 12;
+    ); 
+   
+    Path: Fabricator/Bulk/bresources/belectronics;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: wiringkitsb;
+    FunctionalID: wiringkit;
+    DisplayName: " WiringKit Bulk";
+    Tooltip: "Bulk WiringKit";
+    AmountCrafted: 0;
+    LinkedItemIDs: wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit,wiringkit;
+    Ingredients: 
+    (
+        ItemID: silver;
+        Required: 24;
+   );   
+    Path: Fabricator/Bulk/bresources/belectronics;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: copperb;
+    FunctionalID: copperwire;
+    DisplayName: "copperwire Bulk";
+    Tooltip: "Bulk copperwire";
+    AmountCrafted: 0;
+    LinkedItemIDs: copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire,copperwire;
+    Ingredients: 
+    (
+        ItemID: copper;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/belectronics;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: reactorrodb;
+    FunctionalID: reactorrod;
+    DisplayName: "Bulk Reactor Rods ";
+    Tooltip: "Bulk Reactor Rods";
+    AmountCrafted: 0;
+    LinkedItemIDs: reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod,reactorrod;
+     
+      Ingredients: 
+   
+  (
+        ItemID: uraninitecrystal;
+        Required: 16;
+   ),
+  (
+        ItemID: lead;
+        Required: 15;
+   ),   
+
+  (
+        ItemID: glass;
+        Required: 7;
+    ),  
+   (
+        ItemID: titanium;
+        Required: 10;
+    );
+    Path: Fabricator/Bulk/bresources/belectronics;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonBatterybulk;
+    FunctionalID: PrecursorIonBattery;
+    DisplayName: "bulk ion cubes ";
+    Tooltip: "bulk ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery;
+    Ingredients: 
+    (
+        ItemID: Battery;
+        Required: 24;
+    ),
+    (
+        ItemID: precursorioncrystal;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/belectronics;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonPowerCellbulk;
+    FunctionalID: PrecursorIonPowerCell;
+    DisplayName: "bulk ion cubes ";
+    Tooltip: "bulk ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell;
+    Ingredients: 
+           
+  (
+        ItemID: powercell;
+        Required: 24;
+   ),
+  (
+        ItemID: precursorioncrystal;
+        Required: 24;
+   );   
+
+    Path: Fabricator/Bulk/bresources/belectronics;
+    ForceUnlockAtStart: YES;
+),
+
+
+(
+    ItemID: powercellbulk;
+    FunctionalID: powercell;
+    DisplayName: "bulk power cell ";
+    Tooltip: "bulk power cell";
+    AmountCrafted: 0;
+    LinkedItemIDs: PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell,PowerCell;
+    Ingredients: 
+ (
+        ItemID: battery;
+        Required: 24;
+    ),   
+ (
+        ItemID: silicone;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/belectronics;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: batterybulk;
+    FunctionalID: battery;
+    DisplayName: "bulk battery ";
+    Tooltip: "bulk battery";
+    AmountCrafted: 0;
+    LinkedItemIDs: battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery,battery;
+    Ingredients: 
+   (
+        ItemID: copper;
+        Required: 24;
+    ), 
+   (
+        ItemID: acidmushroom;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/belectronics;
+    ForceUnlockAtStart: YES;
+);
+

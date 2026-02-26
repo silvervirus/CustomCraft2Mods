@@ -1,0 +1,40 @@
+AliasRecipes: 
+
+(
+    ItemID: bsilicone;
+    FunctionalID: silicone;
+    DisplayName: "unpacked Silicone Rubber";
+    Tooltip: "unpacked Silicone Rubber";
+    AmountCrafted: 0;
+    LinkedItemIDs: silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone,silicone;
+    Ingredients: 
+    (
+        ItemID: creepvineseedcluster;
+        Required: 24;
+    ),
+   (
+        ItemID: creepvineseedcluster;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bresources/bbasic;
+),
+(
+    ItemID: bfibermesh;
+    FunctionalID: fibermesh;
+    DisplayName: "unpacked Fiber Mesh";
+    Tooltip: "unpacked Fiber Mesh";
+    AmountCrafted: 0;
+    LinkedItemIDs: fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh,fibermesh;
+    Ingredients: 
+     (
+        ItemID: creepvinepiece;
+        Required: 24;
+    ),
+    (
+        ItemID: creepvinepiece;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bresources/bbasic;
+);

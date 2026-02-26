@@ -1,0 +1,256 @@
+CustomFabricators:
+(
+    ItemID:alterramarket;
+    Ingredients:
+        (ItemID:Titanium;Required:2;),
+        (ItemID:ComputerChip;Required:1;),
+        (ItemID:HatchingEnzymes;Required:1;),
+        (ItemID:Lead;Required:1;);
+    ForceUnlockAtStart:no;
+    UnlockedBy:  Cyclops;
+    PdaGroup:InteriorModules;
+    PdaCategory:InteriorModule;
+    DisplayName:" Alterra Fish Market";
+    Tooltip:"We take what you don't want and give you what you want!";
+    Model:MoonPool;
+    ColorTint: 0, 1, 1, 1 ;
+    AllowedInBase:YES;
+    AllowedInCyclops:YES;
+    CustomCraftingTabs:
+
+
+(
+    TabID: fishmarket;
+    DisplayName: "Alterra Fish Market";
+    SpriteItemID: peeper;
+    ParentTabPath: alterramarket; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+
+  AliasRecipes:
+
+(
+    ItemID: f1;
+    DisplayName: "Alterra Fish Market peeper";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: peeper;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required: 2;
+    );
+    
+    Path: alterramarket/fishmarket; 
+         ForceUnlockAtStart:yes;
+         UnlockedBy:lithium;
+),
+(
+    ItemID: f2;
+    DisplayName: "Alterra Fish Market Garryfish";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Garryfish;
+    Ingredients: 
+    (
+        ItemID: coin;
+        Required: 5;
+    );
+    
+    Path: alterramarket/fishmarket;
+    ForceUnlockAtStart:yes;
+    UnlockedBy:salt;
+),
+(
+    ItemID: f3;
+    DisplayName: "Alterra Fish Market Hoopfish";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Hoopfish;
+    Ingredients: 
+    (
+        ItemID: coppercoin;
+        Required: 4;
+    );
+    
+    Path: alterramarket/fishmarket; 
+    ForceUnlockAtStart:yes;
+    UnlockedBy: titanium;
+),
+(
+    ItemID: f4;
+    DisplayName: "Alterra Fish Market Holefish";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Holefish;
+    Ingredients: 
+    (
+        ItemID: coppercoin;
+        Required: 4;
+    );
+    
+    Path: alterramarket/fishmarket;
+    ForceUnlockAtStart:yes;
+    UnlockedBy:acidmushroom;
+),
+(
+    ItemID: f5;
+    DisplayName: "Alterra Fish Market Hoverfish";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: hoverfish;
+    Ingredients: 
+    (
+        ItemID: coppercoin;
+        Required: 4;
+    );
+    
+    Path: alterramarket/fishmarket;
+    ForceUnlockAtStart:yes;    
+    UnlockedBy:bloodoil;
+),
+(
+    ItemID: f6;
+    DisplayName: "Alterra Fish Market Spadefish";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: spadefish;
+    Ingredients: 
+    (
+        ItemID: silvercoin;
+        Required: 3;
+    );
+    
+    Path: alterramarket/fishmarket; 
+    ForceUnlockAtStart:yes;    
+    UnlockedBy:Copper;
+),
+(
+    ItemID: f7;
+    DisplayName: "Alterra Fish Market Boomerang";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Boomerang;
+    Ingredients: 
+    (
+        ItemID: coin;
+        Required: 5;
+    );
+    
+    Path: alterramarket/fishmarket;
+    ForceUnlockAtStart:yes;    
+    UnlockedBy:crashpowder;
+),
+(
+    ItemID: f8;
+    DisplayName: "Alterra Fish Market Eyeye";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Eyeye;
+    Ingredients: 
+    (
+        ItemID: coin;
+        Required: 5;
+    );
+    
+    Path: alterramarket/fishmarket;
+    ForceUnlockAtStart:yes;    
+    UnlockedBy:creepvinepiece;
+),
+(
+    ItemID: f9;
+    DisplayName: "Alterra Fish Market Reginald";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Reginald;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required: 2;
+    );
+    
+    Path: alterramarket/fishmarket;
+    ForceUnlockAtStart:yes;     
+    UnlockedBy:creepvineseedcluster;
+),
+(
+    ItemID: f10;
+    DisplayName: "Alterra Fish Market Spinefish";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Spinefish;
+    Ingredients: 
+    (
+        ItemID: silvercoin;
+        Required: 3;
+    );
+    
+    Path: alterramarket/fishmarket; 
+     ForceUnlockAtStart:yes;     
+     UnlockedBy:Gold;
+),
+(
+    ItemID: f11;
+    DisplayName: "Alterra Fish Market Lavaboomerang";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lavaboomerang;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required: 2;
+    );
+    
+    Path: alterramarket/fishmarket;
+     ForceUnlockAtStart:yes;     
+     UnlockedBy:kyanite;
+),
+(
+    ItemID: f12;
+    DisplayName: "Alterra Fish Market Lavaeyeye";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lavaeyeye;
+    Ingredients: 
+    (
+        ItemID: silvercoin;
+        Required: 3;
+    );
+    
+    Path: alterramarket/fishmarket; 
+     ForceUnlockAtStart:yes;     
+     UnlockedBy:Lead;
+),
+(
+    ItemID: f13;
+    DisplayName: "Alterra Fish Market Bladderfish";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: Bladderfish;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required: 2;
+    );
+    
+    Path: alterramarket/fishmarket; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+),
+(
+    ItemID: f14;
+    DisplayName: "Alterra Fish Market Oculus";
+    Tooltip: "sent resources to exchange for others";
+    AmountCrafted: 0;
+    LinkedItemIDs: oculus;
+    Ingredients: 
+    (
+        ItemID: goldcoin;
+        Required:2;
+    );
+    
+    Path: alterramarket/fishmarket; 
+     ForceUnlockAtStart:yes;    
+     UnlockedBy:Magnetite;
+);
+);

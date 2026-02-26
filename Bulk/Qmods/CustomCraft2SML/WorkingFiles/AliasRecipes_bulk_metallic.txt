@@ -1,0 +1,57 @@
+AliasRecipes:
+
+(
+    ItemID: titaniumb;
+    FunctionalID: titanium;
+    DisplayName: "Bulk titanium ";
+    Tooltip: "Bulk titanium";
+    AmountCrafted: 0;
+    LinkedItemIDs: titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium,titanium;
+    Ingredients: 
+   (
+        ItemID: scrapmetal;
+        Required: 24;
+    ), 
+   (
+        ItemID: scrapmetal;
+        Required: 24;
+    ); 
+ 
+    Path: Fabricator/Bulk/bresources/bbasic;
+),
+(
+    ItemID: Plasteelb;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Bulk Plasteel ";
+    Tooltip: "Bulk Plasteel";
+    AmountCrafted: 0;
+    LinkedItemIDs: plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot;
+    Ingredients: 
+   (
+        ItemID: titaniumingot;
+        Required: 24;
+    ), 
+   (
+        ItemID: lithium;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/bbasic;
+),
+(
+    ItemID: titaniumingotb;
+    FunctionalID: titaniumingot;
+    DisplayName: "Bulk Titanium Ingot ";
+    Tooltip: "Bulk Titanium Ingot";
+    AmountCrafted: 0;
+    LinkedItemIDs: titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot;
+    Ingredients: 
+    (
+        ItemID: titanium;
+        Required: 24;
+    ),
+   (
+        ItemID: titanium;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/bbasic;
+);

@@ -1,0 +1,254 @@
+AliasRecipes:
+(
+    ItemID: oculusbc;
+    DisplayName: "Bulk oculus";
+    Tooltip: "Bulk oculus";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus,curedoculus;
+    Ingredients: 
+    (
+        ItemID: oculus;
+        Required: 24;
+    ),
+    (
+        ItemID: oculus;
+        Required:24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Peeperbc;
+    DisplayName: "Bulk Peeper";
+    Tooltip: "Bulk Peeper";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper,curedpeeper;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 24;
+    ),
+   (
+        ItemID: Peeper;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Garryfishbc;
+    DisplayName: "Bulk Garryfish";
+    Tooltip: "Bulk Garryfish";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish,curedgarryfish;
+    Ingredients: 
+    (
+        ItemID: Garryfish;
+        Required: 24;
+    ),
+    (
+        ItemID: Garryfish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Hoopfishbc;
+    DisplayName: "Bulk Hoopfish";
+    Tooltip: "Bulk Hoopfish";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish,curedhoopfish;
+    Ingredients: 
+    (
+        ItemID: Hoopfish;
+        Required: 24;
+    ),
+    (
+        ItemID: Hoopfish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Hoverfishbc;
+    DisplayName: "Bulk Hoverfish";
+    Tooltip: "Bulk Hoverfish";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish,curedhoverfish;
+    Ingredients: 
+    (
+        ItemID: Hoverfish;
+        Required: 24;
+    ),
+    (
+        ItemID: Hoverfish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Holefishbc;
+    DisplayName: "Bulk Holefish";
+    Tooltip: "Bulk Holefish";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish,curedholefish;
+    Ingredients: 
+    (
+        ItemID: Holefish;
+        Required: 24;
+    ),
+    (
+        ItemID: Holefish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Spinefishbc;
+    DisplayName: "Bulk Spinefish";
+    Tooltip: "Bulk Spinefish";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish,curedspinefish;
+    Ingredients: 
+    (
+        ItemID: Spinefish;
+        Required: 24;
+    ),
+    (
+        ItemID: Spinefish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Spadefishbc;
+    DisplayName: "Bulk Spadefish";
+    Tooltip: "Bulk Spadefish";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish,curedspadefish;
+    Ingredients: 
+    (
+        ItemID: Spadefish;
+        Required: 24;
+    ),
+   (
+        ItemID: Spadefish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Boomerangbc;
+    DisplayName: "Bulk Boomerang";
+    Tooltip: "Bulk Boomerang";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang,curedboomerang;
+    Ingredients: 
+    (
+        ItemID: Boomerang;
+        Required: 24;
+    ),
+    (
+        ItemID: Boomerang;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Eyeyebc;
+    DisplayName: "Bulk Eyeye";
+    Tooltip: "Bulk Eyeye";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye,curedeyeye;
+    Ingredients: 
+    (
+        ItemID: Eyeye;
+        Required: 24;
+    ),
+   (
+        ItemID: Eyeye;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Reginaldbc;
+    DisplayName: "Bulk Reginald";
+    Tooltip: "Bulk Reginald";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald,curedreginald;
+    Ingredients: 
+    (
+        ItemID: Reginald;
+        Required: 24;
+    ),
+    (
+        ItemID: Reginald;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Lavaboomerangbc;
+    DisplayName: "Bulk Lavaboomerang";
+    Tooltip: "Bulk Lavaboomerang";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang,curedlavaboomerang;
+    Ingredients: 
+    (
+        ItemID: Lavaboomerang;
+        Required: 24;
+    ),
+    (
+        ItemID: Lavaboomerang;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Lavaeyeyebc;
+    DisplayName: "Bulk Lavaeyeye";
+    Tooltip: "Bulk Lavaeyeye";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye,curedlavaeyeye;
+    Ingredients: 
+    (
+        ItemID: Lavaeyeye;
+        Required: 24;
+    ),
+    
+    (
+        ItemID: Lavaeyeye;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+),
+(
+    ItemID: Bladderfishbc;
+    DisplayName: "Bulk Bladderfish";
+    Tooltip: "Bulk Bladderfish";
+    AmountCrafted: 0;
+    LinkedItemIDs: curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish,curedbladderfish;
+    Ingredients: 
+    (
+        ItemID: Bladderfish;
+        Required: 24;
+    ),
+    (
+        ItemID: Bladderfish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcured;
+);

@@ -1,0 +1,254 @@
+AliasRecipes:
+(
+    ItemID: oculusb;
+    DisplayName: "Bulk oculus";
+    Tooltip: "Bulk oculus";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus,cookedoculus;
+    Ingredients: 
+    (
+        ItemID: oculus;
+        Required: 24;
+    ),
+    (
+        ItemID: oculus;
+        Required:24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Peeperb;
+    DisplayName: "Bulk Peeper";
+    Tooltip: "Bulk Peeper";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper,cookedpeeper;
+    Ingredients: 
+    (
+        ItemID: Peeper;
+        Required: 24;
+    ),
+   (
+        ItemID: Peeper;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Garryfishb;
+    DisplayName: "Bulk Garryfish";
+    Tooltip: "Bulk Garryfish";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish,cookedgarryfish;
+    Ingredients: 
+    (
+        ItemID: Garryfish;
+        Required: 24;
+    ),
+    (
+        ItemID: Garryfish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Hoopfishb;
+    DisplayName: "Bulk Hoopfish";
+    Tooltip: "Bulk Hoopfish";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish,cookedhoopfish;
+    Ingredients: 
+    (
+        ItemID: Hoopfish;
+        Required: 24;
+    ),
+    (
+        ItemID: Hoopfish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Hoverfishb;
+    DisplayName: "Bulk Hoverfish";
+    Tooltip: "Bulk Hoverfish";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish,cookedhoverfish;
+    Ingredients: 
+    (
+        ItemID: Hoverfish;
+        Required: 24;
+    ),
+    (
+        ItemID: Hoverfish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Holefishb;
+    DisplayName: "Bulk Holefish";
+    Tooltip: "Bulk Holefish";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish,cookedholefish;
+    Ingredients: 
+    (
+        ItemID: Holefish;
+        Required: 24;
+    ),
+    (
+        ItemID: Holefish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Spinefishb;
+    DisplayName: "Bulk Spinefish";
+    Tooltip: "Bulk Spinefish";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish,cookedspinefish;
+    Ingredients: 
+    (
+        ItemID: Spinefish;
+        Required: 24;
+    ),
+    (
+        ItemID: Spinefish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Spadefishb;
+    DisplayName: "Bulk Spadefish";
+    Tooltip: "Bulk Spadefish";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish,cookedspadefish;
+    Ingredients: 
+    (
+        ItemID: Spadefish;
+        Required: 24;
+    ),
+   (
+        ItemID: Spadefish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Boomerangb;
+    DisplayName: "Bulk Boomerang";
+    Tooltip: "Bulk Boomerang";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang,cookedboomerang;
+    Ingredients: 
+    (
+        ItemID: Boomerang;
+        Required: 24;
+    ),
+    (
+        ItemID: Boomerang;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Eyeyeb;
+    DisplayName: "Bulk Eyeye";
+    Tooltip: "Bulk Eyeye";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye,cookedeyeye;
+    Ingredients: 
+    (
+        ItemID: Eyeye;
+        Required: 24;
+    ),
+   (
+        ItemID: Eyeye;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Reginaldb;
+    DisplayName: "Bulk Reginald";
+    Tooltip: "Bulk Reginald";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald,cookedreginald;
+    Ingredients: 
+    (
+        ItemID: Reginald;
+        Required: 24;
+    ),
+    (
+        ItemID: Reginald;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Lavaboomerangb;
+    DisplayName: "Bulk Lavaboomerang";
+    Tooltip: "Bulk Lavaboomerang";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang,cookedlavaboomerang;
+    Ingredients: 
+    (
+        ItemID: Lavaboomerang;
+        Required: 24;
+    ),
+    (
+        ItemID: Lavaboomerang;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Lavaeyeyeb;
+    DisplayName: "Bulk Lavaeyeye";
+    Tooltip: "Bulk Lavaeyeye";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye,cookedlavaeyeye;
+    Ingredients: 
+    (
+        ItemID: Lavaeyeye;
+        Required: 24;
+    ),
+    
+    (
+        ItemID: Lavaeyeye;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+),
+(
+    ItemID: Bladderfishb;
+    DisplayName: "Bulk Bladderfish";
+    Tooltip: "Bulk Bladderfish";
+    AmountCrafted: 0;
+    LinkedItemIDs: cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish,cookedbladderfish;
+    Ingredients: 
+    (
+        ItemID: Bladderfish;
+        Required: 24;
+    ),
+    (
+        ItemID: Bladderfish;
+        Required: 24;
+    );
+    
+    Path: Fabricator/Bulk/bsustenance/bcooked;
+);

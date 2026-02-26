@@ -1,0 +1,92 @@
+AliasRecipes:
+(
+    ItemID: bbenzenejug;
+    FunctionalID: bleach;
+    DisplayName: "bulk Benzene";
+    Tooltip: "bulk Benzene";
+    AmountCrafted: 0;
+    LinkedItemIDs: benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene;
+    Ingredients: 
+    (
+        ItemID: bloodoil;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/Badvanced;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: bacidjug;
+    FunctionalID: bleach;
+    DisplayName: "bulk acid";
+    Tooltip: "bulk acid";
+    AmountCrafted: 0;
+    LinkedItemIDs: hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid;
+    Ingredients: 
+    (
+        ItemID: salt;
+        Required: 24;
+    ),
+    (
+        ItemID: whitemushroom;
+        Required: 16;
+    );
+    Path: Fabricator/Bulk/bresources/Badvanced;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: bbleachjug;
+    FunctionalID: bleach;
+    DisplayName: "bulk Bleach";
+    Tooltip: "bulk Bleach";
+    AmountCrafted: 0;
+    LinkedItemIDs: bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach;
+    Ingredients: 
+     (
+        ItemID: salt;
+        Required: 24;
+    ),
+    (
+        ItemID: coralchunk;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/bbasic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: blubricantjug;
+    FunctionalID: bleach;
+    DisplayName: "Bulk Lubricant";
+    Tooltip: "Bulk Lubricant";
+    AmountCrafted: 0;
+    LinkedItemIDs: lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant;
+    Ingredients: 
+   (
+        ItemID: creepvineseedcluster;
+        Required: 24;
+    ),
+   (
+        ItemID: creepvineseedcluster;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/bbasic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: bpolyanilinejug;
+    FunctionalID: bleach;
+    DisplayName: "Bulk polyaniline";
+    Tooltip: "Bulk polyaniline";
+    AmountCrafted: 0;
+    LinkedItemIDs: polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline;
+    Ingredients: 
+    (
+        ItemID: hydrochloricacid;
+        Required: 24;
+    ),
+    (
+        ItemID: gold;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/Badvanced;
+    ForceUnlockAtStart: YES;
+);

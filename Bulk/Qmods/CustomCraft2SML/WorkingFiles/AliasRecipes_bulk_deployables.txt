@@ -1,0 +1,62 @@
+AliasRecipes:
+
+
+(
+    ItemID: beaconb;
+    FunctionalID: beacon;
+    DisplayName: "Bulk beacon ";
+    Tooltip: "Bulk beacon";
+    AmountCrafted: 0;
+    LinkedItemIDs: beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon,beacon;
+    Ingredients: 
+   (
+        ItemID: copper;
+        Required: 24;
+    ), 
+   (
+        ItemID: titanium;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bdeployables;
+),
+(
+    ItemID: smallstorageb;
+    FunctionalID: smallstorage;
+    DisplayName: "Bulk Waterproof Locker ";
+    Tooltip: "Bulk Waterproof Locker";
+    AmountCrafted: 0;
+    LinkedItemIDs: smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage,smallstorage;
+    Ingredients: 
+   (
+        ItemID: titanium;
+        Required: 24;
+    ),
+    (
+        ItemID: titanium;
+        Required: 24;
+    ); 
+  
+    Path: Fabricator/Bulk/bdeployables;
+),
+(
+    ItemID: gravsphereb;
+    FunctionalID: gravsphere;
+    DisplayName: "Bulk Titanium Ingot ";
+    Tooltip: "Bulk Titanium Ingot";
+    AmountCrafted: 0;
+    LinkedItemIDs: gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere,gravsphere;
+    Ingredients: 
+    (
+        ItemID: battery;
+        Required: 24;
+    ),
+     (
+        ItemID: copper;
+        Required: 12;
+    ),
+    (
+        ItemID: titanium;
+        Required: 12;
+    );
+    Path: Fabricator/Bulk/bdeployables;
+),

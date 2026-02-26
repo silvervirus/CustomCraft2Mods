@@ -1,0 +1,81 @@
+AliasRecipes:
+(
+    ItemID: aerosheetsb;
+    FunctionalID:aerogel;
+    DisplayName: "Bulk aerogel ";
+    Tooltip: "Bulk aerogel";
+    AmountCrafted: 0;
+    LinkedItemIDs: aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel,aerogel;
+    Ingredients: 
+     (
+        ItemID: aluminumoxide;
+        Required: 24;
+    ),
+   (
+        ItemID: jellyplant;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/Badvanced;
+),
+(
+    ItemID: aramidb;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Bulk Aramid Fibers ";
+    Tooltip: "Bulk Aramid Fibers";
+    AmountCrafted: 0;
+    LinkedItemIDs: aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers,aramidfibers;
+    Ingredients: 
+   (
+        ItemID: benzene;
+        Required: 24;
+    ), 
+   (
+        ItemID: fibermesh;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/Badvanced;
+),
+(
+    ItemID: Glassb;
+    FunctionalID:Glass;
+    DisplayName: "Bulk Glass ";
+    Tooltip: "Bulk Glass";
+    AmountCrafted: 0;
+    LinkedItemIDs: Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass;
+    Ingredients: 
+    (
+        ItemID: quartz;
+        Required: 24;
+    ),
+    (
+        ItemID: quartz;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/bbasic;
+),
+(
+    ItemID: enameledglassb;
+    FunctionalID:enameledglass;
+    DisplayName: "Bulk Glass ";
+    Tooltip: "Bulk Glass";
+    AmountCrafted: 0;
+    LinkedItemIDs: enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass,enameledglass;
+    Ingredients: 
+    (
+        ItemID: stalkertooth;
+        Required: 24;
+    ),
+   (
+        ItemID: glass;
+        Required: 24;
+    );
+    Path: Fabricator/Bulk/bresources/Badvanced;
+);
+
+
+
+
+
+
+
+
