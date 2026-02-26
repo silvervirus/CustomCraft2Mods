@@ -1,0 +1,20 @@
+
+ModifiedRecipes:
+
+(
+    ItemID:FilteredWater; # this is so water is harder to make#
+    AmountCrafted: 1;
+    Ingredients: 
+        ( ItemID:Bladderfish; Required:2; ),
+        ( ItemID:Salt; Required:1; ),
+        ( ItemID:Titanium; Required:1; );
+       
+),
+(
+    ItemID:DisinfectedWater; # This makes it so the water costs more #
+    AmountCrafted: 2;
+    Ingredients:
+        ( ItemID:Bleach; Required:2; ), 
+        ( ItemID:Bladderfish; Required:2; ),
+        ( ItemID:Titanium; Required:2; ); 
+),
