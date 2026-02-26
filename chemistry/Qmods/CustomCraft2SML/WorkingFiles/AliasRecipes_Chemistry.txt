@@ -1,0 +1,221 @@
+AliasRecipes:  
+(
+    ItemID: WAcid;
+    DisplayName: "Weak Acid";
+    Tooltip: " Acid made from the Acid Mushrooms with Sea Water. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: acidmushroom;
+        Required: 1;
+    );
+    (
+        ItemID: filteredwater;
+        Required: 1;
+    );
+    
+    ForceUnlockAtStart: yes;
+    UnlockedBy:Acidmushroom;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: NAcid;
+    DisplayName: "Nitric Acid";
+    Tooltip: " A Salt and Weak Acid mix to create a strong Acid. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Salt;
+        Required: 3;
+    );
+    
+    ForceUnlockAtStart: yes;
+    UnlockedBy:Salt;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: DGold;
+    DisplayName: "Dissolved Gold";
+    Tooltip: "Gold that as been Dissolved in Aqua Regia ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AguaDummy;
+        Required: 1;
+    ),
+    (
+        ItemID: Gold;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: Bfilter;
+    DisplayName: "Buchner Filter Funnel";
+    Tooltip: " A Büchner funnel is a piece of laboratory equipment used in filtration. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: fibermesh;
+        Required: 2;
+    ),
+    
+    ForceUnlockAtStart: yes;
+    UnlockedBy:Fibermesh;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: RGold;
+    DisplayName: "Refined Gold";
+    Tooltip: "of refined metallic gold of any shape that is made by a bar producer meeting standard. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 3;
+    );
+    
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: TChloride;
+    DisplayName: "Titanium Chloride";
+    Tooltip: "ore of mercury. It has a bright red color that has caused people to use it as a pigment and carve it into jewelry and ornaments . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Titanium;
+        Required: 3;
+    ),
+    (
+        ItemID: Bleach;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:Copper;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: SAgent;
+    DisplayName: "Sodium Agent";
+    Tooltip: "a mixture of powdered emery and a suitable binder that can be molded into grinding wheels . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Salt;
+        Required: 1;
+    ),
+    (
+        ItemID: filteredwater;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: Rtitanium;
+    DisplayName: "Refined Titanium";
+    Tooltip: "a mixture of Titanium Chloride and a Sodium Agent that can be molded into Refined Titanium . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: SAgent;
+        Required: 1;
+    ),
+    (
+        ItemID: TChloride;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: lCloride;
+    DisplayName: "lithium chloride";
+    Tooltip: "Lithium mixed with chloride. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Lithium;
+        Required: 1;
+    ),
+    (
+        ItemID: Bleah;
+        Required: 3;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:Bleach;
+    Path: Fabricator/Seeds/olds;
+   
+),
+
+(
+    ItemID: potassium;
+    DisplayName: "potassium";
+    Tooltip: "Graphene is an allotrope (form) of carbon consisting of a single layer of carbon atoms arranged in a hexagonal lattice. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Creepvinepiece;
+        Required: 3;
+    );
+    
+    ForceUnlockAtStart: yes;
+    UnlockedBy:Creepvinepiece;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: PChloride;
+    DisplayName: "potassium chloride";
+    Tooltip: "potassim chloride  . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: bleach;
+        Required: 1;
+    ),
+    (
+        ItemID: Potassium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:Bleach;
+    Path: Fabricator/Seeds/olds;
+   
+),
+
+(
+    ItemID: RLithium;
+    DisplayName: "Refined Lithium";
+    Tooltip: "lithium Chloride and Potassium Chloride superheated to make ingot . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: PChloride;
+        Required: 1;
+    ),
+    (
+        ItemID: LChloride;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+);
+

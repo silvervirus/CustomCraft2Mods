@@ -1,0 +1,121 @@
+CustomFabricators:
+(
+    ItemID:FCModCC2;
+    Ingredients:
+        (ItemID:Titanium;Required:1;),
+        (ItemID:Gold;Required:1;),
+        (ItemID:jeweleddiskpiece;Required:1;);
+        
+    ForceUnlockAtStart:yes;
+    UnlockedBy:Copper;
+    PdaGroup:InteriorModules;
+    PdaCategory:InteriorModule;
+    DisplayName:"Color Fabricator";
+    Tooltip:"Construct A Colored Version of the original Fabricator to fit whatever color you used.";
+    Model:MoonPool;
+    ColorTint: 1, 0, 0, 1;
+    AllowedInBase:YES;
+    AllowedInCyclops:YES;
+    CustomCraftingTabs:
+        (TabID:RCC2;DisplayName:"Resources";SpriteItemID:Cyclops;ParentTabPath:FCModCC2;),
+        (TabID:SCC2;DisplayName:"Sustenance";SpriteItemID:CyclopsShieldModule;ParentTabPath:FCModCC2;),
+        (TabID:PCC2;DisplayName:"Personal";SpriteItemID:CyclopsHullModule1;ParentTabPath:FCModCC2;),
+        (TabID:DCC2;DisplayName:"Deployables";SpriteItemID:PowerUpgradeModule;ParentTabPath:FCModCC2;),
+        (TabID:BCC2;DisplayName:"Basic Materials";SpriteItemID:CyclopsThermalReactorModule;ParentTabPath:FCModCC2/RCC2;),
+        (TabID:ACC2;DisplayName:"Advanced Materials";SpriteItemID:Exosuit;ParentTabPath:FCModCC2/RCC2;),
+        (TabID:ECC2;DisplayName:"Electronics";SpriteItemID:ExoHullModule1;ParentTabPath:FCModCC2/RCC2;),
+        (TabID:WCC2;DisplayName:"Water";SpriteItemID:Seamoth;ParentTabPath:FCModCC2/SCC2;),
+        (TabID:CFCC2;DisplayName:"Cooked Food";SpriteItemID:VehicleHullModule1;ParentTabPath:FCModCC2/SCC2;),
+        (TabID:CUFCC2;DisplayName:"Cured Food";SpriteItemID:SeamothElectricalDefense;ParentTabPath:FCModCC2/SCC2;),
+        (TabID:EQCC2;DisplayName:"Equipment";SpriteItemID:VehicleArmorPlating;ParentTabPath:FCModCC2/PCC2;),
+        (TabID:TCC2;DisplayName:Tools;SpriteItemID:WhirlpoolTorpedo;ParentTabPath:FCModCC2/PCC2;);
+    MovedRecipes:
+        (ItemID:titanium;NewPath:FCModCC2/RCC2/BCC2;Copied:YES;),
+        (ItemID:titaniumingot;NewPath:FCModCC2/RCC2/BCC2;Copied:YES;),
+        (ItemID:fibermesh;NewPath:FCModCC2/RCC2/BCC2;Copied:YES;),
+        (ItemID:silicone;NewPath:FCModCC2/RCC2/BCC2;Copied:YES;),
+        (ItemID:glass;NewPath:FCModCC2/RCC2/BCC2;Copied:YES;),
+        (ItemID:bleach;NewPath:FCModCC2/RCC2/BCC2;Copied:YES;),
+        (ItemID:lubricant;NewPath:FCModCC2/RCC2/BCC2;Copied:YES;),
+        (ItemID:enameledglass;NewPath:FCModCC2/RCC2/BCC2;Copied:YES;),
+        (ItemID:plasteelingot;NewPath:FCModCC2/RCC2/BCC2;Copied:YES;),
+        (ItemID:hydrochloricacid;NewPath:FCModCC2/RCC2/ACC2;Copied:YES;),
+        (ItemID:benzene;NewPath:FCModCC2/RCC2/ACC2;Copied:YES;),
+        (ItemID:aramidfibers;NewPath:FCModCC2/RCC2/ACC2;Copied:YES;),
+        (ItemID:aerogel;NewPath:FCModCC2/RCC2/ACC2;Copied:YES;),
+        (ItemID:polyaniline;NewPath:FCModCC2/RCC2/ACC2;Copied:YES;),
+        (ItemID:copperwire;NewPath:FCModCC2/RCC2/ECC2;Copied:YES;),
+        (ItemID:battery;NewPath:FCModCC2/RCC2/ECC2;Copied:YES;),
+        (ItemID:powercell;NewPath:FCModCC2/RCC2/ECC2;Copied:YES;),
+        (ItemID:computerchip;NewPath:FCModCC2/RCC2/ECC2;Copied:YES;),
+        (ItemID:wirekit;NewPath:FCModCC2/RCC2/ECC2;Copied:YES;),
+        (ItemID:advancedwiringkit;NewPath:FCModCC2/RCC2/ECC2;Copied:YES;),
+        (ItemID:reactorrod;NewPath:FCModCC2/RCC2/ECC2;Copied:YES;),
+        (ItemID:precursorionbattery;NewPath:FCModCC2/RCC2/ECC2;Copied:YES;),
+        (ItemID:precursorionpowercell;NewPath:FCModCC2/RCC2/ECC2;Copied:YES;),
+        (ItemID:filteredwater;NewPath:FCModCC2/SCC2/WCC2;Copied:YES;),
+        (ItemID:disinfectedwater;NewPath:FCModCC2/SCC2/WCC2;Copied:YES;),
+        (ItemID:cookedholefish;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedpeeper;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedbladderfish;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedgarryfish;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedhoverfish;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedreginald;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedspadefish;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedboomerang;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedlavaboomerang;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedeyeye;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedlavaeyeye;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedoculus;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedhoopfish;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:cookedspinefish;NewPath:FCModCC2/SCC2/CFCC2;Copied:YES;),
+        (ItemID:curedholefish;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedpeeper;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedbladderfish;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedgarryfish;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedhoverfish;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedreginald;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedspadefish;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedboomerang;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedlavaboomerang;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedeyeye;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedlavaeyeye;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedoculus;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedhoopfish;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:curedspinefish;NewPath:FCModCC2/SCC2/CUFCC2;Copied:YES;),
+        (ItemID:tank;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:doubletank;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:fins;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:radiationsuit;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:reinforceddivesuit;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:stillsuit;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:firstaidkit;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:fireextinguisher;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:rebreather;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:compass;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:pipe;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:pipesurfacefloater;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:precursorkey_purple;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:precursorkey_blue;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:precursorkey_orange;NewPath:FCModCC2/PCC2/EQCC2;Copied:YES;),
+        (ItemID:scanner;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:welder;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:flashlight;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:knife;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:divereel;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:airbladder;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:flare;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:builder;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:lasercutter;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;), 
+        (ItemID:stasisrifle;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:propulsioncannon;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:ledlight;NewPath:FCModCC2/PCC2/TCC2;Copied:YES;),
+        (ItemID:seaglide;NewPath:FCModCC2/DCC2;Copied:YES;),
+        (ItemID:constructor;NewPath:FCModCC2/DCC2;Copied:YES;),
+        (ItemID:beacon;NewPath:FCModCC2/DCC2;Copied:YES;),
+        (ItemID:smallstorage;NewPath:FCModCC2/DCC2;Copied:YES;),
+        (ItemID:gravsphere;NewPath:FCModCC2/DCC2;Copied:YES;),
+        (ItemID:cyclopsdecoy;NewPath:FCModCC2/DCC2;Copied:YES;);
+        
+);
+
