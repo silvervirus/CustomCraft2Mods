@@ -1,0 +1,23 @@
+# Author:Cookie#
+#Reactor Recycling#
+AliasRecipes:
+(
+    ItemID:RReactorRodDUMMY;
+    DisplayName: "Recharged Reactor Rod";
+    Tooltip: "Reactor Rod Recharged";
+    AmountCrafted: 0;
+    LinkedItemIDs: reactorrod;
+    Ingredients: 
+    (
+       ItemID:depletedreactorrod;
+       Required: 1;
+    ),
+    
+    (
+        ItemID: uraninitecrystal;
+        Required: 3;
+    );
+    
+    Path: Fabricator/Resources/AdvancedMaterials/;
+);
+

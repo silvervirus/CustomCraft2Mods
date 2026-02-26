@@ -1,0 +1,245 @@
+AddedRecipes: 
+(
+    ItemID: PowerGlide;
+    AmountCrafted: 1;
+    Ingredients: 
+   
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: PrecursorKey_White;
+    AmountCrafted: 1;
+    Ingredients: 
+   
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: PrecursorKey_Red ;
+    AmountCrafted: 1;
+    Ingredients: 
+   
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: DevTestItem;
+    AmountCrafted: 1;
+    Ingredients: 
+   
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+
+(
+    ItemID: Transfuser;
+    AmountCrafted: 1;
+    Ingredients: 
+   
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: SmallStorage;
+    AmountCrafted: 1;
+    Ingredients: 
+   
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: DiamondBlade;
+    AmountCrafted: 1;
+    Ingredients: 
+   
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: MuyskermHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+   
+    (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: IGPHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+     (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: SpecialHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+     (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: BikemanHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+     (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: EatMyDictionHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+     (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: DioramaHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+     (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: MarkiplierHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+     (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: MuyskermHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+     (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+
+(
+    ItemID: LordMinionHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+     (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: JackSepticEyeHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+     (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+),
+(
+    ItemID: GilathissHullPlate;
+    AmountCrafted: 1;
+    Ingredients: 
+     (
+        ItemID: Titanium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/Decor;
+   
+);

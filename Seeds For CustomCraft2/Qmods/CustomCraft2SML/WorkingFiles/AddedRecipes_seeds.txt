@@ -1,0 +1,499 @@
+AddedRecipes: 
+
+
+(
+    ItemID: SpottedLeavesPlantSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/MoreSeedss;
+   
+),
+(
+    ItemID: SnakeMushroomSpore;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeedss;
+   
+),
+(
+    ItemID: PurpleBranchesSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeedss;
+   
+),
+(
+    ItemID: RedRollPlantSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeedss;
+   
+),
+(
+    ItemID: ShellGrassSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeedss;
+   
+),
+(
+    ItemID: RedConePlantSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeedss;
+   
+),
+(
+    ItemID: RedBushSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeedss;
+   
+),
+(
+    ItemID: RedBasketPlantSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeeds;
+   
+),
+(
+    ItemID: PurpleStalkSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeeds;
+   
+),
+(
+    ItemID: RedGreenTentacleSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeeds;
+   
+),
+(
+    ItemID: EyesPlantSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeeds;
+   
+),
+(
+    ItemID: OrangePetalsPlantSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeeds;
+   
+),
+(
+    ItemID: FernPalmSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeeds;
+   
+),
+(
+    ItemID: PinkFlowerSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/MoreSeeds;
+   
+),
+(
+    ItemID: MembrainTreeSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+(
+    ItemID: SeaCrownSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+(
+    ItemID: GabeSFeatherSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+(
+    ItemID: JellyPlantSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+(
+    ItemID: PurpleTentacleSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+
+(
+    ItemID: SmallFanSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+(
+    ItemID: PurpleFanSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+(
+    ItemID: BluePalmSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+(
+    ItemID: SpikePlantSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+(
+    ItemID: MelonSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+
+(
+    ItemID: PurpleRattleSpore;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Spore;
+   
+),
+(
+    ItemID: WhiteMushroomSpore;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Spore;
+   
+),
+(
+    ItemID: AcidMushroomSpore;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Spore;
+   
+),
+(
+    ItemID: PurpleVasePlantSeed;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Seed;
+   
+),
+(
+    ItemID: OrangeMushroomSpore;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:SpottedLeavesPlantSeed;
+    Path: Fabricator/Seeds/Spore;
+   
+);
+

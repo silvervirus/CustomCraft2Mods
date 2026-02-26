@@ -1,0 +1,78 @@
+CustomCraftingTabs: 
+(
+    TabID: Seeds;  # This will be the internal name for this new tab #
+    DisplayName: "Genetically Modifed Seeds";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: AcidMushroomSpore; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: Spore;  # This will be the internal name for this new tab #
+    DisplayName: "Spores";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: SnakeMushroomSpore; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/Seeds;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: Seed;  # This will be the internal name for this new tab #
+    DisplayName: "Seeds";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: MelonSeed; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/Seeds;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: MoreSeeds;  # This will be the internal name for this new tab #
+    DisplayName: "Seeds1";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: MelonSeed; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/Seeds;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: MoreSeedss;  # This will be the internal name for this new tab #
+    DisplayName: "Seeds2";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: MelonSeed; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/Seeds;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: Decors;  # This will be the internal name for this new tab #
+    DisplayName: "Decors";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: starshipsouvenir; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/Seeds;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: Decor;  # This will be the internal name for this new tab #
+    DisplayName: "Decors";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: starshipsouvenir; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/Seeds;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: old;  # This will be the internal name for this new tab #
+    DisplayName: "old";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: MercuryOre; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/Seeds;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: olds;  # This will be the internal name for this new tab #
+    DisplayName: "old";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: MercuryOre; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/Seeds;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: oldss;  # This will be the internal name for this new tab #
+    DisplayName: "old";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: MercuryOre; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/Seeds;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: Decorss;  # This will be the internal name for this new tab #
+    DisplayName: "Decors";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: starshipsouvenir; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/Seeds;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+);

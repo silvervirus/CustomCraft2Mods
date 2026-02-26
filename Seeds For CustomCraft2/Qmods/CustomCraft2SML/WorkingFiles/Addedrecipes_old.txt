@@ -1,0 +1,17 @@
+(
+    ItemID: MercuryOre;
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/oldss;
+   
+);

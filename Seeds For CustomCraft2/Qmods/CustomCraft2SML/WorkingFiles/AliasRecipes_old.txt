@@ -1,0 +1,201 @@
+AliasRecipes:  
+(
+    ItemID: Calcium;
+    DisplayName: "Calcium";
+    Tooltip: " Calcium is a mineral that is necessary for life. In addition to building bones and keeping them healthy. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: stalkertooth;
+        Required: 1;
+    );
+    
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: Magnesium;
+    DisplayName: "Magnesium";
+    Tooltip: " is required for energy production, oxidative phosphorylation, and glycolysis. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Salt;
+        Required: 3;
+    );
+    
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: Aminoacids;
+    DisplayName: "Aminoacids";
+    Tooltip: "are organic compounds that combine to form proteins ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: bloodoil;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: Zinc;
+    DisplayName: "Zinc";
+    Tooltip: " It is needed for the body's defensive (immune) system to properly work. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Copper;
+        Required: 2;
+    ),
+    (
+        ItemID: silver;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: Carbon;
+    DisplayName: "Carbon";
+    Tooltip: "is a chemical element with symbol C and atomic number 6. It is nonmetallic and tetravalent. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 3;
+    );
+    
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: MercuryOre;
+    DisplayName: "MercuryOre";
+    Tooltip: "ore of mercury. It has a bright red color that has caused people to use it as a pigment and carve it into jewelry and ornaments . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: peeper;
+        Required: 3;
+    ),
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: Emery;
+    DisplayName: "Emery";
+    Tooltip: "a mixture of powdered emery and a suitable binder that can be molded into grinding wheels . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: UraniniteCrystal;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: Flint;
+    DisplayName: "Flint";
+    Tooltip: "Flint is a hard, sedimentary cryptocrystalline form of the mineral quartz. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: AcidMushroomSpore;
+        Required: 1;
+    ),
+    (
+        ItemID: Emery;
+        Required: 3;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+
+
+(
+    ItemID: OpalGem;
+    DisplayName: "OpalGem";
+    Tooltip: "varieties that show a play of color, the other kinds of common opal include the milk opal, milky bluish to greenish . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: zinc;
+        Required: 1;
+    ),
+    (
+        ItemID: Magnesium;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: Graphene;
+    DisplayName: "Graphene";
+    Tooltip: "Graphene is an allotrope (form) of carbon consisting of a single layer of carbon atoms arranged in a hexagonal lattice. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Aminoacids;
+        Required: 3;
+    );
+    
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+),
+(
+    ItemID: Nanowires;
+    DisplayName: "Nanowires";
+    Tooltip: "can be defined as structures that have a lateral size constrained to tens of nanometers . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: Zinc;
+        Required: 1;
+    ),
+    (
+        ItemID: Copper;
+        Required: 1;
+    );
+    ForceUnlockAtStart: yes;
+    UnlockedBy:AcidMushroomSpore;
+    Path: Fabricator/Seeds/olds;
+   
+);
+

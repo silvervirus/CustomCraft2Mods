@@ -1,0 +1,17 @@
+
+ModifiedRecipes:
+ 
+ 
+(
+    ItemID: ReplenishReactorRod;
+    AmountCrafted: 1;
+    Ingredients:
+    (
+        ItemID: UraniniteCrystal;
+        Required: 2;
+    ),
+    (
+        ItemID: DepletedReactorRod;
+        Required: 1;
+    );
+);
