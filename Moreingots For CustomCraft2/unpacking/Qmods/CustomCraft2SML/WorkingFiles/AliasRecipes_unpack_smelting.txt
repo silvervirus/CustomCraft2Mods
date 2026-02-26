@@ -1,0 +1,17 @@
+AliasRecipes:
+
+(
+    ItemID: forgedScraptoIngot;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Reforged Scrap";
+    Tooltip: "Reforged Scrap";
+    AmountCrafted: 0;
+    LinkedItemIDs: TitaniumIngot;
+    Ingredients: 
+    (
+        ItemID: ScraptoIngot;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/Smeltingu;
+);

@@ -1,0 +1,31 @@
+AliasRecipes:
+(
+    ItemID: ECPCunpack;
+    FunctionalID: PowerCell;
+    DisplayName: "unpacked EnzymeChargedcell ";
+    Tooltip: "unpacked EnzymeChargedcell";
+    AmountCrafted: 0;
+    LinkedItemIDs: enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell;
+    Ingredients: 
+    (
+        ItemID: enzymepowercell;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ECBsunpack;
+    FunctionalID: Battery;
+    DisplayName: "unpacked Enzyme Charged battery ";
+    Tooltip: "unpacked Enzyme Charged";
+    AmountCrafted: 0;
+    LinkedItemIDs: enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery;
+    Ingredients: 
+    (
+        ItemID: ECBs;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+);

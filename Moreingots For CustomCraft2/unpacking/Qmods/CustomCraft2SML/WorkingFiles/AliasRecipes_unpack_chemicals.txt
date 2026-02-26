@@ -1,0 +1,76 @@
+AliasRecipes:
+(
+    ItemID: unpackbenzenejug;
+    FunctionalID: bleach;
+    DisplayName: "unpacked Benzene";
+    Tooltip: "unpacked Benzene";
+    AmountCrafted: 0;
+    LinkedItemIDs: benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene;
+    Ingredients: 
+    (
+        ItemID: benzenejug;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/chemicalu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackacidjug;
+    FunctionalID: bleach;
+    DisplayName: "unpacked acid";
+    Tooltip: "unpacked acid";
+    AmountCrafted: 0;
+    LinkedItemIDs: hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid;
+    Ingredients: 
+    (
+        ItemID: acidjug;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/chemicalu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackbleachjug;
+    FunctionalID: bleach;
+    DisplayName: "unpacked Bleach";
+    Tooltip: "unpacked Bleach";
+    AmountCrafted: 0;
+    LinkedItemIDs: bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach;
+    Ingredients: 
+    (
+        ItemID: bleachjug;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/chemicalu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpacklubricantjug;
+    FunctionalID: bleach;
+    DisplayName: "unpacked Lubricant";
+    Tooltip: "unpacked Lubricant";
+    AmountCrafted: 0;
+    LinkedItemIDs: lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant;
+    Ingredients: 
+    (
+        ItemID: lubricantjug;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/chemicalu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackpolyanilinejug;
+    FunctionalID: bleach;
+    DisplayName: "unpacked polyaniline";
+    Tooltip: "unpacked polyaniline";
+    AmountCrafted: 0;
+    LinkedItemIDs: polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline;
+    Ingredients: 
+    (
+        ItemID: polyanilinejug;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/chemicalu;
+    ForceUnlockAtStart: YES;
+);

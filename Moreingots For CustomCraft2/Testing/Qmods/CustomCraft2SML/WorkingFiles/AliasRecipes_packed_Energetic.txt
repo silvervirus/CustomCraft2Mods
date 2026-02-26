@@ -1,0 +1,97 @@
+AliasRecipes: 
+(
+    ItemID: Ioningot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Ion Cubes";
+    Tooltip: "Packed Ion Cubes";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: precursorionCrystal;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonBatterypacked;
+    DisplayName: "Packed IonBattery";
+    Tooltip: "Packed IonBattery";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: PrecursorIonBattery;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonPowerCellpacked;
+    DisplayName: "Packed IonPowerCell";
+    Tooltip: "Packed IonPowerCell";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: PrecursorIonPowerCell;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Uraniniteingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Uraninite";
+    Tooltip: "Packed Uraninite";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: uraniniteCrystal;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Magnetiteingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Magnetite";
+    Tooltip: "Packed Magnetite. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: magnetite;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: batterypack;
+    DisplayName: "Packed Battery";
+    Tooltip: "Packed Battery. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: battery;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: powercellpack;
+    DisplayName: "Packed PowerCell";
+    Tooltip: "Packed PowerCell. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: powercell;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+);

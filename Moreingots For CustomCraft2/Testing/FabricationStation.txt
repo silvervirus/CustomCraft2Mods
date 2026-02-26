@@ -1,0 +1,1954 @@
+	
+# Scur 9/23/19 - The default menu version of the Fabrication Station - update 2.1.6 - 12/15/19 #
+
+# This cc2 script uses the MovedRecipes command. Multiple mods using it WILL BREAK ALL CustomCraft2 mods on collision due to a fatal error. #
+
+
+
+
+												#  create fabrication station  #
+												
+CustomFabricators:
+(
+
+	ItemID:FabricationStation;
+	
+	Ingredients:
+		
+		(
+		ItemID:titanium;
+		Required:4;
+		),
+		
+		(
+		ItemID:copperwire;
+		Required:1;
+		),
+		
+		(
+		ItemID:jeweleddiskpiece;
+		Required:1;
+		),
+		
+		(
+		ItemID:computerchip;
+		Required:1;
+		),
+		
+		(
+		ItemID:wiringkit;
+		Required:1;
+		);
+	
+	DisplayName:"Fabrication Station";
+	
+	Tooltip:"This updated fabricator uses the newest technology to consolidate various fabrication and crafting equipment into a single station.";
+	
+	PdaGroup:InteriorModules;
+	
+	PdaCategory:InteriorModule;
+	
+	ForceUnlockAtStart:YES;
+	
+	Model:Workbench;
+	
+	AllowedInBase:YES;
+	
+	AllowedInCyclops:YES;
+	
+												# define menu tabs #	
+												
+	CustomCraftingTabs:
+	
+		# Fabricator #
+		
+			(
+			TabID:FabStationFabricator;
+			DisplayName:"Fabricator";
+			SpriteItemID:FabStationFabricator;
+			ParentTabPath:FabricationStation;
+			),
+		
+				(
+				TabID:FabStationResources;
+				DisplayName:"Resources";
+				SpriteItemID:FabStationResources;
+				ParentTabPath:FabricationStation/FabStationFabricator;
+				),
+			
+					(
+					TabID:FabStationBasicMaterials;
+					DisplayName:"Basic Materials";
+					SpriteItemID:FabStationBasicMaterials;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationResources;
+					),
+				
+					(
+					TabID:FabStationAdvancedMaterials;
+					DisplayName:"Advanced Materials";
+					SpriteItemID:FabStationAdvancedMaterials;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationResources;
+					),
+				
+					(
+					TabID:FabStationElectronics;
+					DisplayName:"Electronics";
+					SpriteItemID:FabStationElectronics;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationResources;
+					),
+				
+					(
+					TabID:FabStationBreedingCenter;
+					DisplayName:"Breeding Center";
+					SpriteItemID:FabStationBreedingCenter;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationResources;
+					),
+				
+					(
+					TabID:FabStationSaltForOreS;
+					DisplayName:"Salt for Ores";
+					SpriteItemID:FabStationSaltForOreS;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationResources;
+					),
+				
+				(
+				TabID:FabStationSustenance;
+				DisplayName:"Sustenance";
+				SpriteItemID:FabStationSustenance;
+				ParentTabPath:FabricationStation/FabStationFabricator;
+				),
+				
+					(
+					TabID:FabStationWater;
+					DisplayName:"Water";
+					SpriteItemID:FabStationWater;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationSustenance;
+					),
+				
+					(
+					TabID:FabStationCookedFish;
+					DisplayName:"Cooked Food";
+					SpriteItemID:FabStationCookedFish;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationSustenance;
+					),
+				
+					(
+					TabID:FabStationCuredFish;
+					DisplayName:"Cured Food";
+					SpriteItemID:FabStationCuredFish;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationSustenance;
+					),
+				
+					(
+					TabID:FabStationCraftedFood;
+					DisplayName:"Crafted Food";
+					SpriteItemID:FabStationCraftedFood;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationSustenance;
+					),
+			
+				(
+				TabID:FabStationPersonal;
+				DisplayName:"Personal";
+				SpriteItemID:FabStationPersonal;
+				ParentTabPath:FabricationStation/FabStationFabricator;
+				),
+			
+					(
+					TabID:FabStationEquipment;
+					DisplayName:"Equipment";
+					SpriteItemID:FabStationEquipment;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationPersonal;
+					),
+				
+					(
+					TabID:FabStationTools;
+					DisplayName:"Tools";
+					SpriteItemID:FabStationTools;
+					ParentTabPath:FabricationStation/FabStationFabricator/FabStationPersonal;
+					),
+			
+				(
+				TabID:FabStationDeployables;
+				DisplayName:"Deployables";
+				SpriteItemID:FabStationDeployables;
+				ParentTabPath:FabricationStation/FabStationFabricator;
+				),
+			
+		# Modification Station #
+			
+			(
+			TabID:FabStationModification;
+			DisplayName:"Modification Station";
+			SpriteItemID:FabStationModification;
+			ParentTabPath:FabricationStation;
+			),
+			
+				(
+				TabID:FabStationSurvivalKnife;
+				DisplayName:"Survival Knife Upgrades";
+				SpriteItemID:FabStationSurvivalKnife;
+				ParentTabPath:FabricationStation/FabStationModification;
+				),
+				
+				(
+				TabID:FabStationAirTank;
+				DisplayName:"Air Tank Upgrades";
+				SpriteItemID:FabStationAirTank;
+				ParentTabPath:FabricationStation/FabStationModification;
+				),
+				
+				(
+				TabID:FabStationFin;
+				DisplayName:"Fin Upgrades";
+				SpriteItemID:FabStationFin;
+				ParentTabPath:FabricationStation/FabStationModification;
+				),
+				
+				(
+				TabID:FabStationPropulsionCannon;
+				DisplayName:"Propulsion Cannon Upgrades";
+				SpriteItemID:FabStationPropulsionCannon;
+				ParentTabPath:FabricationStation/FabStationModification;
+				),
+				
+				(
+				TabID:FabStationCyclops;
+				DisplayName:"Cyclops Upgrades";
+				SpriteItemID:FabStationCyclops;
+				ParentTabPath:FabricationStation/FabStationModification;
+				),
+				
+				(
+				TabID:FabStationSeamoth;
+				DisplayName:"Seamoth Upgrades";
+				SpriteItemID:FabStationSeamoth;
+				ParentTabPath:FabricationStation/FabStationModification;
+				),
+				
+				(
+				TabID:FabStationPrawnSuit;
+				DisplayName:"Prawn Suit Upgrades";
+				SpriteItemID:FabStationPrawnSuit;
+				ParentTabPath:FabricationStation/FabStationModification;
+				),
+			
+		# Vehicle Upgrade Console #
+			
+			(
+			TabID:FabStationVehicleUpgradeConsole;
+			DisplayName:"Vehicle Upgrade Console";
+			SpriteItemID:FabStationVehicleUpgradeConsole;
+			ParentTabPath:FabricationStation;
+			),
+			
+				(
+				TabID:FabStationCommon;
+				DisplayName:"Common Modules";
+				SpriteItemID:FabStationCommon;
+				ParentTabPath:FabricationStation/FabStationVehicleUpgradeConsole;
+				),
+				
+				(
+				TabID:FabStationSeamoth2;
+				DisplayName:"Seamoth Modules";
+				SpriteItemID:FabStationSeamoth2;
+				ParentTabPath:FabricationStation/FabStationVehicleUpgradeConsole;
+				),
+				
+				(
+				TabID:FabStationPrawnSuit2;
+				DisplayName:"Prawn Suit Modules";
+				SpriteItemID:FabStationPrawnSuit2;
+				ParentTabPath:FabricationStation/FabStationVehicleUpgradeConsole;
+				),
+				
+				(
+				TabID:FabStationTorpedoes;
+				DisplayName:"Torpedoes";
+				SpriteItemID:FabStationTorpedoes;
+				ParentTabPath:FabricationStation/FabStationVehicleUpgradeConsole;
+				),
+			
+		# Cyclops Fabricator #
+			
+			(
+			TabID:FabStationCyclopsFabricator;
+			DisplayName:"Cyclops Fabricator";
+			SpriteItemID:FabStationCyclopsFabricator;
+			ParentTabPath:FabricationStation;
+			),
+			
+			(
+			TabID:FabStationCyclopsFabricator2;
+			DisplayName:"Cyclops Fabricator II";
+			SpriteItemID:FabStationCyclopsFabricator2;
+			ParentTabPath:FabricationStation;
+			),
+			
+		# Scanner Room Fabricator #
+			
+			(
+			TabID:FabStationScannerRoom;
+			DisplayName:"Scanner Room Modules";
+			SpriteItemID:FabStationScannerRoom;
+			ParentTabPath:FabricationStation;
+			);
+
+												#  assign recipes to tabs  #
+												
+	MovedRecipes:
+	
+		# Fabricator #
+	
+			# Resources #
+			
+				# Basic Materials #
+					
+					(
+					ItemID:titanium;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBasicMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:titaniumingot;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBasicMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:fibermesh;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBasicMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:silicone;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBasicMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:glass;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBasicMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:bleach;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBasicMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:lubricant;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBasicMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:enameledglass;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBasicMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:plasteelingot;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBasicMaterials;
+					Copied:YES;
+					),
+					
+				# Advanced Materials #
+					
+					(
+					ItemID:hydrochloricacid;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationAdvancedMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:benzene;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationAdvancedMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:aramidfibers;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationAdvancedMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:aerogel;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationAdvancedMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:polyaniline;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationAdvancedMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:hatchingenzymes;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationAdvancedMaterials;
+					Copied:YES;
+					),
+					
+					(ItemID:AlienIngot;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationAdvancedMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:AmmoniumPersulfate;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationAdvancedMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:SyntheticSilicone;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationAdvancedMaterials;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:carbonfuel;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationAdvancedMaterials;
+					Copied:YES;
+					),
+					
+				# Electronics  #
+					
+					(
+					ItemID:copperwire;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:battery;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:powercell;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:DeepBattery;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:DeepPowerCell;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:precursorionbattery;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:precursorionpowercell;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:enzymebattery;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:enzymepowercell;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:WarpBattery;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:computerchip;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:wiringkit;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:advancedwiringkit;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:reactorrod;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:RReactorRodDUMMY;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:AlienCase;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:TurbineBlade;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:TurbineGenerator;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:TurbinePole;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationElectronics;
+					Copied:YES;
+					),
+					
+				# Breeding Center #
+					
+					(
+					ItemID:StalkerEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:ShockerEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:BonesharkEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:CrabsnakeEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:CrabsquidEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:CrashEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:GasopodEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:JellyrayEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:LavaLizardEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:MesmerEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:RabbitrayEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:ReefbackEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:JumperEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:SpadefishEgg;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationBreedingCenter;
+					Copied:YES;
+					),
+					
+				# Salt For Ores #
+					
+					(
+					ItemID:Salt;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Silver;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Diamond;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Lithium;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Gold;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Kyanite;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Magnetite;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Uraninitecrystal;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Lead;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Quartz;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Copper;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:aluminumoxide;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:Sulphur;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Nickel;
+					NewPath:FabricationStation/FabStationFabricator/FabStationResources/FabStationSaltForOreS;
+					Copied:YES;
+					),
+			
+			# Sustenance #
+				
+				# Water #
+					
+					(
+					ItemID:filteredwater;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:disinfectedwater;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:BigFilteredWater;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:WaterJug;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:VeganFilteredWater;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:CustomJuice1;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:CustomJuice2;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomJuice3;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomJuice4;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomJuice5;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:CustomJuice6;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomJuice7;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomJuice8;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:Brawndo;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:Brawndo6Pack;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationWater;
+					Copied:YES;
+					),
+					
+				# Cooked Food #
+					
+					(
+					ItemID:cookedholefish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedpeeper;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedbladderfish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedgarryfish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedhoverfish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedreginald;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedspadefish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedboomerang;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedlavaboomerang;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedeyeye;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedlavaeyeye;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedoculus;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedhoopfish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:cookedspinefish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCookedFish;
+					Copied:YES;
+					),
+					
+				# Cured Food #
+					
+					(
+					ItemID:curedholefish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedpeeper;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedbladderfish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedgarryfish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedhoverfish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedreginald;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedspadefish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedboomerang;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedlavaboomerang;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedeyeye;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedlavaeyeye;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedoculus;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedhoopfish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:curedspinefish;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCuredFish;
+					Copied:YES;
+					),
+					
+				# Crafted Food #
+					
+					(
+					ItemID:ReggieBar;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:EFAcan;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:Peeperburger;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:EFA1;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:EFA2;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:EFA3;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:NutrientBlock;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomCake1;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomCake2;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomCake3;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomCake4;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomCake5;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomCake6;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomCake7;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CustomCake8;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:VeggieBlock;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:FishCake;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:CrabCake;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Bread;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+
+					(
+					ItemID:Breaddough;
+					NewPath:FabricationStation/FabStationFabricator/FabStationSustenance/FabStationCraftedFood;
+					Copied:YES;
+					),
+				
+			# Personal #
+				
+				# Equipment #
+					
+					(
+					ItemID:tank;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:doubletank;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:fins;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:radiationsuit;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:reinforceddivesuit;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:reinforcedsuit2;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:reinforcedsuit3;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:stillsuit;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:reinforcedstillsuit;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:firstaidkit;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:fireextinguisher;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:rebreather;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:compass;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:pipe;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:pipesurfacefloater;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:precursorkey_purple;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:precursorkey_blue;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:precursorkey_orange;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:TankRefill;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:DoubleTankRefill;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:PlasteelTankRefill;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:HighCapacityTankRefill;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationEquipment;
+					Copied:YES;
+					),
+				
+				# Tools #
+					
+					(
+					ItemID:scanner;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:welder;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:flashlight;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:knife;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:divereel;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:airbladder;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:flare;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:builder;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:lasercutter;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:stasisrifle;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:propulsioncannon;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:ledlight;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:ancientsword;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:alienrifle;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:techpistol;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+					
+					(
+					ItemID:BeckonCall;
+					NewPath:FabricationStation/FabStationFabricator/FabStationPersonal/FabStationTools;
+					Copied:YES;
+					),
+				
+			# Deployables #
+				
+				(
+				ItemID:seaglide;
+				NewPath:FabricationStation/FabStationFabricator/FabStationDeployables;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:constructor;
+				NewPath:FabricationStation/FabStationFabricator/FabStationDeployables;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:beacon;
+				NewPath:FabricationStation/FabStationFabricator/FabStationDeployables;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:smallstorage;
+				NewPath:FabricationStation/FabStationFabricator/FabStationDeployables;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:gravsphere;
+				NewPath:FabricationStation/FabStationFabricator/FabStationDeployables;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:cyclopsdecoy;
+				NewPath:FabricationStation/FabStationFabricator/FabStationDeployables;
+				Copied:YES;
+				),
+		
+		# Modification Station #
+		
+			# Survival Knife Upgrades #
+			
+				(
+				ItemID:heatblade;
+				NewPath:FabricationStation/FabStationModification/FabStationSurvivalKnife;
+				Copied:YES;
+				),
+			
+			# Air Tank Upgrades #
+				
+				(
+				ItemID:plasteeltank;
+				NewPath:FabricationStation/FabStationModification/FabStationAirTank;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:highcapacitytank;
+				NewPath:FabricationStation/FabStationModification/FabStationAirTank;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:photosynthesissmalltank;
+				NewPath:FabricationStation/FabStationModification/FabStationAirTank;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:photosynthesistank;
+				NewPath:FabricationStation/FabStationModification/FabStationAirTank;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:chemosynthesistank;
+				NewPath:FabricationStation/FabStationModification/FabStationAirTank;
+				Copied:YES;
+				),
+				
+			# Fin Upgrades #
+				
+				(
+				ItemID:ultraglidefins;
+				NewPath:FabricationStation/FabStationModification/FabStationFin;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:swimchargefins;
+				NewPath:FabricationStation/FabStationModification/FabStationFin;
+				Copied:YES;
+				),
+				
+			# Propulsion Cannon Upgrades #
+				
+				(
+				ItemID:repulsioncannon;
+				NewPath:FabricationStation/FabStationModification/FabStationPropulsionCannon;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:WarpCannon;
+				NewPath:FabricationStation/FabStationModification/FabStationPropulsionCannon;
+				Copied:YES;
+				),
+				
+			# Cyclops Upgrades #
+				
+				(
+				ItemID:cyclopshullmodule2;
+				NewPath:FabricationStation/FabStationModification/FabStationCyclops/;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:cyclopshullmodule3;
+				NewPath:FabricationStation/FabStationModification/FabStationCyclops;
+				Copied:YES;
+				),
+				
+			# Seamoth Upgrades #
+				
+				(
+				ItemID:vehiclehullmodule2;
+				NewPath:FabricationStation/FabStationModification/FabStationSeamoth;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:vehiclehullmodule3;
+				NewPath:FabricationStation/FabStationModification/FabStationSeamoth;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothHullModule4;
+				NewPath:FabricationStation/FabStationModification/FabStationSeamoth;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothHullModule5;
+				NewPath:FabricationStation/FabStationModification/FabStationSeamoth;
+				Copied:YES;
+				),
+				
+			# Prawn Suit Upgrades #
+				
+				(
+				ItemID:exohullmodule2;
+				NewPath:FabricationStation/FabStationModification/FabStationPrawnSuit;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:GrapplingArmUpgradeModule;
+				NewPath:FabricationStation/FabStationModification/FabStationPrawnSuit;
+				Copied:YES;
+				),
+				
+		# Vehicle Upgrade Console #
+		
+			# Common Modules #
+				
+				(
+				ItemID:vehiclearmorplating;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationCommon;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:vehiclepowerupgrademodule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationCommon;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:vehiclestoragemodule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationCommon;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:RepairModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationCommon;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:ScannerModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationCommon;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SpeedModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationCommon;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:UCModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationCommon;
+				Copied:YES;
+				),
+				
+			# Seamoth Modules #
+				
+				(
+				ItemID:vehiclehullmodule1;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:seamothsolarcharge;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:seamothelectricaldefense;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:seamothtorpedomodule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:seamothsonarmodule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothClawModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothDrillModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothThermalModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothEnergyShield;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SpeedBooster;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:ScannerModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:RepairModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:LaserCannon;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothFlightModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothManeuveringJetsModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothLifeSupportModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothBeckonCallModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:BuilderModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothDrillArmModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothClawArmModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothGrapplingArmModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothPropulsionArmModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:SeamothTorpedoArmModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationSeamoth2;
+				Copied:YES;
+				),
+				
+			# Prawn Suit Modules #
+				
+				(
+				ItemID:exohullmodule1;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:exosuitthermalreactormodule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:exosuitjetupgrademodule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:exosuitpropulsionarmmodule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:exosuitgrapplingarmmodule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:exosuitdrillarmmodule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:exosuittorpedoarmmodule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:ExosuitPlasmaCannonArmModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:ExosuitRepulsionCannonArmModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:PrawnThrustersOptimizer;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:PrawnSonarModule;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationPrawnSuit2;
+				Copied:YES;
+				),
+				
+			# Torpedoes #
+				
+				(
+				ItemID:whirlpooltorpedo;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationTorpedoes;
+				Copied:YES;
+				),
+				(
+				ItemID:gastorpedo;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationTorpedoes;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:StandardTorpedo;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationTorpedoes;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:StandardHomingTorpedo;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationTorpedoes;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:NuclearTorpedo;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationTorpedoes;
+				Copied:YES;
+				),
+				
+				(
+				ItemID:NuclearHomingTorpedo;
+				NewPath:FabricationStation/FabStationVehicleUpgradeConsole/FabStationTorpedoes;
+				Copied:YES;
+				),
+			
+		# Cyclops Upgrade Fabricator #
+			
+			(
+			ItemID:cyclopshullmodule1;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:powerupgrademodule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:PowerUpgradeModuleMk2;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:PowerUpgradeModuleMk3;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:cyclopsshieldmodule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:cyclopssonarmodule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:cyclopsseamothrepairmodule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:cyclopsfiresuppressionmodule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:cyclopsthermalreactormodule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyclopsThermalChargerMk2;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:cyclopsdecoymodule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator;
+			Copied:YES;
+			),
+			
+		# Cyclops Upgrade Fabricator II#
+			
+			(
+			ItemID:CyclopsSolarCharger;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyclopsSolarChargerMk2;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:BioReactorBooster;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyNukeUpgrade1;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyNukeUpgrade2;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyclopsNuclearModule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyclopsZapperModule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyclopsZapperModuleMk2;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyclopsAntiLarvaModule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyclopsSpeedModule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyclopsLaserCannonModule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:CyclopsFlightModule;
+			NewPath:FabricationStation/FabStationCyclopsFabricator2;
+			Copied:YES;
+			),
+			
+		# Scanner Room Modules #
+			
+			(
+			ItemID:maproomhudchip;
+			NewPath:FabricationStation/FabStationScannerRoom;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:maproomcamera;
+			NewPath:FabricationStation/FabStationScannerRoom;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:maproomupgradescanrange;
+			NewPath:FabricationStation/FabStationScannerRoom;
+			Copied:YES;
+			),
+			
+			(
+			ItemID:maproomupgradescanspeed;
+			NewPath:FabricationStation/FabStationScannerRoom;
+			Copied:YES;
+			);
+			 
+			 
+);		 

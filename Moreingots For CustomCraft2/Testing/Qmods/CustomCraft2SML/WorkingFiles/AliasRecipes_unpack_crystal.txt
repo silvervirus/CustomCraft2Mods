@@ -1,0 +1,91 @@
+AliasRecipes:
+(
+    ItemID: Glass;
+    FunctionalID:Glass;
+    DisplayName: "unpacked Glass ";
+    Tooltip: "unpacked Glass";
+    AmountCrafted: 0;
+    LinkedItemIDs: Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass,Glass;
+    Ingredients: 
+    (
+        ItemID: Glassingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/crystalu;
+),
+(
+    ItemID: Ruby;
+    FunctionalID:aluminumoxide;
+    DisplayName: "unpacked Ruby ";
+    Tooltip: "unpacked Ruby";
+    AmountCrafted: 0;
+    LinkedItemIDs: aluminumoxide ,aluminumoxide ,aluminumoxide ,aluminumoxide ,aluminumoxide ,aluminumoxide ,aluminumoxide ,aluminumoxide ,aluminumoxide ,aluminumoxide;
+    Ingredients: 
+    (
+        ItemID: Rubyingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/crystalu;
+),
+(
+    ItemID: Salt;
+    FunctionalID: salt;
+    DisplayName: "unpacked Salt";
+    Tooltip: "unpacked Salt";
+    AmountCrafted: 0;
+    LinkedItemIDs: salt,salt, salt,salt,salt,salt,salt,salt,salt,salt;
+    Ingredients: 
+    (
+        ItemID: Saltlick;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/crystalu;
+),
+
+(
+    ItemID: Kyanite;
+    FunctionalID: kyanite;
+    DisplayName: "unpacked Kyanite ";
+    Tooltip: "unpacked Kyanite";
+    AmountCrafted: 0;
+    LinkedItemIDs: Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite,Kyanite;
+    Ingredients: 
+    (
+        ItemID: Kyaniteingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/crystalu;
+),
+(
+    ItemID: Quartz;
+    FunctionalID: Quartz;
+    DisplayName: "unpacked Quartz ";
+    Tooltip: "unpacked Quartz";
+    AmountCrafted: 0;
+    LinkedItemIDs: Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz,Quartz;
+    Ingredients: 
+    (
+        ItemID: Quartzingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/crystalu;
+),
+
+
+
+(
+    ItemID: Diamond;
+    FunctionalID: Diamond;
+    DisplayName: "unpacked Diamonds";
+    Tooltip: "unpacked Diamonds.";
+    # There is literaly no way for the crafting system to detect if a tool still has a battery inside it or not. #
+    # If you want to keep that battery, you have to remember to remove it from the Laser Cutter before recycling it. #
+    AmountCrafted: 0;
+    LinkedItemIDs: Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond,Diamond;
+    Ingredients: 
+    (
+        ItemID: Diamondingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/crystalu;
+);

@@ -1,0 +1,31 @@
+AliasRecipes:
+(
+    ItemID: DeepPowerCellunpack;
+    FunctionalID: PowerCell;
+    DisplayName: "unpacked deeppowercell ";
+    Tooltip: "unpacked deeppowercell";
+    AmountCrafted: 0;
+    LinkedItemIDs: DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell;
+    Ingredients: 
+    (
+        ItemID: DeepPowerCellpack;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Deepbatteryunpack;
+    FunctionalID: Battery;
+    DisplayName: "unpacked deepbattery ";
+    Tooltip: "unpacked deepbattery";
+    AmountCrafted: 0;
+    LinkedItemIDs: DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery;
+    Ingredients: 
+    (
+        ItemID: Deepbatterypack;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+);

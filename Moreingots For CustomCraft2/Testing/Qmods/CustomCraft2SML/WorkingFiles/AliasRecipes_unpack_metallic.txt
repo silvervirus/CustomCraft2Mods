@@ -1,0 +1,134 @@
+AliasRecipes:
+(
+    ItemID: Lead;
+    FunctionalID: Lead;
+    DisplayName: "unpacked Lead";
+    Tooltip: "unpacked Lead";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead;
+    Ingredients: 
+    (
+        ItemID: Leadingot;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: UnpackedTitanium;
+    FunctionalID: Titanium;
+    DisplayName: "Unpacked Titanium";
+    Tooltip: "Unpacked Titanium";
+    AmountCrafted: 0;
+    LinkedItemIDs: Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium;
+    Ingredients: 
+    (
+        ItemID: titaniumingot;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Silver;
+    FunctionalID: Silver;
+    DisplayName: "Unpacked Silver";
+    Tooltip: "Unpacked Silver";
+    AmountCrafted: 0;
+    LinkedItemIDs: Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver;
+    Ingredients: 
+    (
+        ItemID: Silveringot;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Nickel;
+    FunctionalID: Nickel;
+    DisplayName: "Unpacked Nickel";
+    Tooltip: "Unpacked Nickel";
+    AmountCrafted: 0;
+    LinkedItemIDs: Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel;
+    Ingredients: 
+    (
+        ItemID: Nickelingot;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+
+(
+    ItemID: unpacked;
+    FunctionalID: Copper;
+    DisplayName: "unpacked Copper";
+    Tooltip: "unpacked Copper";
+    AmountCrafted: 0;
+    LinkedItemIDs: Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper;
+    Ingredients: 
+    (
+        ItemID: Copperingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+
+(
+    ItemID: Lithium;
+    FunctionalID: Lithium;
+    DisplayName: "unpacked Lithium ";
+    Tooltip: "unpacked Lithium";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lithium ,Lithium,Lithium ,Lithium ,Lithium ,Lithium ,Lithium ,Lithium ,Lithium ,Lithium;
+    Ingredients: 
+    (
+        ItemID: Lithiumingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Gold;
+    FunctionalID: Gold;
+    DisplayName: "unpacked Gold ";
+    Tooltip: "unpacked Gold";
+    AmountCrafted: 0;
+    LinkedItemIDs: Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold;
+    Ingredients: 
+    (
+        ItemID: Goldingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+
+(
+    ItemID: Plasteel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "unpacked Plasteel ";
+    Tooltip: "unpacked Plasteel";
+    AmountCrafted: 0;
+    LinkedItemIDs: plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot;
+    Ingredients: 
+    (
+        ItemID: Plasteelpacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: emergencysupplies;
+    DisplayName: "alterra Emergency Supplies ";
+    Tooltip: "alterra Emergency Supplies";
+    AmountCrafted: 0;
+    LinkedItemIDs: Titaniumingot,Titaniumingot,Copper,Copper,batterypack,filteredwater,filteredwater,nutrientblock,nutrientblock,flare;
+    Ingredients: 
+    (
+        ItemID: Coin;
+        Required: 15;
+    );
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+    ForceUnlockAtStart: YES;
+);

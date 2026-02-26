@@ -1,0 +1,121 @@
+AliasRecipes: 
+(
+    ItemID: stalkertoothunpacked;
+    FunctionalID: stalkertooth;
+    DisplayName: "unpacked stalkertooth";
+    Tooltip: "unpacked stalkertooth";
+    AmountCrafted: 0;
+    LinkedItemIDs: stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth,stalkertooth;
+    Ingredients: 
+    (
+        ItemID: stakeringot;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/unpacked/natureu;
+),
+(
+    ItemID: acidmushroomunpacked;
+    FunctionalID: acidmushroom;
+    DisplayName: "unpacked acidmushroom";
+    Tooltip: "unpacked acidmushroom";
+    AmountCrafted: 0;
+    LinkedItemIDs: acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom,acidmushroom;
+    Ingredients: 
+    (
+        ItemID: acidmushroomingot;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/unpacked/natureu;
+),
+(
+    ItemID: coralchunkunpacked;
+    FunctionalID: coralchunk;
+    DisplayName: "unpacked coralchunk";
+    Tooltip: "unpacked coralchunk";
+    AmountCrafted: 0;
+    LinkedItemIDs: coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk,coralchunk;
+    Ingredients: 
+    (
+        ItemID: coralingot;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/unpacked/natureu;
+),
+(
+    ItemID: jeweleddiskpieceunpacked;
+    FunctionalID: jeweleddiskpiece;
+    DisplayName: "unpacked jeweleddiskpiece";
+    Tooltip: "unpacked jeweleddiskpiece";
+    AmountCrafted: 0;
+    LinkedItemIDs: jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece,jeweleddiskpiece;
+    Ingredients: 
+    (
+        ItemID: tablechoralingot;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/unpacked/natureu;
+),
+(
+    ItemID: creepvinepieceunpacked;
+    FunctionalID: creepvinepiece;
+    DisplayName: "unpacked creepvinepiece";
+    Tooltip: "unpacked creepvinepiece";
+    AmountCrafted: 0;
+    LinkedItemIDs: creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece,creepvinepiece;
+    Ingredients: 
+    (
+        ItemID: creepvinedisk;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/unpacked/natureu;
+),
+(
+    ItemID: creepvineseedclusterunpacked;
+    FunctionalID: creepvineseedcluster;
+    DisplayName: "unpacked creepvineseedcluster";
+    Tooltip: "unpacked creepvineseedcluster";
+    AmountCrafted: 0;
+    LinkedItemIDs: creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster,creepvineseedcluster;
+    Ingredients: 
+    (
+        ItemID: seeddisk;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/unpacked/natureu;
+),
+(
+    ItemID: whitemushroomunpacked;
+    FunctionalID: whitemushroom;
+    DisplayName: "unpacked whitemushroom";
+    Tooltip: "unpacked whitemushroom";
+    AmountCrafted: 0;
+    LinkedItemIDs: whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom,whitemushroom;
+    Ingredients: 
+    (
+        ItemID: whitemushroomingots;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/unpacked/natureu;
+),
+(
+    ItemID: jellyplantunpacked;
+    FunctionalID: jellyplant;
+    DisplayName: "unpacked jellyplant";
+    Tooltip: "unpacked jellyplant";
+    AmountCrafted: 0;
+    LinkedItemIDs: jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant,jellyplant;
+    Ingredients: 
+    (
+        ItemID: whitemushroomingots;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/unpacked/natureu;
+);

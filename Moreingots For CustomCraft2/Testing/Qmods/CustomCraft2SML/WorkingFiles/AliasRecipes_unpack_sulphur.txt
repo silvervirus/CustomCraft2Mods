@@ -1,0 +1,34 @@
+AliasRecipes:
+(
+    ItemID: unCompressedSulphur1;
+    FunctionalID: Crashpowder;
+    DisplayName: "Unpacked crashpowder";
+    Tooltip: "Unpacked crashpowder";
+    AmountCrafted: 0;
+    LinkedItemIDs: CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder;
+    Ingredients: 
+    (
+        ItemID: CompressedSulphur1;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/Sulphuru;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unCompressedSulphur2;
+    FunctionalID: Sulphur;
+    DisplayName: "Unpacked Sulphur";
+    Tooltip: "Unpacked Sulphur";
+    AmountCrafted: 0;
+    LinkedItemIDs: Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur;
+    Ingredients: 
+    (
+        ItemID: CompressedSulphur2;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/Sulphuru;
+    ForceUnlockAtStart: YES;
+);
+

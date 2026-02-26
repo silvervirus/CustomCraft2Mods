@@ -1,0 +1,108 @@
+AliasRecipes:
+
+(
+    ItemID: precursorioncrystal;
+    FunctionalID: precursorioncrystal;
+    DisplayName: "unpacked ion cubes ";
+    Tooltip: "unpacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal,precursorioncrystal;
+    Ingredients: 
+    (
+        ItemID: ioningot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: PrecursorIonBattery;
+    FunctionalID: PrecursorIonBattery;
+    DisplayName: "unpacked ion cubes ";
+    Tooltip: "unpacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery,PrecursorIonBattery;
+    Ingredients: 
+    (
+        ItemID: IonBatterypacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: PrecursorIonPowerCell;
+    FunctionalID: PrecursorIonPowerCell;
+    DisplayName: "unpacked ion cubes ";
+    Tooltip: "unpacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell,PrecursorIonPowerCell;
+    Ingredients: 
+    (
+        ItemID: IonPowerCellpacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackeduraninite;
+    FunctionalID: uraninitecrystal;
+    DisplayName: "unpack uraninite";
+    Tooltip: "unpack uraninite";
+    AmountCrafted: 0;
+    LinkedItemIDs: uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal,uraninitecrystal;
+    Ingredients: 
+    (
+        ItemID: uraniniteingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: powercell;
+    FunctionalID: powercell;
+    DisplayName: "unpacked power cell ";
+    Tooltip: "unpacked power cell";
+    AmountCrafted: 0;
+    LinkedItemIDs: powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell,powercell;
+    Ingredients: 
+    (
+        ItemID: powercellpack;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: battery;
+    FunctionalID: battery;
+    DisplayName: "unpacked battery ";
+    Tooltip: "unpacked battery";
+    AmountCrafted: 0;
+    LinkedItemIDs: battery,battery,battery,battery,battery,battery,battery,battery,battery,battery;
+    Ingredients: 
+    (
+        ItemID: batterypack;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: Magnetite;
+    FunctionalID: Magnetite;
+    DisplayName: "unpacked Magnetite";
+    Tooltip: "unpacked Magnetite";
+    AmountCrafted: 0;
+    LinkedItemIDs: Magnetite ,Magnetite ,Magnetite ,Magnetite ,Magnetite ,Magnetite ,Magnetite ,Magnetite ,Magnetite ,Magnetite;
+    Ingredients: 
+    (
+        ItemID: Magnetiteingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+),

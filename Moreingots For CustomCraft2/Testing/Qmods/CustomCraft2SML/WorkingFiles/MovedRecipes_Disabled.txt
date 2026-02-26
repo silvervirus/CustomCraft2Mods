@@ -1,0 +1,7 @@
+MovedRecipes:
+( 
+  ItemID: TitaniumIngot;
+  OldPath: Fabricator/Resources/BasicMaterials;
+  NewPath: Fabricator/MoreIngots/packed/metallic;
+  
+); 
