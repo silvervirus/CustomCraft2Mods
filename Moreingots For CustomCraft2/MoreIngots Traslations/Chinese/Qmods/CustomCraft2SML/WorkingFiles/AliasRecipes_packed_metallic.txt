@@ -1,0 +1,118 @@
+﻿AliasRecipes: 
+
+
+
+(
+    ItemID: Copperingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装铜";
+    Tooltip: "包装铜. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Copper;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Coin;
+    DisplayName: "Alterra硬币";
+    Tooltip: "Alterra硬币. ";
+    AmountCrafted: 5;
+    Ingredients: 
+    ( 
+        ItemID: Copper;
+        Required: 5;
+    );
+    Path: Fabricator/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Nickelingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装镍";
+    Tooltip: "包装镍. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Nickel;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Silveringot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装银";
+    Tooltip: "包装银. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Silver;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Lithiumingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装锂";
+    Tooltip: "包装锂. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Lithium;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Goldingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装黄金";
+    Tooltip: "包装黄金. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Gold;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Leadingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装铅";
+    Tooltip: "包装铅. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Lead;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Plasteelpacked;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装的Plasteel";
+    Tooltip: "包装的Plasteel. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: plasteelingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/metallic;
+    ForceUnlockAtStart: YES;
+);
+
+
+

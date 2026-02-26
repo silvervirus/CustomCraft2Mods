@@ -1,0 +1,91 @@
+CustomSizes:
+(
+  ItemID:Uraninitestacked; 
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:MagnetiteStacked;
+     Width: 2;
+    Height: 2;
+),
+(
+ ItemID:Diamondstacked;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:KyaniteStacked;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:PlasteelStacked;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:Saltstacked;
+     Width: 3;
+    Height: 3;
+),
+(
+  ItemID:stackedSulphur2;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:stackedSulphur1;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:stackedRuby;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:stackedQuartz;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:stackedLead;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:stackedGold;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:stackedLithium;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:stackedSilver;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:stackedNickel;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:stackedCopper;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:stackedTitanium;
+     Width: 2;
+    Height: 2;
+),
+(
+  ItemID:ionstacked;
+     Width: 2;
+    Height: 2;
+);

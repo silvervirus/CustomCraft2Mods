@@ -1,0 +1,30 @@
+﻿AliasRecipes: 
+
+(
+    ItemID: CompressedSulphur1;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装洞穴硫磺";
+    Tooltip: "包装洞穴硫磺. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: CrashPowder;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/Sulphur;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: CompressedSulphur2;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装硫磺";
+    Tooltip: "包装硫磺. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Sulphur;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/Sulphur;
+    ForceUnlockAtStart: YES;
+);

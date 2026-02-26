@@ -1,0 +1,34 @@
+﻿AliasRecipes:
+(
+    ItemID: unCompressedSulphur1;
+    FunctionalID: Crashpowder;
+    DisplayName: "解包后的崩溃粉末";
+    Tooltip: "解包后的崩溃粉末";
+    AmountCrafted: 0;
+    LinkedItemIDs: CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder;
+    Ingredients: 
+    (
+        ItemID: CompressedSulphur1;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/Sulphuru;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unCompressedSulphur2;
+    FunctionalID: Sulphur;
+    DisplayName: "未包装的硫磺";
+    Tooltip: "未包装的硫磺";
+    AmountCrafted: 0;
+    LinkedItemIDs: Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur;
+    Ingredients: 
+    (
+        ItemID: CompressedSulphur2;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/Sulphuru;
+    ForceUnlockAtStart: YES;
+);
+

@@ -1,0 +1,31 @@
+﻿AliasRecipes:
+(
+    ItemID: DeepPowerCellunpack;
+    FunctionalID: PowerCell;
+    DisplayName: "拆开深度电池 ";
+    Tooltip: "拆开深度电池";
+    AmountCrafted: 0;
+    LinkedItemIDs: DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell,DeepPowerCell;
+    Ingredients: 
+    (
+        ItemID: DeepPowerCellpack;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Deepbatteryunpack;
+    FunctionalID: Battery;
+    DisplayName: "打开深层电池 ";
+    Tooltip: "打开深层电池";
+    AmountCrafted: 0;
+    LinkedItemIDs: DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery,DeepBattery;
+    Ingredients: 
+    (
+        ItemID: Deepbatterypack;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/energeticu;
+    ForceUnlockAtStart: YES;
+);

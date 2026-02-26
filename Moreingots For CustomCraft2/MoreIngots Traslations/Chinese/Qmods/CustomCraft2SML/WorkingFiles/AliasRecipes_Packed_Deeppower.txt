@@ -1,0 +1,27 @@
+﻿AliasRecipes: 
+(
+    ItemID: Deepbatterypack;
+    DisplayName: "包装深电池";
+    Tooltip: "Packed DeepBattery. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: DeepBattery;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: DeepPowerCellpack;
+    DisplayName: "包装深度电池";
+    Tooltip: "Packed DeepPowerCell. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: DeepPowerCell;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+);

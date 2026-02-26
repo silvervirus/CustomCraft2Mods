@@ -1,0 +1,97 @@
+﻿AliasRecipes: 
+(
+    ItemID: Ioningot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "填充离子立方体";
+    Tooltip: "填充离子立方体";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: precursorionCrystal;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonBatterypacked;
+    DisplayName: "盒装离子电池";
+    Tooltip: "盒装离子电池";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: PrecursorIonBattery;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: IonPowerCellpacked;
+    DisplayName: "盒装离子电池";
+    Tooltip: "盒装离子电池";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: PrecursorIonPowerCell;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Uraniniteingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装的铀矿";
+    Tooltip: "包装的铀矿";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: uraniniteCrystal;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Magnetiteingot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "包装磁铁矿";
+    Tooltip: "包装磁铁矿. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: magnetite;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: batterypack;
+    DisplayName: "包装电池";
+    Tooltip: "包装电池. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: battery;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: powercellpack;
+    DisplayName: "包装电池";
+    Tooltip: "包装电池. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: powercell;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+);

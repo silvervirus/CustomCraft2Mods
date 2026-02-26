@@ -1,0 +1,254 @@
+﻿AliasRecipes: 
+(
+    ItemID: Uraninitestacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积的Uraninite";
+    Tooltip: "堆积的Uraninite";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Uraniniteingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: MagnetiteStacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积的磁铁矿";
+    Tooltip: "堆积的磁铁矿. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Magnetiteingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Diamondstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆叠钻石“";
+    Tooltip: "堆叠钻石“. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Diamondingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+     ForceUnlockAtStart: YES;
+),
+(
+    ItemID: KyaniteStacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积的蓝晶石";
+    Tooltip: "堆积的蓝晶石. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Kyaniteingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: PlasteelStacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积的Plasteel";
+    Tooltip: "堆积的Plasteel. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Plasteelstacked;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Saltstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积盐";
+    Tooltip: "堆积盐. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Saltlick;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedSulphur2;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积硫磺";
+    Tooltip: "堆积硫磺. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: CompressedSulphur2;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/sSulphur;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedSulphur1;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积的洞穴硫磺";
+    Tooltip: "堆积的洞穴硫磺. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: CompressedSulphur1;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/sSulphur;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: stackedRuby;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆叠的Ruby";
+    Tooltip: "堆叠的Ruby. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Rubyingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedQuartz;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆叠石英";
+    Tooltip: "堆叠石英. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Quartzingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedLead;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆叠的铅";
+    Tooltip: "堆叠的铅. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Leadingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedGold;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积金";
+    Tooltip: "堆积金. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Goldingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedLithium;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积的锂";
+    Tooltip: "堆积的锂. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Lithiumingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedSilver;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积银";
+    Tooltip: "堆积银. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Silveringot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedNickel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积镍";
+    Tooltip: "堆积镍. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Nickelingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedCopper;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积铜";
+    Tooltip: "堆积铜. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Copperingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedTitanium ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆叠钛 ";
+    Tooltip: "堆叠钛 . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: titaniumingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ionstacked ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "堆积的离子 ";
+    Tooltip: "堆积的离子 . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Ioningot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+);

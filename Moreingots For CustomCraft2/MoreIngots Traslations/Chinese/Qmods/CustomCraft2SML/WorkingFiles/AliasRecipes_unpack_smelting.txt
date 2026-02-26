@@ -1,0 +1,17 @@
+﻿AliasRecipes:
+
+(
+    ItemID: forgedScraptoIngot;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "重铸废料";
+    Tooltip: "重铸废料";
+    AmountCrafted: 0;
+    LinkedItemIDs: Titaniumingot;
+    Ingredients: 
+    (
+        ItemID: ScraptoIngot;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/Smeltingu;
+);

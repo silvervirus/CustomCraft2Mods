@@ -1,0 +1,16 @@
+﻿AliasRecipes: 
+
+
+(
+    ItemID: GallonWater;
+    DisplayName: "水壶 -  1加仑";
+    Tooltip: "大水壶。用于存储大量水，但不能用于消费";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+        ItemID: DisinfectedWater;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/water;
+    ForceUnlockAtStart: YES;
+);

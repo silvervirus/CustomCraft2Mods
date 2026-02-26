@@ -1,0 +1,134 @@
+﻿AliasRecipes:
+(
+    ItemID: Leadunpacked;
+    FunctionalID: Lead;
+    DisplayName: "拆包铅";
+    Tooltip: "拆包铅";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead,Lead;
+    Ingredients: 
+    (
+        ItemID: Leadingot;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: UnpackedTitanium;
+    FunctionalID: Titanium;
+    DisplayName: "打开包装的钛";
+    Tooltip: "打开包装的钛";
+    AmountCrafted: 0;
+    LinkedItemIDs: Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium,Titanium;
+    Ingredients: 
+    (
+        ItemID: titaniumingot;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: UnpackedSilver;
+    FunctionalID: Silver;
+    DisplayName: "打开包装银";
+    Tooltip: "打开包装银";
+    AmountCrafted: 0;
+    LinkedItemIDs: Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver,Silver;
+    Ingredients: 
+    (
+        ItemID: Silveringot;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: UnpackedNickel;
+    FunctionalID: Nickel;
+    DisplayName: "打开包装的镍";
+    Tooltip: "打开包装的镍";
+    AmountCrafted: 0;
+    LinkedItemIDs: Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel,Nickel;
+    Ingredients: 
+    (
+        ItemID: Nickelingot;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+
+(
+    ItemID: Copperunpacked;
+    FunctionalID: Copper;
+    DisplayName: "拆包铜";
+    Tooltip: "拆包铜";
+    AmountCrafted: 0;
+    LinkedItemIDs: Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper,Copper;
+    Ingredients: 
+    (
+        ItemID: Copperingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+
+(
+    ItemID: Lithiumunpacked;
+    FunctionalID: Lithium;
+    DisplayName: "拆包锂 ";
+    Tooltip: "拆包锂";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lithium ,Lithium,Lithium ,Lithium ,Lithium ,Lithium ,Lithium ,Lithium ,Lithium ,Lithium;
+    Ingredients: 
+    (
+        ItemID: Lithiumingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: Goldunpacked;
+    FunctionalID: Gold;
+    DisplayName: "拆包黄金 ";
+    Tooltip: "拆包黄金";
+    AmountCrafted: 0;
+    LinkedItemIDs: Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold;
+    Ingredients: 
+    (
+        ItemID: Goldingot;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+
+(
+    ItemID: Plasteelunpacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "拆包泥塑 ";
+    Tooltip: "拆包泥塑";
+    AmountCrafted: 0;
+    LinkedItemIDs: plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot,plasteelingot;
+    Ingredients: 
+    (
+        ItemID: Plasteelpacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+),
+(
+    ItemID: emergencysupplies;
+    DisplayName: "alterra紧急用品 ";
+    Tooltip: "alterra紧急用品";
+    AmountCrafted: 0;
+    LinkedItemIDs: Titaniumingot,Titaniumingot,Copper,Copper,batterypack,filteredwater,filteredwater,nutrientblock,nutrientblock,flare;
+    Ingredients: 
+    (
+        ItemID: Coin;
+        Required: 15;
+    );
+    Path: Fabricator/MoreIngots/unpacked/metallicu;
+    ForceUnlockAtStart: YES;
+);

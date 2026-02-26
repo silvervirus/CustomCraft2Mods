@@ -1,0 +1,663 @@
+AliasRecipes: 
+
+(
+    ItemID: stakerstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked stalkertooth";
+    Tooltip: "Stacked stalkertooth";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: stakeringot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: creepvinestacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked creepvinepiece";
+    Tooltip: "Stacked creepvinepiece";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: creepvinedisk;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: seedstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked creepvineseedcluster";
+    Tooltip: "Stacked creepvineseedcluster";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: seeddisk;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: jellyplantstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked jellyplant";
+    Tooltip: "Stacked jellyplant";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: jellyplantingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: tablechoralstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked jeweleddiskpiece";
+    Tooltip: "Stacked jeweleddiskpiece";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: tablechoralingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: coralstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked coralchunk";
+    Tooltip: "Stacked coralchunk";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: coralingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: whitemushroomstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked whitemushroom";
+    Tooltip: "Stacked whitemushroom";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: whitemushroomingots;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidmushroomstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked acidmushroom";
+    Tooltip: "Stacked acidmushroom";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: acidmushroomingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/snature;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: stackedaerosheets;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked AeroGel";
+    Tooltip: "Stacked AeroGel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: aerosheets;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedwiringkits;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Wireing Kits";
+    Tooltip: "Stacked Wireing Kits";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: wiringkit;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedadvancedkits;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Advanced Wireing Kits";
+    Tooltip: "Stacked Advanced Wireing Kits";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: advancedkits;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedcopperwire;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Copper Wire";
+    Tooltip: "Stacked Copper Wire";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: wiretower;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedrodpackage;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Reactor Rods";
+    Tooltip: "Stacked Reactor Rods";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: reactorrodpackage;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: cpustacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Cpusheet";
+    Tooltip: "Stacked CPUsheet";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: cpusheets;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: stackedpc;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked PowerCell";
+    Tooltip: "Stacked PowerCell";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: powercellpack;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedbp;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Battery Pack";
+    Tooltip: "Stacked Battery Pack";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: batterypack;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackeddeeppc;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Deep PowerCell";
+    Tooltip: "Stacked Deep PowerCell";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: DeepPowerCellpack;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedDeepbats;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Deep Battery";
+    Tooltip: "Stacked Deep Battery";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Deepbatterypack;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedionpcs;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Ion PowerCell";
+    Tooltip: "Stacked Ion PowerCell";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: IonPowerCellpacked;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedionbp;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Ion Battery";
+    Tooltip: "Stacked Ion Battery";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: IonBatterypacked;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedECBs;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Enzyme Charged Battery";
+    Tooltip: "Stacked Enzyme Charged Battery";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: ECBs;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedECPC;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Enzyme Charged PowerCell";
+    Tooltip: "Stacked Enzyme Charged PowerCell";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: ECPC;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: lubricantbarrel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Lubricant Barrel";
+    Tooltip: "Lubricant Barrel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: lubricantjug;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/chemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: pbarrel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Polyaniline Barrel";
+    Tooltip: "Polyaniline Barrel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: polyanilinejug;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/chemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: bleachbarrel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Bleach Barrel";
+    Tooltip: "Bleach Barrel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: bleachjug;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/chemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: benzenebarrel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Benzene Barrel";
+    Tooltip: "Benzene Barrel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: benzenejug;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/chemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidbarrel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Acid Barrel";
+    Tooltip: "Acid Barrel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: acidjug;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/chemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Uraninitestacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "stacked Uraninite";
+    Tooltip: "stacked Uraninite";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Uraniniteingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: MagnetiteStacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Magnetite";
+    Tooltip: "Stacked Magnetite. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Magnetiteingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Diamondstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Diamond";
+    Tooltip: "Stacked Diamond. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Diamondingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+     ForceUnlockAtStart: YES;
+),
+(
+    ItemID: KyaniteStacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Kyanite";
+    Tooltip: "Stacked Kyanite. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Kyaniteingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: PlasteelStacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Plasteel";
+    Tooltip: "Stacked Plasteel. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Plasteelstacked;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Saltstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Salt";
+    Tooltip: "Stacked Salt. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Saltlick;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedSulphur2;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked sulphur";
+    Tooltip: "Stacked sulphur. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: CompressedSulphur2;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/sSulphur;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedSulphur1;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Cave Sulfur";
+    Tooltip: "Stacked Cave Sulfur. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: CompressedSulphur1;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/sSulphur;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: stackedRuby;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Ruby";
+    Tooltip: "Stacked Ruby. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Rubyingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedQuartz;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Quartz";
+    Tooltip: "Stacked Quartz. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Quartzingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedLead;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Lead";
+    Tooltip: "Stacked Lead. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Leadingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedGold;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Gold";
+    Tooltip: "Stacked Gold. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Goldingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedLithium;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Lithium";
+    Tooltip: "Stacked Lithium. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Lithiumingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedSilver;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Silver";
+    Tooltip: "Stacked Silver. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Silveringot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedNickel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Nickel";
+    Tooltip: "Stacked Nickel. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Nickelingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedCopper;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Copper";
+    Tooltip: "Stacked Copper. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Copperingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedTitanium ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Titanium ";
+    Tooltip: "Stacked Titanium . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: titaniumingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/smetallic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Glassstacked ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Glass ";
+    Tooltip: "Stacked Glass . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Glassingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedEnamel ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Emamel ";
+    Tooltip: "Stacked Enamel . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Enameledingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ionstacked ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked ion ";
+    Tooltip: "Stacked ion . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Ioningot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+);

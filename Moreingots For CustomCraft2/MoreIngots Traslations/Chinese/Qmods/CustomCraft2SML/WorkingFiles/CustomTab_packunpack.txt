@@ -1,0 +1,206 @@
+﻿# These are samples for adding your own custom crafting tab nodes to the game's existing fabricators. #
+# After you add new tabs here, you can use them to better organize your AddedRecipes. #
+# If you want to add your new tab inside an existing one, you will need internal name of that tab. #
+# You can find all the internal names of all tabs to all fabricators in the README file. #
+
+# The Custom Tabs update comes with some new additions to what you can do with EasyMarkup, so pay close attention to the samples here. #
+
+CustomCraftingTabs: 
+
+
+(
+    TabID: MoreIngots;  # This will be the internal name for this new tab #
+    DisplayName: "更多锭";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: plasteelingot; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+),
+(
+    TabID: packed;
+    DisplayName: "填料";
+    SpriteItemID: PlasteelIngot;
+    ParentTabPath: Fabricator/MoreIngots; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: Smelting;
+    DisplayName: " 冶炼";
+    SpriteItemID: ScrapMetal;
+    ParentTabPath: Fabricator/MoreIngots/packed; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: Sulphur;
+    DisplayName: " 压缩硫磺";
+    SpriteItemID: Sulphur;
+    ParentTabPath: Fabricator/MoreIngots/packed; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: metallic;
+    DisplayName: "金属包装";
+    SpriteItemID: PlasteelIngot;
+    ParentTabPath: Fabricator/MoreIngots/packed; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: CrystalA;
+    DisplayName: "水晶包装";
+    SpriteItemID: Quartz;
+    ParentTabPath: Fabricator/MoreIngots/packed; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: food;
+    DisplayName: "食物脱水";
+    SpriteItemID: curedpeeper;
+    ParentTabPath: Fabricator/MoreIngots/packed; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: water;
+    DisplayName: "水包装";
+    SpriteItemID: DisinfectedWater;
+    ParentTabPath: Fabricator/MoreIngots/packed; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: energeticA;
+    DisplayName: "能量包装";
+    SpriteItemID: battery;
+    ParentTabPath: Fabricator/MoreIngots/packed; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: hoarder;
+    DisplayName: "囤积";
+    SpriteItemID: PlasteelIngot;
+    ParentTabPath: Fabricator/MoreIngots; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: stacked;
+    DisplayName: "堆叠";
+    SpriteItemID: PlasteelIngot;
+    ParentTabPath: Fabricator/MoreIngots/hoarder; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: sSulphur;
+    DisplayName: " 堆积硫磺";
+    SpriteItemID: Sulphur;
+    ParentTabPath: Fabricator/MoreIngots/hoarder/stacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: smetallic;
+    DisplayName: "金属堆叠";
+    SpriteItemID: PlasteelIngot;
+    ParentTabPath: Fabricator/MoreIngots/hoarder/stacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: scrystal;
+    DisplayName: "水晶堆叠";
+    SpriteItemID: Quartz;
+    ParentTabPath: Fabricator/MoreIngots/hoarder/stacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: senergetic;
+    DisplayName: "能量堆叠";
+    SpriteItemID: battery;
+    ParentTabPath: Fabricator/MoreIngots/hoarder/stacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+),
+(
+    TabID: unpacked;
+    DisplayName: "Unpacking";
+    SpriteItemID: Titanium;
+    ParentTabPath: Fabricator/MoreIngots; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: metallicu;
+    DisplayName: "开箱";
+    SpriteItemID: Titanium;
+    ParentTabPath: Fabricator/MoreIngots/unpacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: foodu;
+    DisplayName: "食物补液";
+    SpriteItemID: Peeper;
+    ParentTabPath: Fabricator/MoreIngots/unpacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: wateru;
+    DisplayName: "打开水";
+    SpriteItemID: DisinfectedWater;
+    ParentTabPath: Fabricator/MoreIngots/unpacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: crystalu;
+    DisplayName: "水晶拆包";
+    SpriteItemID: Quartz;
+    ParentTabPath: Fabricator/MoreIngots/unpacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: energeticu;
+    DisplayName: " E能源拆包";
+    SpriteItemID: Battery;
+    ParentTabPath: Fabricator/MoreIngots/unpacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: Smeltingu;
+    DisplayName: " 冶炼开箱";
+    SpriteItemID: ScrapMetal;
+    ParentTabPath: Fabricator/MoreIngots/unpacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: Sulphuru;
+    DisplayName: " UnCompress硫磺";
+    SpriteItemID: Sulphur;
+    ParentTabPath: Fabricator/MoreIngots/unpacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: unstacked;
+    DisplayName: "拆垛";
+    SpriteItemID: Titanium;
+    ParentTabPath: Fabricator/MoreIngots/hoarder; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: metallics;
+    DisplayName: "金属卸垛";
+    SpriteItemID: Titanium;
+    ParentTabPath: Fabricator/MoreIngots/hoarder/unstacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: crystals;
+    DisplayName: "水晶卸垛";
+    SpriteItemID: Quartz;
+    ParentTabPath: Fabricator/MoreIngots/hoarder/unstacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: energetics;
+    DisplayName: " 能量卸载";
+    SpriteItemID: Battery;
+    ParentTabPath: Fabricator/MoreIngots/hoarder/unstacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);
+(
+    TabID: Sulphurs;
+    DisplayName: " 卸垛硫磺";
+    SpriteItemID: Sulphur;
+    ParentTabPath: Fabricator/MoreIngots/hoarder/unstacked; 
+    # Remember that icons get smaller as the crafting tree goes deeper. #
+);

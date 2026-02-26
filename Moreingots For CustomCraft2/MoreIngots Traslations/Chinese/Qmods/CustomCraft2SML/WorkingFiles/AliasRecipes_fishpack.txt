@@ -1,0 +1,170 @@
+﻿AliasRecipes: 
+(
+    ItemID: PeeperPacked;
+    DisplayName: "脱水偷窥者";
+    Tooltip: "脱水偷窥者. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Peeper;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: GarryfishPacked;
+    DisplayName: "脱水Garryfish";
+    Tooltip: "脱水Garryfish. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Garryfish;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: HoopfishPacked;
+    DisplayName: "脱水Ho鱼";
+    Tooltip: "脱水Ho鱼. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Hoopfish;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: HolefishPacked;
+    DisplayName: "脱水Holefish ";
+    Tooltip: "脱水Holefish. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Holefish;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: HoverfishPacked;
+    DisplayName: "脱水Hoverfish";
+    Tooltip: "脱水Hoverfish. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Hoverfish;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: SpadefishPacked;
+    DisplayName: "脱水锹鱼";
+    Tooltip: "脱水锹鱼. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Spadefish;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: BoomerangPacked;
+    DisplayName: "脱水回旋镖";
+    Tooltip: "脱水回旋镖. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Boomerang;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: EyeyePacked;
+    DisplayName: "脱水眼睛";
+    Tooltip: "脱水眼睛. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Eyeye;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ReginaldPacked;
+    DisplayName: "脱水Reginald";
+    Tooltip: "脱水Reginald. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Reginald;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: SpinefishPacked;
+    DisplayName: "脱水脊椎动物";
+    Tooltip: "脱水脊椎动物. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Spinefish;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: LavaboomerangPacked;
+    DisplayName: "脱水Lavaboomerang";
+    Tooltip: "脱水Lavaboomerang. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Lavaboomerang;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: LavaeyeyePacked;
+    DisplayName: "脱水Lavaeyeye";
+    Tooltip: "脱水Lavaeyeye. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Lavaeyeye;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: BladderfishPacked;
+    DisplayName: "脱水膀胱鱼";
+    Tooltip: "脱水膀胱鱼. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Bladderfish;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/packed/food;
+    ForceUnlockAtStart: YES;
+);

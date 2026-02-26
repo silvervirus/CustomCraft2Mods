@@ -1,0 +1,32 @@
+﻿AliasRecipes: 
+(
+    ItemID: Scrapmold;
+    DisplayName: "冶炼模具";
+    Tooltip: "冶炼模具. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Titanium;
+        Required: 2;
+    );
+    Path: Fabricator/MoreIngots/packed/Smelting;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ScraptoIngot;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "冶炼钛";
+    Tooltip: "冶炼钛. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: ScrapMetal;
+        Required: 2;
+    ),
+    ( 
+        ItemID: Scrapmold;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/packed/Smelting;
+    ForceUnlockAtStart: YES;
+),
