@@ -1,0 +1,425 @@
+# Author:Cookie#
+#Nuggets#
+AliasRecipes:
+
+(
+    ItemID:NGold;
+    DisplayName: "Gold Nugget ";
+    Tooltip: "Gold Nugget";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+       ItemID:spikeplant;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal/N;
+    
+),
+(
+    ItemID:NLithium;
+    DisplayName: "Lithium Nugget ";
+    Tooltip: "Lithium Nugget";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+       ItemID:spikeplant;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal/N;
+),
+(
+    ItemID:NSilver;
+    DisplayName: "Silver Nugget";
+    Tooltip: "Silver Nugget";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+       ItemID:spikeplant;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal/N;
+),
+
+(
+    ItemID:NNickel;
+    DisplayName: "Nickel Nugget ";
+    Tooltip: "Nickel Nugget ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+       ItemID:spikeplant;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal/N;
+),
+(
+    ItemID:NMagnetite;
+    DisplayName: "Magnetite Nugget ";
+    Tooltip: "Magnetite Nugget ";
+    AmountCrafted: 0;
+    Ingredients: 
+    (
+       ItemID:spikeplant;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal/N;
+),
+(
+    ItemID:OGold;
+    DisplayName: "Gold Nuggets to Gold Ore";
+    Tooltip: "Gold Nugget to Gold Ore";
+    AmountCrafted: 0;
+    LinkedItemIDs: Gold;
+    Ingredients: 
+    (
+       ItemID:NGold;
+       Required: 10;
+    );
+    
+    Path: Fabricator/SMetal/N2O;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Gold;
+),
+(
+    ItemID:OLithium;
+    DisplayName: "Lithium Nuggets to Lithium Ore";
+    Tooltip: "Lithium Nugget to Lithium Ore";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lithium;
+    Ingredients: 
+    (
+       ItemID:NLithium;
+       Required: 10;
+    );
+    
+    Path: Fabricator/SMetal/N2O;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Lithium;
+),
+(
+    ItemID:OSilver;
+    DisplayName: "Silver Nugget From ScrapMetal";
+    Tooltip: "Silver Nugget From ScrapMetal";
+    AmountCrafted: 0;
+    LinkedItemIDs: Silver;
+    Ingredients: 
+    (
+       ItemID:NSilver;
+       Required: 10;
+    );
+    
+    Path: Fabricator/SMetal/N2O;
+   ForceUnlockAtStart: NO;
+    UnlockedBy:Silver;
+),
+
+(
+    ItemID:ONickel;
+    DisplayName: "Nickel Nugget to Nickel Ore";
+    Tooltip: "Nickel Nugget To Nickel Ore";
+    AmountCrafted: 0;
+    LinkedItemIDs: Nickel;
+    Ingredients: 
+    (
+       ItemID:NNickel;
+       Required: 10;
+    );
+    
+    Path: Fabricator/SMetal/N2O;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Nickel;
+),
+(
+    ItemID:OMagnetite;
+    DisplayName: "Magnetite Nugget To Magnetite Ore";
+    Tooltip: "Magnetite Nugget To Magnetite Ore";
+    AmountCrafted: 0;
+    LinkedItemIDs: Magnetite;
+    Ingredients: 
+    (
+       ItemID:NMagnetite;
+       Required: 10;
+    );
+    
+    Path: Fabricator/SMetal/N2O;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Magnetite;
+),
+(
+    ItemID:CopperScrapDUMMY;
+    DisplayName: "Copper From ScrapMetal";
+    Tooltip: "Copper From ScrapMetal";
+    AmountCrafted: 0;
+    LinkedItemIDs: copper,copper;
+    Ingredients: 
+    (
+       ItemID:scrapmetal;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Copper;
+),
+(
+    ItemID:GoldScrapDUMMY;
+    DisplayName: "Gold Nugget From ScrapMetal";
+    Tooltip: "Gold Nugget From ScrapMetal";
+    AmountCrafted: 0;
+    LinkedItemIDs: NGold,NGold;
+    Ingredients: 
+    (
+       ItemID:scrapmetal;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Gold;
+),
+(
+    ItemID:SilverScrapDUMMY;
+    DisplayName: "Silver Nugget From ScrapMetal";
+    Tooltip: "Silver Nugget From ScrapMetal";
+    AmountCrafted: 0;
+    LinkedItemIDs: NSilver,NSilver;
+    Ingredients: 
+    (
+       ItemID:scrapmetal;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Silver;
+),
+
+(
+    ItemID:NickelScrapDUMMY;
+    DisplayName: "Nickel Nugget From ScrapMetal";
+    Tooltip: "Nickel Nugget From ScrapMetal";
+    AmountCrafted: 0;
+    LinkedItemIDs: NNickel,NNickel;
+    Ingredients: 
+    (
+       ItemID:scrapmetal;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Nickel;
+),
+(
+    ItemID:MagnetiteScrapDUMMY;
+    DisplayName: "Magnetite Nugget From ScrapMetal";
+    Tooltip: "Magnetite Nugget From ScrapMetal";
+    AmountCrafted: 0;
+    LinkedItemIDs: NMagnetite,NMagnetite;
+    Ingredients: 
+    (
+       ItemID:scrapmetal;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Magnetite;
+),
+(
+    ItemID:LithiumScrapDUMMY;
+    DisplayName: "Lithium Nugget From ScrapMetal";
+    Tooltip: "Lithium Nugget From ScrapMetal";
+    AmountCrafted: 0;
+    LinkedItemIDs: NLithium,NLithium;
+    Ingredients: 
+    (
+       ItemID:scrapmetal;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Lithium;
+),
+(
+    ItemID:LeadScrapDUMMY;
+    DisplayName: "Lead From ScrapMetal";
+    Tooltip: "Lead From ScrapMetal";
+    AmountCrafted: 0;
+    LinkedItemIDs: lead;
+    Ingredients: 
+    (
+       ItemID:scrapmetal;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Lead;
+),
+(
+    ItemID:PGold;
+    DisplayName: "Gold Nuggets packed";
+    Tooltip: "Gold Nugget packed";
+    AmountCrafted: 1;
+    
+    Ingredients: 
+    (
+       ItemID:NGold;
+       Required: 25;
+    );
+    
+    Path: Fabricator/SMetal/MN/PN;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Gold;
+),
+(
+    ItemID:PLithium;
+    DisplayName: "Lithium Nuggets packed";
+    Tooltip: "Lithium Nugget packed";
+    AmountCrafted: 1;
+    
+    Ingredients: 
+    (
+       ItemID:NLithium;
+       Required: 25;
+    );
+    
+    Path: Fabricator/SMetal/MN/PN;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Lithium;
+),
+(
+    ItemID:PSilver;
+    DisplayName: "Silver Nugget packed";
+    Tooltip: "Silver Nugget packed";
+    AmountCrafted: 1;
+    
+    Ingredients: 
+    (
+       ItemID:NSilver;
+       Required: 25;
+    );
+    
+    Path: Fabricator/SMetal/MN/PN;
+   ForceUnlockAtStart: NO;
+    UnlockedBy:Silver;
+),
+
+(
+    ItemID:PNickel;
+    DisplayName: "Nickel Nugget packed";
+    Tooltip: "Nickel Nugget packed ";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+       ItemID:NNickel;
+       Required: 25;
+    );
+    
+    Path: Fabricator/SMetal/MN/PN;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Nickel;
+),
+(
+    ItemID:PMagnetite;
+    DisplayName: "Magnetite Nugget packed";
+    Tooltip: "Magnetite Nugget Tpacked";
+    AmountCrafted: 1;
+    Ingredients: 
+    (
+       ItemID:NMagnetite;
+       Required: 25;
+    );
+    
+    Path: Fabricator/SMetal/MN/PN;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Magnetite;
+),
+(
+    ItemID:UGold;
+    DisplayName: "Gold Nugget Unpacked";
+    Tooltip: "Gold Nugget Unpacked";
+    AmountCrafted: 0;
+    LinkedItemIDs: NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold,NGold;
+    Ingredients: 
+    (
+       ItemID:PGold;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal/MN/UPN;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Gold;
+),
+(
+    ItemID:USilver;
+    DisplayName: "Silver Nugget Unpacked";
+    Tooltip: "Silver Nugget Unpacked";
+    AmountCrafted: 0;
+    LinkedItemIDs: NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver,NSilver;
+    Ingredients: 
+    (
+       ItemID:PSilver;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal/MN/UPN;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Silver;
+),
+
+(
+    ItemID:UNickel;
+    DisplayName: "Nickel Nugget Unpacked";
+    Tooltip: "Nickel Nugget Unpacked";
+    AmountCrafted: 0;
+    LinkedItemIDs: NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel,NNickel;
+    Ingredients: 
+    (
+       ItemID:PNickel;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal/MN/UPN;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Nickel;
+),
+(
+    ItemID:UMagnetite;
+    DisplayName: "Magnetite Nugget Unpacked";
+    Tooltip: "Magnetite Nugget Unpacked";
+    AmountCrafted: 0;
+    LinkedItemIDs: NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite,NMagnetite;
+    Ingredients: 
+    (
+       ItemID:PMagnetite;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal/MN/UPN;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Magnetite;
+),
+(
+    ItemID:ULithium;
+    DisplayName: "Lithium Nugget Unpacked";
+    Tooltip: "Lithium Nugget Unpacked";
+    AmountCrafted: 0;
+    LinkedItemIDs: NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium,NLithium;
+    Ingredients: 
+    (
+       ItemID:PLithium;
+       Required: 1;
+    );
+    
+    Path: Fabricator/SMetal/MN/UPN;
+    ForceUnlockAtStart: NO;
+    UnlockedBy:Lithium;
+);

@@ -1,0 +1,18 @@
+# Author:Cookie#
+#Copper From Scrapmetal#
+AliasRecipes:
+(
+    ItemID:CopperScrapDUMMY;
+    DisplayName: "Copper From ScrapMetal";
+    Tooltip: "Copper From ScrapMetal";
+    AmountCrafted: 0;
+    LinkedItemIDs: copper,copper;
+    Ingredients: 
+    (
+       ItemID:scrapmetal;
+       Required: 1;
+    );
+    
+    Path: Fabricator/Resources/BasicMaterials;
+);
+

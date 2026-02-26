@@ -1,0 +1,10 @@
+ModifiedRecipes:
+(
+    ItemID:DeepDrillerKit_DD; # This is the in-game repair tool #
+    AmountCrafted: 1;
+    Ingredients: 
+        ( ItemID:gold; Required:1; ),
+        ( ItemID:copper; Required:1; ),
+        ( ItemID:titanium; Required:1; );
+       
+);

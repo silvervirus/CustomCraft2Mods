@@ -1,0 +1,43 @@
+CustomCraftingTabs: 
+(
+    TabID: SMetal;  # This will be the internal name for this new tab #
+    DisplayName: "Metal From Scrap";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: scrapmetal; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+);
+(
+    TabID: N;  # This will be the internal name for this new tab #
+    DisplayName: "Nugget ";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: titanium; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/SMetal;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+);
+(
+    TabID: MN;  # This will be the internal name for this new tab #
+    DisplayName: "MoreNugget ";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: titanium; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/SMetal;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+);
+(
+    TabID: PN;  # This will be the internal name for this new tab #
+    DisplayName: "Packed Nugget ";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: titaniumingot; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/SMetal/MN;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+);
+(
+    TabID: UPN;  # This will be the internal name for this new tab #
+    DisplayName: "Unpacked Nugget ";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: titanium; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/SMetal/MN;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+);
+(
+    TabID: N2O;  # This will be the internal name for this new tab #
+    DisplayName: "Nugget To Ore";  # This is the name displayed in-game for your tab. If you want this name to have spaces, you will need to wrap it in quotes as shown. #
+    SpriteItemID: Copper; # This is the ItemID for the in-game item that will be used as the sprite for your custom tab. #    
+    ParentTabPath: Fabricator/SMetal;
+    # This tab will be added to the Personal tab of the Fabricator crafting tree. For a full list of available fabricators, check the README file. #
+);
