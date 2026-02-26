@@ -1,0 +1,152 @@
+AliasRecipes: 
+
+(
+    ItemID: unstackedcopper;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack copper";
+    Tooltip: "unpack copper";
+    AmountCrafted: 0;
+    LinkedItemIDs: Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot;
+    Ingredients: 
+    (
+        ItemID: stackedCopper;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/metallics;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackioncube;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked ion cubes ";
+    Tooltip: "Unstacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot;
+    Ingredients: 
+    (
+        ItemID: ionstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/energetics;
+    ForceUnlockAtStart: YES;
+),
+
+
+(
+    ItemID: unstackedPlasteel;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Plasteel ";
+    Tooltip: "Unstacked Plasteel";
+    AmountCrafted: 0;
+    LinkedItemIDs: Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked;
+    Ingredients: 
+    (
+        ItemID: Plasteelstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/metallics;
+),
+(
+    ItemID: unstackedGold;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Gold ";
+    Tooltip: "Unstacked Gold";
+    AmountCrafted: 0;
+    LinkedItemIDs: Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot;
+    Ingredients: 
+    (
+        ItemID: stackedGold;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/metallics;
+),
+
+(
+    ItemID: unstackedLithium;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Lithium ";
+    Tooltip: "Unstacked Lithium";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot;
+    Ingredients: 
+    (
+        ItemID: stackedLithium;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/metallics;
+),
+(
+    ItemID: unstackedMagnetite;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Magnetite";
+    Tooltip: "Unstacked Magnetite";
+    AmountCrafted: 0;
+    LinkedItemIDs: Magnetiteingot ,Magnetiteingot ,Magnetiteingot ,Magnetiteingot ,Magnetiteingot ,Magnetiteingot ,Magnetiteingot ,Magnetiteingot ,Magnetiteingot ,Magnetiteingot;
+    Ingredients: 
+    (
+        ItemID: MagnetiteStacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/energetics;
+),
+
+(
+    ItemID: UnstackedNickel;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Nickel";
+    Tooltip: "Unstacked Nickel";
+    AmountCrafted: 0;
+    LinkedItemIDs: Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot;
+    Ingredients: 
+    (
+        ItemID: stackedNickel;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/hoarder/unstacked/metallics;
+),
+(
+    ItemID: UnstackedSilver;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Silver";
+    Tooltip: "Unstacked Silver";
+    AmountCrafted: 0;
+    LinkedItemIDs: Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot;
+    Ingredients: 
+    (
+        ItemID: stackedSilver;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/hoarder/unstacked/metallics;
+),
+(
+    ItemID: unstackedLead;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Lead";
+    Tooltip: "Unstacked Lead";
+    AmountCrafted: 0;
+    LinkedItemIDs: Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot;
+    Ingredients: 
+    (
+        ItemID: stackedLead;
+        Required: 1;
+    );
+    
+    Path: Fabricator/MoreIngots/hoarder/unstacked/metallics;
+),
+(
+    ItemID: UnstackedTitanium;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Titanium";
+    Tooltip: "Unstacked Titanium";
+    AmountCrafted: 0;
+    LinkedItemIDs: titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot;
+    Ingredients: 
+    (
+        ItemID: stackedTitanium;
+        Required: 1;
+    );
+   
+    Path: Fabricator/MoreIngots/hoarder/unstacked/metallics;
+);

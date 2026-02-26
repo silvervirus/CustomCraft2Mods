@@ -1,0 +1,134 @@
+AliasRecipes: 
+
+
+
+(
+    ItemID: Copperingotbulk;
+    FunctionalID:Titaniumingot;
+    DisplayName: "Packed Copper";
+    Tooltip: "Packed Copper. ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: Copper;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Copper;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/MBulk;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: Nickelingotbulk;
+    FunctionalID:Titaniumingot;
+    DisplayName: "Packed Nickel";
+    Tooltip: "Packed Nickel. ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: Nickel;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Nickel;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/MBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Silveringotbulk;
+    FunctionalID:Titaniumingot;
+    DisplayName: "Packed Silver";
+    Tooltip: "Packed Silver. ";
+    AmountCrafted: 48;
+    Ingredients: 
+   ( 
+        ItemID: Silver;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: Silver;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/MBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Lithiumingotbulk;
+    FunctionalID:Titaniumingot;
+    DisplayName: "Packed Lithium";
+    Tooltip: "Packed Lithium. ";
+    AmountCrafted: 48;
+    Ingredients: 
+   ( 
+        ItemID: Lithium;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: Lithium;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/MBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Goldingotbulk;
+    FunctionalID:Titaniumingot;
+    DisplayName: "Packed Gold";
+    Tooltip: "Packed Gold. ";
+    AmountCrafted: 48;
+    Ingredients: 
+   ( 
+        ItemID: Gold;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: Gold;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/MBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Leadingotbulk;
+    FunctionalID:Titaniumingot;
+    DisplayName: "Packed Lead";
+    Tooltip: "Packed Lead. ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: Lead;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Lead;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/MBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Plasteelpackedbulk;
+    FunctionalID:Titaniumingot;
+    DisplayName: "Packed Plasteel";
+    Tooltip: "Packed Plasteel. ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: plasteelingotbulk;
+        Required: 24;
+    ),
+    ( 
+        ItemID: plasteelingotbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/MBulk;
+    ForceUnlockAtStart: YES;
+);
+
+
+

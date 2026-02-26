@@ -1,0 +1,91 @@
+AliasRecipes: 
+(
+    ItemID: benzenejugbluk;
+    FunctionalID:bleach;
+    DisplayName: "Jug Bluk of Benzene";
+    Tooltip: "Jug Bluk of Benzene. ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: benzene;
+        Required: 24;
+    ),
+    ( 
+        ItemID: benzene;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/CBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidjugbluk;
+    FunctionalID:bleach;
+    DisplayName: "Jug Bluk of Acid";
+    Tooltip: "Jug Bluk of Acid. ";
+    AmountCrafted: 48;
+    Ingredients: 
+   ( 
+        ItemID: hydrochloricacid;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: hydrochloricacid;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/CBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: bleachjugbluk;
+    FunctionalID:bleach;
+    DisplayName: "Jug Bluk of Bleach";
+    Tooltip: "Jug Bluk of Bleach. ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: bleach;
+        Required: 24;
+    ),
+    ( 
+        ItemID: bleach;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/CBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: lubricantjugbluk;
+    FunctionalID:bleach;
+    DisplayName: "Jug Bluk of Lubricant";
+    Tooltip: "Jug Bluk of Lubricant. ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: lubricant;
+        Required: 24;
+    ),
+    ( 
+        ItemID: lubricant;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/CBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: polyanilinejugbluk;
+    FunctionalID:bleach;
+    DisplayName: "Jug Bluk of Polyaniline";
+    Tooltip: "Jug Bluk of Polyaniline. ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: polyaniline;
+        Required: 24;
+    ),
+    ( 
+        ItemID: polyaniline;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/CBulk;
+    ForceUnlockAtStart: YES;
+);

@@ -1,0 +1,35 @@
+AliasRecipes: 
+(
+    ItemID: ECPCbulk;
+    DisplayName: "Packed EnzymeCharged PowerCell";
+    Tooltip: "Packed EnzymeCharged PowerCell";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: enzymepowercell;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: enzymepowercell;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ECBsbulk;
+    DisplayName: "Packed Enzyme Charged Battery";
+    Tooltip: "Packed Enzyme Charged Battery";
+    AmountCrafted: 5;
+    Ingredients: 
+   ( 
+        ItemID: enzymebattery;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: enzymebattery;
+        Required: 24;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+);

@@ -1,0 +1,147 @@
+AliasRecipes: 
+
+(
+    ItemID: stakerstackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked stalkertooth";
+    Tooltip: "Stacked stalkertooth";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: stakeringot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: stakeringot;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/snBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: creepvinestackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked creepvinepiece";
+    Tooltip: "Stacked creepvinepiece";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: creepvinedisk;
+        Required: 24;
+    ),
+    ( 
+        ItemID: creepvinedisk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/snBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: seedstackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked creepvineseedcluster";
+    Tooltip: "Stacked creepvineseedcluster";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: seeddisk;
+        Required: 24;
+    ),
+    ( 
+        ItemID: seeddisk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/snBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: jellyplantstackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked jellyplant";
+    Tooltip: "Stacked jellyplant";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: jellyplantingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: jellyplantingot;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/snBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: tablechoralstackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked jeweleddiskpiece";
+    Tooltip: "Stacked jeweleddiskpiece";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: tablechoralingot;
+        Required: 24;
+    ),
+
+    ( 
+        ItemID: tablechoralingot;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/snBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: coralstackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked coralchunk";
+    Tooltip: "Stacked coralchunk";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: coralingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: coralingot;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/snBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: whitemushroomstackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked whitemushroom";
+    Tooltip: "Stacked whitemushroom";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: whitemushroomingots;
+        Required: 24;
+    ),
+    ( 
+        ItemID: whitemushroomingots;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/snBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidmushroomstackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked acidmushroom";
+    Tooltip: "Stacked acidmushroom";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: acidmushroomingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: acidmushroomingot;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/snBulk;
+    ForceUnlockAtStart: YES;
+);

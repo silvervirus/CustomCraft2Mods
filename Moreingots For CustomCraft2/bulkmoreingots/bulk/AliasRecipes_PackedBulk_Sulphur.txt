@@ -1,0 +1,38 @@
+AliasRecipes: 
+
+(
+    ItemID: CompressedSulphur1bulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed Cave Sulfur";
+    Tooltip: "Packed Cave Sulfur. ";
+    AmountCrafted: 48;
+    Ingredients: 
+   ( 
+        ItemID: CrashPowder;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: CrashPowder;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/NBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: CompressedSulphur2bulk;
+    FunctionalID:TitaniumIngot;
+    DisplayName: "Packed sulphur";
+    Tooltip: "Packed sulphur. ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: Sulphur;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Sulphur;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/NBulk;
+    ForceUnlockAtStart: YES;
+);

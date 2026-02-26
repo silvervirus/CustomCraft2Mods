@@ -1,0 +1,116 @@
+AliasRecipes: 
+
+
+
+(
+    ItemID: stackedaerosheets;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked AeroGel";
+    Tooltip: "Stacked AeroGel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: aerosheets;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Diamondstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Diamond";
+    Tooltip: "Stacked Diamond. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Diamondingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+     ForceUnlockAtStart: YES;
+),
+(
+    ItemID: KyaniteStacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Kyanite";
+    Tooltip: "Stacked Kyanite. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Kyaniteingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedRuby;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Ruby";
+    Tooltip: "Stacked Ruby. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Rubyingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Glassstacked ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Glass ";
+    Tooltip: "Stacked Glass . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Glassingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedEnamel ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Emamel ";
+    Tooltip: "Stacked Enamel . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Enameledingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedQuartz;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Quartz";
+    Tooltip: "Stacked Quartz. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Quartzingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Saltstacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Salt";
+    Tooltip: "Stacked Salt. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Saltlick;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/scrystal;
+    ForceUnlockAtStart: YES;
+);

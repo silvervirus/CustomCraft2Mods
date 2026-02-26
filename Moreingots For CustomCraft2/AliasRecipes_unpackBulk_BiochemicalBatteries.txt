@@ -1,0 +1,49 @@
+AliasRecipes:
+(
+    ItemID: BCPPunpackbulk;
+    FunctionalID: PowerCell;
+    DisplayName: "unpacked BiochemPowerCell ";
+    Tooltip: "unpacked BiochemPowerCell";
+    AmountCrafted: 0;
+    LinkedItemIDs: BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell,BiochemPowerCell;
+    Ingredients: 
+   
+    (
+        ItemID: BCPPbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: BCPBsunpackbulk;
+    FunctionalID: PowerCell;
+    DisplayName: "unpacked bioplasmacore ";
+    Tooltip: "unpacked bioplasmacore";
+    AmountCrafted: 0;
+    LinkedItemIDs: bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore,bioplasmacore;
+    Ingredients: 
+    
+    (
+        ItemID: BCPBsbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: BCPbunpackbulk;
+    FunctionalID: Battery;
+    DisplayName: "unpacked BiochemBattery ";
+    Tooltip: "BiochemBattery";
+    AmountCrafted: 0;
+    LinkedItemIDs: BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery,BiochemBattery;
+    Ingredients: 
+   
+    (
+        ItemID: BCPbulk;
+        Required: 5;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/uBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+);

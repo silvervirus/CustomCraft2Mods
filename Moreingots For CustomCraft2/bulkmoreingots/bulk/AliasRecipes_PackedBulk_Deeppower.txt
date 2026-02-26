@@ -1,0 +1,35 @@
+AliasRecipes: 
+(
+    ItemID: Deepbatterypackbulk;
+    DisplayName: "Packed DeepBattery";
+    Tooltip: "Packed DeepBattery. ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: DeepBattery;
+        Required: 24;
+    ),
+    ( 
+        ItemID: DeepBattery;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: DeepPowerCellpackbulk;
+    DisplayName: "Packed DeepPowerCell";
+    Tooltip: "Packed DeepPowerCell. ";
+    AmountCrafted: 48;
+    Ingredients: 
+   ( 
+        ItemID: DeepPowerCell;
+        Required: 24;
+    ), 
+   ( 
+        ItemID: DeepPowerCell;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/EBulk;
+    ForceUnlockAtStart: YES;
+);

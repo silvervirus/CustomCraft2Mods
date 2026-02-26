@@ -1,0 +1,114 @@
+AliasRecipes: 
+
+(
+    ItemID: unstackedacidmushroom;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked acidmushroom";
+    Tooltip: "Unstacked acidmushroom.";
+    AmountCrafted: 0;
+    LinkedItemIDs: acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot,acidmushroomingot;
+    Ingredients: 
+    (
+        ItemID: acidmushroomstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/unatures;
+),
+(
+    ItemID: unstackedwhitemushroom;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked whitemushroom";
+    Tooltip: "Unstacked whitemushroom.";
+    AmountCrafted: 0;
+    LinkedItemIDs: whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots,whitemushroomingots;
+    Ingredients: 
+    (
+        ItemID: whitemushroomstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/unatures;
+),
+(
+    ItemID: unstackedcoralchunk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked coralchunk";
+    Tooltip: "Unstacked coralchunk.";
+    AmountCrafted: 0;
+    LinkedItemIDs: coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot,coralingot;
+    Ingredients: 
+    (
+        ItemID: coralstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/unatures;
+),
+(
+    ItemID: unstackedjeweleddiskpiece ;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked jeweleddiskpiece";
+    Tooltip: "Unstacked jeweleddiskpiece.";
+    AmountCrafted: 0;
+    LinkedItemIDs: tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot,tablechoralingot;
+    Ingredients: 
+    (
+        ItemID: tablechoralstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/unatures;
+),
+(
+    ItemID: unstackedjellyplant;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked jellyplant";
+    Tooltip: "Unstacked jellyplant.";
+    AmountCrafted: 0;
+    LinkedItemIDs: jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot,jellyplantingot;
+    Ingredients: 
+    (
+        ItemID: jellyplantstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/unatures;
+),
+(
+    ItemID: unstackedcreepvineseed;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked creepvineseed";
+    Tooltip: "Unstacked creepvineseed.";
+    AmountCrafted: 0;
+    LinkedItemIDs: seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk,seeddisk;
+    Ingredients: 
+    (
+        ItemID: seedstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/unatures;
+),
+(
+    ItemID: unstackedcreepvine;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked creepvinepiece";
+    Tooltip: "Unstacked creepvinepiece.";
+    AmountCrafted: 0;
+    LinkedItemIDs: creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk,creepvinedisk;
+    Ingredients: 
+    (
+        ItemID: creepvinestacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/unatures;
+),
+(
+    ItemID: unstackedstalkertooth;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked stalkertooth";
+    Tooltip: "Unstacked stalkertooth.";
+    AmountCrafted: 0;
+    LinkedItemIDs: stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot,stakeringot;
+    Ingredients: 
+    (
+        ItemID: stakerstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/unatures;
+),

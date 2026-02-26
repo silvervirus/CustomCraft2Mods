@@ -1,0 +1,116 @@
+AliasRecipes: 
+
+
+
+(
+    ItemID: unstackedEnamel;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Enamel Glass";
+    Tooltip: "Unstacked Enamel Glass.";
+    AmountCrafted: 0;
+    LinkedItemIDs: Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot,Enameledingot;
+    Ingredients: 
+    (
+        ItemID: stackedEnamel;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/crystals;
+),
+(
+    ItemID: unstackedGlass;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Glass";
+    Tooltip: "Unstacked Glass.";
+    AmountCrafted: 0;
+    LinkedItemIDs: Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot,Glassingot;
+    Ingredients: 
+    (
+        ItemID: Glassstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/crystals;
+),
+(
+    ItemID: unstackedaerosheets;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked aerosheets";
+    Tooltip: "Unstacked aerosheets.";
+    AmountCrafted: 0;
+    LinkedItemIDs: aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets,aerosheets;
+    Ingredients: 
+    (
+        ItemID: stackedaerosheets;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/crystals;
+),
+(
+    ItemID: unstackedDiamond;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Diamonds";
+    Tooltip: "Unstacked Diamonds.";
+    AmountCrafted: 0;
+    LinkedItemIDs: Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot,Diamondingot;
+    Ingredients: 
+    (
+        ItemID: Diamondstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/crystals;
+),
+(
+    ItemID: unstackedQuartz;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Quartz ";
+    Tooltip: "Unstacked Quartz";
+    AmountCrafted: 0;
+    LinkedItemIDs: Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot,Quartzingot;
+    Ingredients: 
+    (
+        ItemID: stackedQuartz;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/crystals;
+),
+(
+    ItemID: unstackedKyanite;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Kyanite ";
+    Tooltip: "Unstacked Kyanite";
+    AmountCrafted: 0;
+    LinkedItemIDs: Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot,Kyaniteingot;
+    Ingredients: 
+    (
+        ItemID: Kyanitestacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/crystals;
+),
+(
+    ItemID: unstackedSalt;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Salt";
+    Tooltip: "Unstacked Salt";
+    AmountCrafted: 0;
+    LinkedItemIDs: Saltlick,Saltlick, Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick,Saltlick;
+    Ingredients: 
+    (
+        ItemID: Saltstacked;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/crystals;
+),
+(
+    ItemID: unstackedRuby;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Ruby ";
+    Tooltip: "Unstacked Ruby";
+    AmountCrafted: 0;
+    LinkedItemIDs: Rubyingot ,Rubyingot ,Rubyingot ,Rubyingot ,Rubyingot ,Rubyingot ,Rubyingot ,Rubyingot ,Rubyingot ,Rubyingot;
+    Ingredients: 
+    (
+        ItemID: stackedRuby;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/crystals;
+);

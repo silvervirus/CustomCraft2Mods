@@ -1,0 +1,40 @@
+AliasRecipes: 
+(
+    ItemID: BCPP;
+    DisplayName: "Packed BiochemPowerCell";
+    Tooltip: "Packed BiochemPowerCell";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: BiochemPowerCell;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: BCPb;
+    DisplayName: "Packed BiochemBattery";
+    Tooltip: "Packed BiochemBattery";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: BiochemBattery;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: BCPBs;
+    DisplayName: "Packed bioplasmacore";
+    Tooltip: "Packed bioplasmacore";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: bioplasmacore;
+        Required: 10;
+    );
+    Path: Fabricator/Resources/BasicMaterials/MoreIngots/packed/energeticA;
+    ForceUnlockAtStart: YES;
+);

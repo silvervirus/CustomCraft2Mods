@@ -1,0 +1,175 @@
+AliasRecipes: 
+
+
+
+
+(
+    ItemID: stackedwiringkits;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Wireing Kits";
+    Tooltip: "Stacked Wireing Kits";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: wiringkit;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ionstacked ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked ion ";
+    Tooltip: "Stacked ion . ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Ioningot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Uraninitestacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "stacked Uraninite";
+    Tooltip: "stacked Uraninite";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Uraniniteingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: MagnetiteStacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Magnetite";
+    Tooltip: "Stacked Magnetite. ";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: Magnetiteingot;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedadvancedkits;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Advanced Wireing Kits";
+    Tooltip: "Stacked Advanced Wireing Kits";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: advancedkits;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedcopperwire;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Copper Wire";
+    Tooltip: "Stacked Copper Wire";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: wiretower;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedrodpackage;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Reactor Rods";
+    Tooltip: "Stacked Reactor Rods";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: reactorrodpackage;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: cpustacked;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Cpusheet";
+    Tooltip: "Stacked CPUsheet";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: cpusheets;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: stackedpc;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked PowerCell";
+    Tooltip: "Stacked PowerCell";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: powercellpack;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedbp;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Battery Pack";
+    Tooltip: "Stacked Battery Pack";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: batterypack;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: stackedionpcs;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Ion PowerCell";
+    Tooltip: "Stacked Ion PowerCell";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: IonPowerCellpacked;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedionbp;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Ion Battery";
+    Tooltip: "Stacked Ion Battery";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: IonBatterypacked;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/senergetic;
+    ForceUnlockAtStart: YES;
+);

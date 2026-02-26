@@ -1,0 +1,72 @@
+AliasRecipes: 
+
+(
+    ItemID: unstackedacidbarrel;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked acid barrel";
+    Tooltip: "Unstacked acid barrel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug,acidjug;
+    Ingredients: 
+    (
+        ItemID: acidbarrel;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/uchemicals;
+),
+(
+    ItemID: unstackedbenzenebarrel;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked benzene barrel";
+    Tooltip: "Unstacked benzene barrel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug,benzenejug;
+    Ingredients: 
+    (
+        ItemID: benzenebarrel;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/uchemicals;
+),
+(
+    ItemID: unstackedbleachbarrel;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked bleach barrel";
+    Tooltip: "Unstacked bleach barrel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug,bleachjug;
+    Ingredients: 
+    (
+        ItemID: bleachbarrel;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/uchemicals;
+),
+(
+    ItemID: unstackedpbarrel;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Polyaniline Barrel";
+    Tooltip: "Unstacked Polyaniline Barrel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug,polyanilinejug;
+    Ingredients: 
+    (
+        ItemID: pbarrel;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/uchemicals;
+),
+(
+    ItemID: unstackedlubricantbarrel;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked lubricant barrel";
+    Tooltip: "Unstacked lubricant barrel.";
+    AmountCrafted: 0;
+    LinkedItemIDs: lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug,lubricantjug;
+    Ingredients: 
+    (
+        ItemID: lubricantbarrel;
+        Required: 1;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/uchemicals;
+);

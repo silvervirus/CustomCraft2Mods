@@ -1,0 +1,72 @@
+AliasRecipes: 
+
+(
+    ItemID: lubricantbarrel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Lubricant Barrel";
+    Tooltip: "Lubricant Barrel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: lubricantjug;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/chemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: pbarrel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Polyaniline Barrel";
+    Tooltip: "Polyaniline Barrel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: polyanilinejug;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/chemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: bleachbarrel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Bleach Barrel";
+    Tooltip: "Bleach Barrel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: bleachjug;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/chemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: benzenebarrel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Benzene Barrel";
+    Tooltip: "Benzene Barrel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: benzenejug;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/chemicals;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: acidbarrel;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Acid Barrel";
+    Tooltip: "Acid Barrel";
+    AmountCrafted: 1;
+    Ingredients: 
+    ( 
+        ItemID: acidjug;
+        Required: 10;
+    );
+    Path: Fabricator/MoreIngots/hoarder/stacked/chemicals;
+    ForceUnlockAtStart: YES;
+),

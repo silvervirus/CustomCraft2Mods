@@ -1,0 +1,96 @@
+AliasRecipes:
+(
+    ItemID: unpackbenzenejugbulk;
+    FunctionalID: bleach;
+    DisplayName: "unpacked Benzene";
+    Tooltip: "unpacked Benzene";
+    AmountCrafted: 0;
+    LinkedItemIDs: benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzenebenzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzenebenzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzenebenzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene,benzene;
+    Ingredients: 
+   (
+        ItemID: benzenejugbulk;
+        Required: 24;
+    ), 
+   (
+        ItemID: benzenejugbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCHBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackacidjugbulk;
+    FunctionalID: bleach;
+    DisplayName: "unpacked acid";
+    Tooltip: "unpacked acid";
+    AmountCrafted: 0;
+    LinkedItemIDs: hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacidhydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacidhydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacidhydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid,hydrochloricacid;
+    Ingredients: 
+    (
+        ItemID: acidjugbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: acidjugbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCHBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackbleachjugbulk;
+    FunctionalID: bleach;
+    DisplayName: "unpacked Bleach";
+    Tooltip: "unpacked Bleach";
+    AmountCrafted: 0;
+    LinkedItemIDs: bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleachbleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleachbleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleachbleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach,bleach;
+    Ingredients: 
+    (
+        ItemID: bleachjugbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: bleachjugbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCHBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpacklubricantjugbulk;
+    FunctionalID: bleach;
+    DisplayName: "unpacked Lubricant";
+    Tooltip: "unpacked Lubricant";
+    AmountCrafted: 0;
+    LinkedItemIDs: lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricantlubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricantlubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricantlubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant,lubricant;
+    Ingredients: 
+    (
+        ItemID: lubricantjugbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: lubricantjugbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCHBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unpackpolyanilinejugbulk;
+    FunctionalID: bleach;
+    DisplayName: "unpacked polyaniline";
+    Tooltip: "unpacked polyaniline";
+    AmountCrafted: 0;
+    LinkedItemIDs: polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyanilinepolyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyanilinepolyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyanilinepolyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline,polyaniline;
+    Ingredients: 
+    (
+        ItemID: polyanilinejugbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: polyanilinejugbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UCHBulk;
+    ForceUnlockAtStart: YES;
+);

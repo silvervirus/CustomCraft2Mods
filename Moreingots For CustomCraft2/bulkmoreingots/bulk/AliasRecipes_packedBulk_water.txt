@@ -1,0 +1,20 @@
+AliasRecipes: 
+
+
+(
+    ItemID: GallonWaterbulk;
+    DisplayName: "Water Jug - 48 gallon";
+    Tooltip: "Large water jug.  Useful for storing large quantites of water, but not for consumption";
+    AmountCrafted: 48;
+    Ingredients: 
+   (
+        ItemID: DisinfectedWater;
+        Required: 24;
+    ), 
+   (
+        ItemID: DisinfectedWater;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/PBulk/FBulk;
+    ForceUnlockAtStart: YES;
+);

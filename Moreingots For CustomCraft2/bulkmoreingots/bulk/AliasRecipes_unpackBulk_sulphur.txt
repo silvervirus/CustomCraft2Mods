@@ -1,0 +1,40 @@
+AliasRecipes:
+(
+    ItemID: unCompressedSulphur1bulk;
+    FunctionalID: Crashpowder;
+    DisplayName: "Unpacked crashpowder";
+    Tooltip: "Unpacked crashpowder";
+    AmountCrafted: 0;
+    LinkedItemIDs: CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowderCrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowderCrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowderCrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder,CrashPowder;
+    Ingredients: 
+    (
+        ItemID: CompressedSulphur1bulk;
+        Required: 24;
+    ),
+    (
+        ItemID: CompressedSulphur1bulk;
+        Required: 24;
+    );
+   Fabricator/MoreIngots/HBulk/UNBulk/unBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unCompressedSulphur2bulk;
+    FunctionalID: Sulphur;
+    DisplayName: "Unpacked Sulphur";
+    Tooltip: "Unpacked Sulphur";
+    AmountCrafted: 0;
+    LinkedItemIDs: Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,SulphurSulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,SulphurSulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,SulphurSulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur,Sulphur;
+    Ingredients: 
+   (
+        ItemID: CompressedSulphur2bulk;
+        Required: 24;
+    ), 
+   (
+        ItemID: CompressedSulphur2bulk;
+        Required: 24;
+    );
+   Fabricator/MoreIngots/HBulk/UNBulk/unBulk;
+    ForceUnlockAtStart: YES;
+);
+

@@ -1,0 +1,198 @@
+AliasRecipes: 
+
+
+
+
+(
+    ItemID: unstackedionbpbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack Ion Battery";
+    Tooltip: "unpack Ion Battery";
+    AmountCrafted: 0;
+    LinkedItemIDs: IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypackedIonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypackedIonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypackedIonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked,IonBatterypacked;
+    Ingredients: 
+    (
+        ItemID: stackedionbpbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedionbpbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedionpcsbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack Ion PowerCell";
+    Tooltip: "unpack Ion PowerCell";
+    AmountCrafted: 0;
+    LinkedItemIDs: IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpackedIonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpackedIonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpackedIonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked,IonPowerCellpacked;
+    Ingredients: 
+    (
+        ItemID: stackedionpcsbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedionpcsbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: unstackedBPbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack battery pack";
+    Tooltip: "unpack battery pack";
+    AmountCrafted: 0;
+    LinkedItemIDs: batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypackbatterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypackbatterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypackbatterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack,batterypack;
+    Ingredients: 
+    (
+        ItemID: stackedbpbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedbpbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedPCbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack powercell";
+    Tooltip: "unpack powercell";
+    AmountCrafted: 0;
+    LinkedItemIDs: powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpackpowercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpackpowercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpackpowercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack,powercellpack;
+ 
+    Ingredients: 
+    (
+        ItemID: stackedpcbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedpcbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedcpubulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack Cpusheet";
+    Tooltip: "unpack Cpusheet";
+    AmountCrafted: 0;
+    LinkedItemIDs: cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheetscpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheetscpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheetscpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets,cpusheets;
+    Ingredients: 
+    (
+        ItemID: cpustackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: cpustackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedrodpackagebulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack Reactor Rods";
+    Tooltip: "unpack Reactor Rods";
+    AmountCrafted: 0;
+    LinkedItemIDs: reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackagereactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackagereactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackagereactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage,reactorrodpackage;
+    Ingredients: 
+    (
+        ItemID: stackedrodpackagebulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedrodpackagebulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedcopperwirebulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack copperwire";
+    Tooltip: "unpack copperwire";
+    AmountCrafted: 0;
+    LinkedItemIDs: wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretowerwiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretowerwiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretowerwiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower,wiretower;
+    Ingredients: 
+    (
+        ItemID: stackedcopperwirebulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedcopperwirebulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedadvancedkitsbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack advancedkits";
+    Tooltip: "unpack advancedkits";
+    AmountCrafted: 0;
+    LinkedItemIDs: advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkitsadvancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkitsadvancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkitsadvancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits,advancedkits;
+    Ingredients: 
+    (
+        ItemID: stackedadvancedkitsbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedadvancedkitsbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackedwiringkitsbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack wiringkits";
+    Tooltip: "unpack wiringkits";
+    AmountCrafted: 0;
+    LinkedItemIDs: wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkitswiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkitswiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkitswiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits,wiringkits;
+    Ingredients: 
+    (
+        ItemID: stackedwiringkitsbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedwiringkitsbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackeduraninitebulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack uraninite";
+    Tooltip: "unpack uraninite";
+    AmountCrafted: 0;
+    LinkedItemIDs: Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,UraniniteingotUraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,UraniniteingotUraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,UraniniteingotUraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot,Uraniniteingot;
+ 
+    Ingredients: 
+    (
+        ItemID: Uraninitestackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: Uraninitestackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UEBulk;
+    ForceUnlockAtStart: YES;
+);

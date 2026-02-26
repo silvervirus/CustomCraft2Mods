@@ -1,0 +1,39 @@
+AliasRecipes:
+(
+    ItemID: ECPCunpackbulk;
+    FunctionalID: PowerCell;
+    DisplayName: "unpacked EnzymeChargedcell ";
+    Tooltip: "unpacked EnzymeChargedcell";
+    AmountCrafted: 0;
+    LinkedItemIDs: enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercellenzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercellenzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercellenzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell,enzymepowercell;
+    Ingredients: 
+   (
+        ItemID: enzymepowercellbulk;
+        Required: 24;
+    ), 
+   (
+        ItemID: enzymepowercellbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ECBsunpackbulk;
+    FunctionalID: Battery;
+    DisplayName: "unpacked Enzyme Charged battery ";
+    Tooltip: "unpacked Enzyme Charged";
+    AmountCrafted: 0;
+    LinkedItemIDs: enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebatteryenzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebatteryenzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebatteryenzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery,enzymebattery;
+    Ingredients: 
+   (
+        ItemID: ECBsbulk;
+        Required: 24;
+    ), 
+   (
+        ItemID: ECBsbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/ueBulk;
+    ForceUnlockAtStart: YES;
+);

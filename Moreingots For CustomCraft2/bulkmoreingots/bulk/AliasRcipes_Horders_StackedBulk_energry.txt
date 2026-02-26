@@ -1,0 +1,227 @@
+AliasRecipes: 
+
+
+
+
+(
+    ItemID: stackedwiringkitsbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Wireing Kits";
+    Tooltip: "Stacked Wireing Kits";
+    AmountCrafted: 48;
+    Ingredients: 
+    
+   ( 
+        ItemID: wiringkit;
+        Required: 24;
+    ),
+   ( 
+        ItemID: wiringkit;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: ionstackedbulk ;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked ion ";
+    Tooltip: "Stacked ion . ";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: Ioningot;
+        Required: 24;
+    ),
+
+   ( 
+        ItemID: Ioningot;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: Uraninitestackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "stacked Uraninite";
+    Tooltip: "stacked Uraninite";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: Uraniniteingot;
+        Required: 24;
+    ),
+    ( 
+        ItemID: Uraniniteingot;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: MagnetiteStackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Magnetite";
+    Tooltip: "Stacked Magnetite. ";
+    AmountCrafted: 48;
+    Ingredients: 
+   ( 
+        ItemID: Magnetiteingot;
+        Required: 24;
+    ),    
+
+   ( 
+        ItemID: Magnetiteingot;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedadvancedkitsbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Advanced Wireing Kits";
+    Tooltip: "Stacked Advanced Wireing Kits";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: advancedkits;
+        Required: 24;
+    ),    
+
+    ( 
+        ItemID: advancedkits;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedcopperwirebulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Copper Wire";
+    Tooltip: "Stacked Copper Wire";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: wiretower;
+        Required: 24;
+    ),
+    ( 
+        ItemID: wiretower;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedrodpackagebulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Reactor Rods";
+    Tooltip: "Stacked Reactor Rods";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: reactorrodpackage;
+        Required: 24;
+    ),
+    ( 
+        ItemID: reactorrodpackage;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: cpustackedbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Cpusheet";
+    Tooltip: "Stacked CPUsheet";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: cpusheets;
+        Required: 24;
+    ),
+    ( 
+        ItemID: cpusheets;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: stackedpcbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked PowerCell";
+    Tooltip: "Stacked PowerCell";
+    AmountCrafted: 48;
+    Ingredients: 
+     ( 
+        ItemID: powercellpack;
+        Required: 24;
+    ),
+    ( 
+        ItemID: powercellpack;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedbpbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Battery Pack";
+    Tooltip: "Stacked Battery Pack";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: batterypack;
+        Required: 24;
+    ),
+    ( 
+        ItemID: batterypack;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+
+(
+    ItemID: stackedionpcsbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Ion PowerCell";
+    Tooltip: "Stacked Ion PowerCell";
+    AmountCrafted: 48;
+    Ingredients: 
+     ( 
+        ItemID: IonPowerCellpacked;
+        Required: 24;
+    ),
+    ( 
+        ItemID: IonPowerCellpacked;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: stackedionbpbulk;
+    FunctionalID: Plasteelingot;
+    DisplayName: "Stacked Ion Battery";
+    Tooltip: "Stacked Ion Battery";
+    AmountCrafted: 48;
+    Ingredients: 
+    ( 
+        ItemID: IonBatterypacked;
+        Required: 24;
+    ),
+    ( 
+        ItemID: IonBatterypacked;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/sBulk/seBulk;
+    ForceUnlockAtStart: YES;
+);

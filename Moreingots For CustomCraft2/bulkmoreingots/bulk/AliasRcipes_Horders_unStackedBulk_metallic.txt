@@ -1,0 +1,195 @@
+AliasRecipes: 
+
+(
+    ItemID: unstackedcopperbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "unpack copper";
+    Tooltip: "unpack copper";
+    AmountCrafted: 0;
+    LinkedItemIDs: Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,CopperingotCopperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,CopperingotCopperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,CopperingotCopperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot,Copperingot;
+    Ingredients: 
+    (
+        ItemID: stackedCopperbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedCopperbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UMBulk;
+    ForceUnlockAtStart: YES;
+),
+(
+    ItemID: unstackioncubebulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked ion cubes ";
+    Tooltip: "Unstacked ion cubes";
+    AmountCrafted: 0;
+    LinkedItemIDs: Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,IoningotIoningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,IoningotIoningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,IoningotIoningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot,Ioningot;
+    Ingredients: 
+     (
+        ItemID: ionstackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: ionstackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/energetics;
+    ForceUnlockAtStart: YES;
+),
+
+
+(
+    ItemID: unstackedPlasteelbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Plasteel ";
+    Tooltip: "Unstacked Plasteel";
+    AmountCrafted: 0;
+    LinkedItemIDs: Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,PlasteelpackedPlasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,PlasteelpackedPlasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,PlasteelpackedPlasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked,Plasteelpacked;
+    Ingredients: 
+     (
+        ItemID: Plasteelstackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: Plasteelstackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UMBulk;
+),
+(
+    ItemID: unstackedGoldbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Gold ";
+    Tooltip: "Unstacked Gold";
+    AmountCrafted: 0;
+    LinkedItemIDs: Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,GoldingotGoldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,GoldingotGoldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,GoldingotGoldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot,Goldingot;
+    Ingredients: 
+    (
+        ItemID: stackedGoldbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedGoldbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UMBulk;
+),
+
+(
+    ItemID: unstackedLithiumbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Lithium ";
+    Tooltip: "Unstacked Lithium";
+    AmountCrafted: 0;
+    LinkedItemIDs: Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,LithiumingotLithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,LithiumingotLithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,LithiumingotLithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot,Lithiumingot;
+ 
+    Ingredients: 
+    (
+        ItemID: stackedLithiumbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedLithiumbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UMBulk;
+),
+(
+    ItemID: unstackedMagnetitebulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Magnetite";
+    Tooltip: "Unstacked Magnetite";
+    AmountCrafted: 0;
+    LinkedItemIDs: Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,MagnetiteingotMagnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,MagnetiteingotMagnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,MagnetiteingotMagnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot,Magnetiteingot;
+    Ingredients: 
+    (
+        ItemID: MagnetiteStackedbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: MagnetiteStackedbulk;
+        Required: 24;
+    );
+    Path: Fabricator/MoreIngots/hoarder/unstacked/energetics;
+),
+
+(
+    ItemID: UnstackedNickelbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Nickel";
+    Tooltip: "Unstacked Nickel";
+    AmountCrafted: 0;
+    LinkedItemIDs: Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,NickelingotNickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,NickelingotNickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,NickelingotNickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot,Nickelingot;
+    Ingredients: 
+    (
+        ItemID: stackedNickelbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedNickelbulk;
+        Required: 24;
+    );
+   
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UMBulk;
+),
+(
+    ItemID: UnstackedSilverbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Silver";
+    Tooltip: "Unstacked Silver";
+    AmountCrafted: 0;
+    LinkedItemIDs: Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,SilveringotSilveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,SilveringotSilveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,SilveringotSilveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot,Silveringot;
+ 
+    Ingredients: 
+    (
+        ItemID: stackedSilverbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedSilverbulk;
+        Required: 24;
+    );
+   
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UMBulk;
+),
+(
+    ItemID: unstackedLeadbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Lead";
+    Tooltip: "Unstacked Lead";
+    AmountCrafted: 0;
+    LinkedItemIDs: Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,LeadingotLeadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,LeadingotLeadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,LeadingotLeadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot,Leadingot;
+    Ingredients: 
+    (
+        ItemID: stackedLeadbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedLeadbulk;
+        Required: 24;
+    );
+    
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UMBulk;
+),
+(
+    ItemID: UnstackedTitaniumbulk;
+    FunctionalID: TitaniumIngot;
+    DisplayName: "Unstacked Titanium";
+    Tooltip: "Unstacked Titanium";
+    AmountCrafted: 0;
+    LinkedItemIDs: titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingottitaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingottitaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingottitaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot,titaniumingot;
+ 
+    Ingredients: 
+    (
+        ItemID: stackedTitaniumbulk;
+        Required: 24;
+    ),
+    (
+        ItemID: stackedTitaniumbulk;
+        Required: 24;
+    );
+   
+    Path: Fabricator/MoreIngots/HBulk/UNBulk/UMBulk;
+);
